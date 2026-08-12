@@ -269,8 +269,9 @@ def main():
                     sig["latest_price"]=last_close
                     sig["latest_rsi10"]=last_rsi
 
-            # New entry only when market filter is ON.
-            if sym not in active and market["above_sma200"]:
+            # New entry depends on the individual stock trend only.
+            # ASX 200 regime is displayed for context but does not block entries.
+            if sym not in active:
                 if (
                     above_stock_sma200
                     and last_rsi < CONFIG["entry_rsi_below"]
@@ -297,15 +298,13 @@ def main():
                     send_email(
                         f"ASX RSI ENTRY: {sym} RSI(10) {last_rsi:.1f}",
                         f"{item['company']} (ASX: {sym}) entry signal.\n\n"
-                        f"ASX 200 filter: ON\n"
-                        f"ASX 200 close: {market['close']:.2f}\n"
-                        f"ASX 200 SMA(200): {market['sma200']:.2f}\n"
+                        f"ASX 200 context only: {market['close']:.2f} "
+                        f"vs SMA(200) {market['sma200']:.2f}\n"
                         f"Stock price: A${last_close:.3f}\n"
                         f"Stock SMA(200): A${stock_sma200:.3f}\n"
                         f"RSI(10): {last_rsi:.2f}\n\n"
-                        f"Entry rule: ASX 200 above its SMA(200), stock above "
-                        f"its own SMA(200), and RSI(10) below "
-                        f"{CONFIG['entry_rsi_below']}.\n"
+                        f"Entry rule: stock above its own SMA(200) and "
+                        f"RSI(10) below {CONFIG['entry_rsi_below']}.\n"
                         f"Exit: RSI(10) above "
                         f"{CONFIG['exit_rsi_above']} or after "
                         f"{CONFIG['max_holding_trading_days']} trading days."
