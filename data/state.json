@@ -371,8 +371,8 @@
       "entry_price": 0.11999999731779099,
       "entry_rsi10": 16.464776136033322,
       "holding_trading_days": 0,
-      "latest_price": 0.14000000059604645,
-      "latest_rsi10": 20.216906914987206
+      "latest_price": 0.1469999998807907,
+      "latest_rsi10": 21.96918930680185
     },
     "DTM": {
       "symbol": "DTM",
@@ -393,8 +393,8 @@
       "entry_price": 0.08799999952316284,
       "entry_rsi10": 16.56963762029885,
       "holding_trading_days": 0,
-      "latest_price": 0.08900000154972076,
-      "latest_rsi10": 16.84046419875675
+      "latest_price": 0.08799999952316284,
+      "latest_rsi10": 16.56963762029885
     },
     "DUG": {
       "symbol": "DUG",
@@ -404,8 +404,8 @@
       "entry_price": 1.8600000143051147,
       "entry_rsi10": 23.51743036454674,
       "holding_trading_days": 0,
-      "latest_price": 1.8650000095367432,
-      "latest_rsi10": 23.90027121383453
+      "latest_price": 1.8550000190734863,
+      "latest_rsi10": 23.146661041799916
     },
     "DYM": {
       "symbol": "DYM",
@@ -470,8 +470,8 @@
       "entry_price": 0.04600000008940697,
       "entry_rsi10": 16.619346226510814,
       "holding_trading_days": 0,
-      "latest_price": 0.04600000008940697,
-      "latest_rsi10": 16.619346226510814
+      "latest_price": 0.04500000178813934,
+      "latest_rsi10": 16.221362818881246
     },
     "FCT": {
       "symbol": "FCT",
@@ -547,8 +547,8 @@
       "entry_price": 0.05000000074505806,
       "entry_rsi10": 17.648976154492985,
       "holding_trading_days": 0,
-      "latest_price": 0.05400000140070915,
-      "latest_rsi10": 20.296000612134378
+      "latest_price": 0.05299999937415123,
+      "latest_rsi10": 19.562494905264217
     },
     "ICU": {
       "symbol": "ICU",
@@ -646,8 +646,8 @@
       "entry_price": 0.039000000804662704,
       "entry_rsi10": 22.977507204078833,
       "holding_trading_days": 0,
-      "latest_price": 0.03999999910593033,
-      "latest_rsi10": 23.91097385066844
+      "latest_price": 0.039000000804662704,
+      "latest_rsi10": 22.977507204078833
     },
     "MPP": {
       "symbol": "MPP",
@@ -811,8 +811,8 @@
       "entry_price": 12.300000190734863,
       "entry_rsi10": 21.163902857063206,
       "holding_trading_days": 0,
-      "latest_price": 12.239999771118164,
-      "latest_rsi10": 20.652512139657574
+      "latest_price": 12.289999961853027,
+      "latest_rsi10": 21.076918187765344
     },
     "PPG": {
       "symbol": "PPG",
@@ -855,8 +855,8 @@
       "entry_price": 23.610000610351562,
       "entry_rsi10": 28.62986027625935,
       "holding_trading_days": 0,
-      "latest_price": 23.549999237060547,
-      "latest_rsi10": 27.956361412960334
+      "latest_price": 23.53499984741211,
+      "latest_rsi10": 27.792919212632142
     },
     "QPM": {
       "symbol": "QPM",
@@ -1119,8 +1119,8 @@
       "entry_price": 0.06800000369548798,
       "entry_rsi10": 29.968007287631366,
       "holding_trading_days": 0,
-      "latest_price": 0.06700000166893005,
-      "latest_rsi10": 28.959245722600826
+      "latest_price": 0.06800000369548798,
+      "latest_rsi10": 29.968007287631366
     },
     "TRA": {
       "symbol": "TRA",
@@ -1245,5 +1245,5 @@
     }
   },
   "last_scan_date": "2026-08-12",
-  "updated_at": "2026-08-12T03:57:11.701168+00:00"
+  "updated_at": "2026-08-12T04:06:12.684686+00:00"
 }
