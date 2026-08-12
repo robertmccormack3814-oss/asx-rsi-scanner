@@ -11,17 +11,6 @@
       "latest_price": 0.006000000052154064,
       "latest_rsi10": 14.424083415841295
     },
-    "ABR": {
-      "symbol": "ABR",
-      "company": "ALBRIGHT METALS LTD",
-      "ticker": "ABR.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.0024999999441206455,
-      "entry_rsi10": 12.092412565753776,
-      "holding_trading_days": 0,
-      "latest_price": 0.0024999999441206455,
-      "latest_rsi10": 12.092412565753776
-    },
     "ACR": {
       "symbol": "ACR",
       "company": "ACRUX LIMITED",
@@ -40,7 +29,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.04100000113248825,
       "entry_rsi10": 25.361805542338928,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.04100000113248825,
       "latest_rsi10": 25.361805542338928
     },
@@ -51,7 +40,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.006000000052154064,
       "entry_rsi10": 0.0,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.006000000052154064,
       "latest_rsi10": 0.0
     },
@@ -63,8 +52,8 @@
       "entry_price": 1.0499999523162842,
       "entry_rsi10": 27.038458103256957,
       "holding_trading_days": 0,
-      "latest_price": 1.0499999523162842,
-      "latest_rsi10": 27.038458103256957
+      "latest_price": 1.0750000476837158,
+      "latest_rsi10": 28.664684077664745
     },
     "AKG": {
       "symbol": "AKG",
@@ -73,7 +62,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.06499999761581421,
       "entry_rsi10": 17.0497132547426,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.06499999761581421,
       "latest_rsi10": 17.0497132547426
     },
@@ -84,7 +73,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.7149999737739563,
       "entry_rsi10": 8.964506240556915,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.7149999737739563,
       "latest_rsi10": 8.964506240556915
     },
@@ -95,7 +84,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.008999999612569809,
       "entry_rsi10": 17.81983149562153,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.008999999612569809,
       "latest_rsi10": 17.81983149562153
     },
@@ -106,9 +95,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.44999998807907104,
       "entry_rsi10": 20.047017605158956,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.44999998807907104,
-      "latest_rsi10": 20.047017605158956
+      "latest_rsi10": 20.047017605158942
     },
     "ARC": {
       "symbol": "ARC",
@@ -117,7 +106,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.06499999761581421,
       "entry_rsi10": 13.577332894878566,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.06499999761581421,
       "latest_rsi10": 13.577332894878566
     },
@@ -129,8 +118,8 @@
       "entry_price": 2.3299999237060547,
       "entry_rsi10": 17.43408956450493,
       "holding_trading_days": 0,
-      "latest_price": 2.3450000286102295,
-      "latest_rsi10": 18.518164525886775
+      "latest_price": 2.3399999141693115,
+      "latest_rsi10": 18.159977436323075
     },
     "ASP": {
       "symbol": "ASP",
@@ -151,8 +140,8 @@
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 23.774808487595962,
       "holding_trading_days": 0,
-      "latest_price": 0.0010000000474974513,
-      "latest_rsi10": 23.774808487595962
+      "latest_price": 0.0020000000949949026,
+      "latest_rsi10": 27.641182746478066
     },
     "AUG": {
       "symbol": "AUG",
@@ -172,7 +161,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.009999999776482582,
       "entry_rsi10": 15.364976583373235,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.009999999776482582,
       "latest_rsi10": 15.364976583373235
     },
@@ -183,9 +172,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.009999999776482582,
       "entry_rsi10": 22.379574629859206,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.009999999776482582,
-      "latest_rsi10": 22.379574629859206
+      "latest_rsi10": 22.37957462985922
     },
     "BGP": {
       "symbol": "BGP",
@@ -194,7 +183,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 3.5399999618530273,
       "entry_rsi10": 0.7389682526778785,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 3.5399999618530273,
       "latest_rsi10": 0.7389682526778785
     },
@@ -206,8 +195,8 @@
       "entry_price": 0.18700000643730164,
       "entry_rsi10": 24.751124661523747,
       "holding_trading_days": 0,
-      "latest_price": 0.18700000643730164,
-      "latest_rsi10": 24.751124661523747
+      "latest_price": 0.17499999701976776,
+      "latest_rsi10": 21.219628188528162
     },
     "BPP": {
       "symbol": "BPP",
@@ -216,7 +205,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.05917000025510788,
       "entry_rsi10": 0.0811567908873343,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.05917000025510788,
       "latest_rsi10": 0.0811567908873343
     },
@@ -227,7 +216,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.010999999940395355,
       "entry_rsi10": 18.98619258555202,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.010999999940395355,
       "latest_rsi10": 18.98619258555202
     },
@@ -238,7 +227,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.017000000923871994,
       "entry_rsi10": 24.80883044858132,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.017000000923871994,
       "latest_rsi10": 24.80883044858132
     },
@@ -282,7 +271,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.02199999988079071,
       "entry_rsi10": 19.88901794986039,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.02199999988079071,
       "latest_rsi10": 19.88901794986039
     },
@@ -294,8 +283,8 @@
       "entry_price": 0.3700000047683716,
       "entry_rsi10": 12.607077651530616,
       "holding_trading_days": 0,
-      "latest_price": 0.3700000047683716,
-      "latest_rsi10": 12.607077651530616
+      "latest_price": 0.3799999952316284,
+      "latest_rsi10": 14.999148274229071
     },
     "CMD": {
       "symbol": "CMD",
@@ -305,8 +294,8 @@
       "entry_price": 0.020999999716877937,
       "entry_rsi10": 18.75207520015843,
       "holding_trading_days": 0,
-      "latest_price": 0.019999999552965164,
-      "latest_rsi10": 16.581667687898303
+      "latest_price": 0.023000000044703484,
+      "latest_rsi10": 25.40188073317583
     },
     "CRB": {
       "symbol": "CRB",
@@ -315,20 +304,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.00800000037997961,
       "entry_rsi10": 9.930461347393589,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.00800000037997961,
       "latest_rsi10": 9.930461347393589
-    },
-    "CST": {
-      "symbol": "CST",
-      "company": "CASTILE RESOURCES LTD",
-      "ticker": "CST.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.06199999898672104,
-      "entry_rsi10": 27.59248099170904,
-      "holding_trading_days": 0,
-      "latest_price": 0.06400000303983688,
-      "latest_rsi10": 34.782486220891826
     },
     "CYP": {
       "symbol": "CYP",
@@ -337,9 +315,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.012000000104308128,
       "entry_rsi10": 24.849282775483815,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.012000000104308128,
-      "latest_rsi10": 24.849282775483815
+      "latest_rsi10": 24.8492827754838
     },
     "CYQ": {
       "symbol": "CYQ",
@@ -348,7 +326,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.004000000189989805,
       "entry_rsi10": 27.78108854360879,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.004000000189989805,
       "latest_rsi10": 27.78108854360879
     },
@@ -371,8 +349,8 @@
       "entry_price": 0.11999999731779099,
       "entry_rsi10": 16.464776136033322,
       "holding_trading_days": 0,
-      "latest_price": 0.1469999998807907,
-      "latest_rsi10": 21.96918930680185
+      "latest_price": 0.1599999964237213,
+      "latest_rsi10": 26.183913777916985
     },
     "DTM": {
       "symbol": "DTM",
@@ -393,8 +371,8 @@
       "entry_price": 0.08799999952316284,
       "entry_rsi10": 16.56963762029885,
       "holding_trading_days": 0,
-      "latest_price": 0.08799999952316284,
-      "latest_rsi10": 16.56963762029885
+      "latest_price": 0.0860000029206276,
+      "latest_rsi10": 16.053304428559144
     },
     "DUG": {
       "symbol": "DUG",
@@ -404,8 +382,8 @@
       "entry_price": 1.8600000143051147,
       "entry_rsi10": 23.51743036454674,
       "holding_trading_days": 0,
-      "latest_price": 1.8550000190734863,
-      "latest_rsi10": 23.146661041799916
+      "latest_price": 1.8450000286102295,
+      "latest_rsi10": 22.43912298981043
     },
     "DYM": {
       "symbol": "DYM",
@@ -414,7 +392,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.4000000059604645,
       "entry_rsi10": 28.833226110379073,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.4000000059604645,
       "latest_rsi10": 28.833226110379073
     },
@@ -425,7 +403,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.029999999329447746,
       "entry_rsi10": 29.92153866978198,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.029999999329447746,
       "latest_rsi10": 29.92153866978198
     },
@@ -437,8 +415,8 @@
       "entry_price": 0.19499999284744263,
       "entry_rsi10": 23.767804508338685,
       "holding_trading_days": 0,
-      "latest_price": 0.20000000298023224,
-      "latest_rsi10": 25.327986054785796
+      "latest_price": 0.20999999344348907,
+      "latest_rsi10": 31.892230960981564
     },
     "ERD": {
       "symbol": "ERD",
@@ -448,8 +426,8 @@
       "entry_price": 0.7749999761581421,
       "entry_rsi10": 29.493147044868564,
       "holding_trading_days": 0,
-      "latest_price": 0.7699999809265137,
-      "latest_rsi10": 28.636868221843855
+      "latest_price": 0.7549999952316284,
+      "latest_rsi10": 26.34245523219363
     },
     "EV8": {
       "symbol": "EV8",
@@ -459,8 +437,8 @@
       "entry_price": 0.4000000059604645,
       "entry_rsi10": 11.285018805268422,
       "holding_trading_days": 0,
-      "latest_price": 0.4000000059604645,
-      "latest_rsi10": 11.285018805268422
+      "latest_price": 0.4050000011920929,
+      "latest_rsi10": 12.767572403588701
     },
     "EXR": {
       "symbol": "EXR",
@@ -470,19 +448,8 @@
       "entry_price": 0.04600000008940697,
       "entry_rsi10": 16.619346226510814,
       "holding_trading_days": 0,
-      "latest_price": 0.04500000178813934,
-      "latest_rsi10": 16.221362818881246
-    },
-    "FCT": {
-      "symbol": "FCT",
-      "company": "FIRSTWAVE CLOUD TECHNOLOGY LIMITED",
-      "ticker": "FCT.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.004999999888241291,
-      "entry_rsi10": 24.299899611672586,
-      "holding_trading_days": 0,
-      "latest_price": 0.004999999888241291,
-      "latest_rsi10": 24.299899611672586
+      "latest_price": 0.04399999976158142,
+      "latest_rsi10": 15.84199326576757
     },
     "FLX": {
       "symbol": "FLX",
@@ -502,7 +469,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.18000000715255737,
       "entry_rsi10": 14.583036231287252,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.18000000715255737,
       "latest_rsi10": 14.583036231287252
     },
@@ -513,7 +480,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.1899999976158142,
       "entry_rsi10": 27.893360270632883,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.1899999976158142,
       "latest_rsi10": 27.893360270632883
     },
@@ -557,7 +524,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 0.0,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 0.0
     },
@@ -568,9 +535,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.6600000262260437,
       "entry_rsi10": 13.7596431074127,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.6600000262260437,
-      "latest_rsi10": 13.7596431074127
+      "latest_rsi10": 13.759643107412685
     },
     "ITS": {
       "symbol": "ITS",
@@ -590,7 +557,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.10999999940395355,
       "entry_rsi10": 14.022698351640912,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.10999999940395355,
       "latest_rsi10": 14.022698351640912
     },
@@ -624,8 +591,8 @@
       "entry_price": 2.7200000286102295,
       "entry_rsi10": 27.750890489765794,
       "holding_trading_days": 0,
-      "latest_price": 2.7100000381469727,
-      "latest_rsi10": 27.535794306232134
+      "latest_price": 2.799999952316284,
+      "latest_rsi10": 29.600700256435033
     },
     "LOT": {
       "symbol": "LOT",
@@ -635,8 +602,8 @@
       "entry_price": 0.2549999952316284,
       "entry_rsi10": 29.513222180569926,
       "holding_trading_days": 0,
-      "latest_price": 0.25200000405311584,
-      "latest_rsi10": 28.455562611468437
+      "latest_price": 0.23999999463558197,
+      "latest_rsi10": 25.20651778368358
     },
     "MAT": {
       "symbol": "MAT",
@@ -646,8 +613,8 @@
       "entry_price": 0.039000000804662704,
       "entry_rsi10": 22.977507204078833,
       "holding_trading_days": 0,
-      "latest_price": 0.039000000804662704,
-      "latest_rsi10": 22.977507204078833
+      "latest_price": 0.03999999910593033,
+      "latest_rsi10": 23.91097385066844
     },
     "MPP": {
       "symbol": "MPP",
@@ -656,7 +623,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.9800000190734863,
       "entry_rsi10": 19.097274777648707,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.9800000190734863,
       "latest_rsi10": 19.097274777648707
     },
@@ -667,7 +634,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.004999999888241291,
       "entry_rsi10": 28.336056390583792,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.004999999888241291,
       "latest_rsi10": 28.336056390583792
     },
@@ -678,7 +645,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.10000000149011612,
       "entry_rsi10": 0.022441435723067116,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.10000000149011612,
       "latest_rsi10": 0.022441435723067116
     },
@@ -689,7 +656,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.003000000026077032,
       "entry_rsi10": 3.6716407096545396,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.003000000026077032,
       "latest_rsi10": 3.6716407096545396
     },
@@ -700,7 +667,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.010999999940395355,
       "entry_rsi10": 2.6389632634794395,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.010999999940395355,
       "latest_rsi10": 2.6389632634794395
     },
@@ -711,7 +678,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.07500000298023224,
       "entry_rsi10": 27.885408051473874,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.07500000298023224,
       "latest_rsi10": 27.885408051473874
     },
@@ -722,7 +689,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.1899999976158142,
       "entry_rsi10": 13.986652180625867,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.1899999976158142,
       "latest_rsi10": 13.986652180625867
     },
@@ -745,8 +712,8 @@
       "entry_price": 0.0020000000949949026,
       "entry_rsi10": 28.920966996145623,
       "holding_trading_days": 0,
-      "latest_price": 0.0020000000949949026,
-      "latest_rsi10": 28.920966996145623
+      "latest_price": 0.0024999999441206455,
+      "latest_rsi10": 31.357606617517774
     },
     "OZZ": {
       "symbol": "OZZ",
@@ -756,8 +723,8 @@
       "entry_price": 0.039000000804662704,
       "entry_rsi10": 6.996363168809694e-07,
       "holding_trading_days": 0,
-      "latest_price": 0.03700000047683716,
-      "latest_rsi10": 5.950962815859384e-07
+      "latest_price": 0.039000000804662704,
+      "latest_rsi10": 6.996363168809694e-07
     },
     "PCG": {
       "symbol": "PCG",
@@ -767,8 +734,8 @@
       "entry_price": 0.7049999833106995,
       "entry_rsi10": 29.04657440325883,
       "holding_trading_days": 0,
-      "latest_price": 0.7099999785423279,
-      "latest_rsi10": 30.574083092833988
+      "latest_price": 0.7149999737739563,
+      "latest_rsi10": 32.271167510088546
     },
     "PFM": {
       "symbol": "PFM",
@@ -777,7 +744,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.01899999938905239,
       "entry_rsi10": 1.7831653999603674,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.01899999938905239,
       "latest_rsi10": 1.7831653999603674
     },
@@ -789,8 +756,8 @@
       "entry_price": 1.1299999952316284,
       "entry_rsi10": 23.593163806719346,
       "holding_trading_days": 0,
-      "latest_price": 1.1299999952316284,
-      "latest_rsi10": 23.593163806719346
+      "latest_price": 1.125,
+      "latest_rsi10": 22.945613388452188
     },
     "PIM": {
       "symbol": "PIM",
@@ -811,8 +778,8 @@
       "entry_price": 12.300000190734863,
       "entry_rsi10": 21.163902857063206,
       "holding_trading_days": 0,
-      "latest_price": 12.289999961853027,
-      "latest_rsi10": 21.076918187765344
+      "latest_price": 11.960000038146973,
+      "latest_rsi10": 18.559695163625918
     },
     "PPG": {
       "symbol": "PPG",
@@ -821,7 +788,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.017999999225139618,
       "entry_rsi10": 9.83122111241363,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.017999999225139618,
       "latest_rsi10": 9.83122111241363
     },
@@ -832,7 +799,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.26499998569488525,
       "entry_rsi10": 27.168282877210217,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.26499998569488525,
       "latest_rsi10": 27.168282877210217
     },
@@ -843,7 +810,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 27.268908101048098,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 27.268908101048098
     },
@@ -855,8 +822,8 @@
       "entry_price": 23.610000610351562,
       "entry_rsi10": 28.62986027625935,
       "holding_trading_days": 0,
-      "latest_price": 23.53499984741211,
-      "latest_rsi10": 27.792919212632142
+      "latest_price": 23.65999984741211,
+      "latest_rsi10": 29.216383019516314
     },
     "QPM": {
       "symbol": "QPM",
@@ -865,7 +832,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.008999999612569809,
       "entry_rsi10": 12.184438195812078,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.008999999612569809,
       "latest_rsi10": 12.184438195812078
     },
@@ -876,20 +843,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.05000000074505806,
       "entry_rsi10": 1.8553602501469868e-05,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.05000000074505806,
       "latest_rsi10": 1.8553602501469868e-05
-    },
-    "R8R": {
-      "symbol": "R8R",
-      "company": "REGENER8 RESOURCES NL",
-      "ticker": "R8R.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.10499999672174454,
-      "entry_rsi10": 20.961594846955904,
-      "holding_trading_days": 0,
-      "latest_price": 0.10499999672174454,
-      "latest_rsi10": 20.961594846955904
     },
     "RAD": {
       "symbol": "RAD",
@@ -920,7 +876,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.2849999964237213,
       "entry_rsi10": 24.042890638772988,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.2849999964237213,
       "latest_rsi10": 24.042890638772988
     },
@@ -931,7 +887,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.020999999716877937,
       "entry_rsi10": 24.57163352675383,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.020999999716877937,
       "latest_rsi10": 24.57163352675383
     },
@@ -953,7 +909,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.008999999612569809,
       "entry_rsi10": 0.0029230803910138548,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.008999999612569809,
       "latest_rsi10": 0.0029230803910138548
     },
@@ -964,7 +920,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.019999999552965164,
       "entry_rsi10": 10.111912561434494,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.019999999552965164,
       "latest_rsi10": 10.111912561434494
     },
@@ -975,7 +931,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 2.5999999046325684,
       "entry_rsi10": 18.669630588109214,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 2.5999999046325684,
       "latest_rsi10": 18.669630588109214
     },
@@ -997,7 +953,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.9449999928474426,
       "entry_rsi10": 18.767966031968243,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.9449999928474426,
       "latest_rsi10": 18.767966031968243
     },
@@ -1009,8 +965,8 @@
       "entry_price": 0.38999998569488525,
       "entry_rsi10": 25.17980304548712,
       "holding_trading_days": 0,
-      "latest_price": 0.38999998569488525,
-      "latest_rsi10": 25.17980304548712
+      "latest_price": 0.4050000011920929,
+      "latest_rsi10": 29.23825812825868
     },
     "SP8": {
       "symbol": "SP8",
@@ -1019,7 +975,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.00800000037997961,
       "entry_rsi10": 28.79280734568883,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.00800000037997961,
       "latest_rsi10": 28.79280734568883
     },
@@ -1052,7 +1008,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 9.539999961853027,
       "entry_rsi10": 5.092459022800114,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 9.539999961853027,
       "latest_rsi10": 5.092459022800114
     },
@@ -1063,7 +1019,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.006000000052154064,
       "entry_rsi10": 22.69781106233225,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.006000000052154064,
       "latest_rsi10": 22.69781106233225
     },
@@ -1085,7 +1041,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.07999999821186066,
       "entry_rsi10": 21.626270345472875,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.07999999821186066,
       "latest_rsi10": 21.626270345472875
     },
@@ -1096,7 +1052,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.004999999888241291,
       "entry_rsi10": 29.3068320382513,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.004999999888241291,
       "latest_rsi10": 29.3068320382513
     },
@@ -1107,7 +1063,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.17000000178813934,
       "entry_rsi10": 20.653703093055057,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.17000000178813934,
       "latest_rsi10": 20.653703093055057
     },
@@ -1140,7 +1096,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.03999999910593033,
       "entry_rsi10": 7.125136863365654,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.03999999910593033,
       "latest_rsi10": 7.125136863365654
     },
@@ -1162,7 +1118,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.024000000208616257,
       "entry_rsi10": 27.256563160703777,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.024000000208616257,
       "latest_rsi10": 27.256563160703777
     },
@@ -1244,6 +1200,6 @@
       "latest_rsi10": 29.091212979362027
     }
   },
-  "last_scan_date": "2026-08-12",
-  "updated_at": "2026-08-12T04:06:12.684686+00:00"
+  "last_scan_date": "2026-08-11",
+  "updated_at": "2026-08-12T20:09:03.692226+00:00"
 }
