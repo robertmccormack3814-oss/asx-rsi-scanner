@@ -202,6 +202,13 @@ def main():
 
             scanned += 1
 
+            stock_sma200 = float(close.rolling(200).mean().iloc[-1]) if len(close) >= 200 else None
+            above_stock_sma200 = bool(
+                stock_sma200 is not None
+                and not pd.isna(stock_sma200)
+                and last_close > stock_sma200
+            )
+
             row={
                 "symbol":sym,
                 "company":item["company"],
@@ -209,6 +216,8 @@ def main():
                 "date":d,
                 "price":last_close,
                 "rsi10":last_rsi,
+                "sma200":stock_sma200,
+                "above_sma200":above_stock_sma200,
                 "avg_volume_20d":avgvol,
                 "active":sym in active
             }
@@ -263,7 +272,8 @@ def main():
             # New entry only when market filter is ON.
             if sym not in active and market["above_sma200"]:
                 if (
-                    last_rsi < CONFIG["entry_rsi_below"]
+                    above_stock_sma200
+                    and last_rsi < CONFIG["entry_rsi_below"]
                     and last_close >= CONFIG.get("minimum_price",0)
                     and avgvol >= CONFIG.get("minimum_average_volume_20d",0)
                 ):
@@ -274,6 +284,7 @@ def main():
                         "entry_date":d,
                         "entry_price":last_close,
                         "entry_rsi10":last_rsi,
+                        "entry_sma200":stock_sma200,
                         "holding_trading_days":0,
                         "latest_price":last_close,
                         "latest_rsi10":last_rsi
@@ -290,10 +301,11 @@ def main():
                         f"ASX 200 close: {market['close']:.2f}\n"
                         f"ASX 200 SMA(200): {market['sma200']:.2f}\n"
                         f"Stock price: A${last_close:.3f}\n"
+                        f"Stock SMA(200): A${stock_sma200:.3f}\n"
                         f"RSI(10): {last_rsi:.2f}\n\n"
-                        f"Entry rule: RSI(10) below "
-                        f"{CONFIG['entry_rsi_below']} while ASX 200 is "
-                        "above its 200-day SMA.\n"
+                        f"Entry rule: ASX 200 above its SMA(200), stock above "
+                        f"its own SMA(200), and RSI(10) below "
+                        f"{CONFIG['entry_rsi_below']}.\n"
                         f"Exit: RSI(10) above "
                         f"{CONFIG['exit_rsi_above']} or after "
                         f"{CONFIG['max_holding_trading_days']} trading days."
