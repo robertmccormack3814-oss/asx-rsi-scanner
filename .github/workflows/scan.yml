@@ -1,0 +1,54 @@
+name: Scan ASX RSI strategy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 17 * * 1-5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: asx-rsi-scan
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Refresh ASX universe
+        run: python scripts/build_universe.py
+
+      - name: Scan RSI strategy and send alerts
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+        run: python scripts/scan.py
+
+      - name: Commit scanner state
+        run: |
+          git config user.name "ASX RSI Bot"
+          git config user.email "actions@github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Refresh ASX RSI scanner"
+          git pull --rebase
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
