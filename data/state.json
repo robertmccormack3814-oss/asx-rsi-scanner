@@ -371,8 +371,8 @@
       "entry_price": 0.11999999731779099,
       "entry_rsi10": 16.464776136033322,
       "holding_trading_days": 0,
-      "latest_price": 0.125,
-      "latest_rsi10": 17.265886417897917
+      "latest_price": 0.14000000059604645,
+      "latest_rsi10": 20.216906914987206
     },
     "DTM": {
       "symbol": "DTM",
@@ -393,8 +393,8 @@
       "entry_price": 0.08799999952316284,
       "entry_rsi10": 16.56963762029885,
       "holding_trading_days": 0,
-      "latest_price": 0.09099999815225601,
-      "latest_rsi10": 17.4095722789894
+      "latest_price": 0.08900000154972076,
+      "latest_rsi10": 16.84046419875675
     },
     "DUG": {
       "symbol": "DUG",
@@ -404,8 +404,8 @@
       "entry_price": 1.8600000143051147,
       "entry_rsi10": 23.51743036454674,
       "holding_trading_days": 0,
-      "latest_price": 1.8600000143051147,
-      "latest_rsi10": 23.51743036454674
+      "latest_price": 1.8650000095367432,
+      "latest_rsi10": 23.90027121383453
     },
     "DYM": {
       "symbol": "DYM",
@@ -437,8 +437,8 @@
       "entry_price": 0.19499999284744263,
       "entry_rsi10": 23.767804508338685,
       "holding_trading_days": 0,
-      "latest_price": 0.19499999284744263,
-      "latest_rsi10": 23.767804508338685
+      "latest_price": 0.20000000298023224,
+      "latest_rsi10": 25.327986054785796
     },
     "ERD": {
       "symbol": "ERD",
@@ -579,7 +579,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.2199999988079071,
       "entry_rsi10": 20.278023470755045,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.2199999988079071,
       "latest_rsi10": 20.278023470755045
     },
@@ -624,8 +624,8 @@
       "entry_price": 2.7200000286102295,
       "entry_rsi10": 27.750890489765794,
       "holding_trading_days": 0,
-      "latest_price": 2.740000009536743,
-      "latest_rsi10": 28.191324216152395
+      "latest_price": 2.7100000381469727,
+      "latest_rsi10": 27.535794306232134
     },
     "LOT": {
       "symbol": "LOT",
@@ -811,8 +811,8 @@
       "entry_price": 12.300000190734863,
       "entry_rsi10": 21.163902857063206,
       "holding_trading_days": 0,
-      "latest_price": 12.210000038146973,
-      "latest_rsi10": 20.405977703590025
+      "latest_price": 12.239999771118164,
+      "latest_rsi10": 20.652512139657574
     },
     "PPG": {
       "symbol": "PPG",
@@ -855,8 +855,8 @@
       "entry_price": 23.610000610351562,
       "entry_rsi10": 28.62986027625935,
       "holding_trading_days": 0,
-      "latest_price": 23.559999465942383,
-      "latest_rsi10": 28.066402058758513
+      "latest_price": 23.549999237060547,
+      "latest_rsi10": 27.956361412960334
     },
     "QPM": {
       "symbol": "QPM",
@@ -1245,5 +1245,5 @@
     }
   },
   "last_scan_date": "2026-08-12",
-  "updated_at": "2026-08-12T03:32:31.088578+00:00"
+  "updated_at": "2026-08-12T03:57:11.701168+00:00"
 }
