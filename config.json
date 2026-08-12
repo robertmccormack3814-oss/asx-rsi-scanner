@@ -1,0 +1,18 @@
+{
+  "market_ticker": "^AXJO",
+  "market_name": "S&P/ASX 200",
+  "market_sma_period": 200,
+  "rsi_period": 10,
+  "entry_rsi_below": 30.0,
+  "exit_rsi_above": 40.0,
+  "max_holding_trading_days": 10,
+  "alert_email": "robertmccormack3814@gmail.com",
+  "minimum_price": 0.0,
+  "minimum_average_volume_20d": 0,
+  "scan_batch_size": 250,
+  "notes": {
+    "entry": "Market index must be above its 200-day SMA and stock RSI(10) must be below 30.",
+    "exit": "RSI(10) above 40 OR 10 trading sessions after entry.",
+    "market_filter": "Applies to new entries only. Existing tracked signals exit only via RSI > 40 or time exit."
+  }
+}
