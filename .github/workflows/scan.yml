@@ -17,11 +17,18 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - uses: actions/checkout@v6
+
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
       - run: pip install -r requirements.txt
 
       - name: Refresh ASX universe
@@ -51,4 +58,5 @@ jobs:
           path: .
 
       - name: Deploy Pages
+        id: deployment
         uses: actions/deploy-pages@v4
