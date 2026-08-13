@@ -1063,7 +1063,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 16.935587716299636,
-      "holding_trading_days": 0,
+      "holding_trading_days": 2,
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 16.935587716299636
     },
@@ -1085,9 +1085,9 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.0020000000949949026,
       "entry_rsi10": 15.735417616140296,
-      "holding_trading_days": 0,
+      "holding_trading_days": 1,
       "latest_price": 0.0020000000949949026,
-      "latest_rsi10": 15.735417616140296
+      "latest_rsi10": 15.242965632523394
     },
     "YAR": {
       "symbol": "YAR",
@@ -1096,9 +1096,9 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.004000000189989805,
       "entry_rsi10": 20.603758579176997,
-      "holding_trading_days": 0,
-      "latest_price": 0.004000000189989805,
-      "latest_rsi10": 20.603758579176997
+      "holding_trading_days": 1,
+      "latest_price": 0.0044999998062849045,
+      "latest_rsi10": 33.05498971006588
     },
     "ZEU": {
       "symbol": "ZEU",
@@ -1255,5 +1255,5 @@
     }
   ],
   "last_scan_date": "2026-08-12",
-  "updated_at": "2026-08-13T21:35:47.726906+00:00"
+  "updated_at": "2026-08-13T21:48:32.014997+00:00"
 }
