@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T21:48:32.016106+00:00",
+  "generated_at": "2026-08-13T21:57:19.854909+00:00",
   "market": {
     "ticker": "^AXJO",
     "name": "S&P/ASX 200",
@@ -10,11 +10,11 @@
   },
   "stats": {
     "universe": 1924,
-    "scanned": 1821,
+    "scanned": 1820,
     "entries_today": 0,
     "exits_today": 0,
     "active": 104,
-    "errors": 103,
+    "errors": 104,
     "completed_trades": 8,
     "rsi_exits": 8,
     "time_exits": 0,
@@ -2263,18 +2263,6 @@
       "active": false
     },
     {
-      "symbol": "RIV",
-      "company": "RIVCO AUSTRALIA LTD",
-      "ticker": "RIV.AX",
-      "date": "2026-08-13",
-      "price": 1.3600000143051147,
-      "rsi10": 26.505940354585363,
-      "sma200": 1.4580374962091447,
-      "above_sma200": false,
-      "avg_volume_20d": 480674.8,
-      "active": false
-    },
-    {
       "symbol": "OLY",
       "company": "OLYMPIO METALS LIMITED",
       "ticker": "OLY.AX",
@@ -2931,7 +2919,7 @@
       "rsi10": 31.142503925672102,
       "sma200": 44.22340009689331,
       "above_sma200": false,
-      "avg_volume_20d": 636495.0,
+      "avg_volume_20d": 634370.7,
       "active": false
     },
     {
@@ -3711,7 +3699,7 @@
       "rsi10": 34.77704861196543,
       "sma200": 38.38404993057251,
       "above_sma200": false,
-      "avg_volume_20d": 4409505.8,
+      "avg_volume_20d": 4407362.35,
       "active": true
     },
     {
@@ -4323,7 +4311,7 @@
       "rsi10": 36.999486922916184,
       "sma200": 0.9342999961972237,
       "above_sma200": false,
-      "avg_volume_20d": 21553.9,
+      "avg_volume_20d": 21552.75,
       "active": false
     },
     {
@@ -5200,6 +5188,18 @@
       "sma200": 0.08212999971583486,
       "above_sma200": false,
       "avg_volume_20d": 9689.7,
+      "active": false
+    },
+    {
+      "symbol": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "ticker": "PCX.AX",
+      "date": "2026-08-11",
+      "price": 1.975000023841858,
+      "rsi10": 39.4504231251501,
+      "sma200": 1.9995750004053117,
+      "above_sma200": false,
+      "avg_volume_20d": 134630.25,
       "active": false
     },
     {
@@ -7039,18 +7039,6 @@
       "active": false
     },
     {
-      "symbol": "PR2",
-      "company": "PICHE RESOURCES LIMITED",
-      "ticker": "PR2.AX",
-      "date": "2026-08-13",
-      "price": 0.02199999988079071,
-      "rsi10": 43.45384403280196,
-      "sma200": 0.08420135997235775,
-      "above_sma200": false,
-      "avg_volume_20d": 277061.55,
-      "active": false
-    },
-    {
       "symbol": "SKY",
       "company": "SKY METALS LIMITED",
       "ticker": "SKY.AX",
@@ -7395,7 +7383,7 @@
       "rsi10": 43.90526679248667,
       "sma200": 0.22455499846488236,
       "above_sma200": false,
-      "avg_volume_20d": 839910.25,
+      "avg_volume_20d": 836644.15,
       "active": false
     },
     {
@@ -7567,6 +7555,18 @@
       "active": false
     },
     {
+      "symbol": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "ticker": "PR2.AX",
+      "date": "2026-08-13",
+      "price": 0.02199999988079071,
+      "rsi10": 44.25395907181417,
+      "sma200": 0.08422886496409773,
+      "above_sma200": false,
+      "avg_volume_20d": 274675.15,
+      "active": false
+    },
+    {
       "symbol": "ICL",
       "company": "ICENI GOLD LIMITED",
       "ticker": "ICL.AX",
@@ -7719,7 +7719,7 @@
       "rsi10": 44.5912865873028,
       "sma200": 7.851549997329712,
       "above_sma200": false,
-      "avg_volume_20d": 120154.2,
+      "avg_volume_20d": 120142.65,
       "active": false
     },
     {
@@ -8239,18 +8239,6 @@
       "active": false
     },
     {
-      "symbol": "PCX",
-      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
-      "ticker": "PCX.AX",
-      "date": "2026-08-12",
-      "price": 1.9900000095367432,
-      "rsi10": 45.579190967589945,
-      "sma200": 1.9993750005960464,
-      "above_sma200": false,
-      "avg_volume_20d": 128970.65,
-      "active": false
-    },
-    {
       "symbol": "ALY",
       "company": "ALCHEMY RESOURCES LIMITED",
       "ticker": "ALY.AX",
@@ -8355,7 +8343,7 @@
       "rsi10": 45.73617528380888,
       "sma200": 5.823699998855591,
       "above_sma200": true,
-      "avg_volume_20d": 1456370.1,
+      "avg_volume_20d": 1455827.85,
       "active": false
     },
     {
@@ -9771,7 +9759,7 @@
       "rsi10": 48.153529652718696,
       "sma200": 12.199399991035461,
       "above_sma200": false,
-      "avg_volume_20d": 1611208.55,
+      "avg_volume_20d": 1610935.55,
       "active": false
     },
     {
@@ -10659,7 +10647,7 @@
       "rsi10": 49.32217143810779,
       "sma200": 2.525099985599518,
       "above_sma200": true,
-      "avg_volume_20d": 7505030.35,
+      "avg_volume_20d": 7502700.1,
       "active": false
     },
     {
@@ -11391,7 +11379,7 @@
       "rsi10": 50.09514340483493,
       "sma200": 4.823650021553039,
       "above_sma200": false,
-      "avg_volume_20d": 9723531.15,
+      "avg_volume_20d": 9722061.15,
       "active": false
     },
     {
@@ -12099,7 +12087,7 @@
       "rsi10": 51.55155165169432,
       "sma200": 12.51379997253418,
       "above_sma200": false,
-      "avg_volume_20d": 632667.65,
+      "avg_volume_20d": 632540.9,
       "active": false
     },
     {
@@ -12447,7 +12435,7 @@
       "rsi10": 51.99785534256402,
       "sma200": 160.31769969940186,
       "above_sma200": true,
-      "avg_volume_20d": 1196955.45,
+      "avg_volume_20d": 1196529.65,
       "active": false
     },
     {
@@ -12807,7 +12795,7 @@
       "rsi10": 52.63451338281719,
       "sma200": 6.166150000095367,
       "above_sma200": false,
-      "avg_volume_20d": 2570505.45,
+      "avg_volume_20d": 2552083.85,
       "active": false
     },
     {
@@ -14127,7 +14115,7 @@
       "rsi10": 54.8363820415901,
       "sma200": 21.454900016784666,
       "above_sma200": true,
-      "avg_volume_20d": 555817.1,
+      "avg_volume_20d": 555703.1,
       "active": false
     },
     {
@@ -14355,7 +14343,7 @@
       "rsi10": 55.07749202184568,
       "sma200": 42.689249954223634,
       "above_sma200": true,
-      "avg_volume_20d": 260763.3,
+      "avg_volume_20d": 260741.55,
       "active": false
     },
     {
@@ -14799,7 +14787,7 @@
       "rsi10": 55.84643787488593,
       "sma200": 4.80010000705719,
       "above_sma200": true,
-      "avg_volume_20d": 3713818.45,
+      "avg_volume_20d": 3702337.95,
       "active": false
     },
     {
@@ -14835,7 +14823,7 @@
       "rsi10": 55.860920296097625,
       "sma200": 3.0622500050067902,
       "above_sma200": true,
-      "avg_volume_20d": 1185994.55,
+      "avg_volume_20d": 1185489.8,
       "active": false
     },
     {
@@ -15999,7 +15987,7 @@
       "rsi10": 58.205100019223714,
       "sma200": 28.718350019454956,
       "above_sma200": true,
-      "avg_volume_20d": 4832009.95,
+      "avg_volume_20d": 4830887.2,
       "active": false
     },
     {
@@ -16707,7 +16695,7 @@
       "rsi10": 59.43477427172669,
       "sma200": 3.886024295091629,
       "above_sma200": false,
-      "avg_volume_20d": 1919616.85,
+      "avg_volume_20d": 1919300.35,
       "active": false
     },
     {
@@ -16887,7 +16875,7 @@
       "rsi10": 59.918395911348696,
       "sma200": 21.334349994659423,
       "above_sma200": true,
-      "avg_volume_20d": 1693622.95,
+      "avg_volume_20d": 1693310.2,
       "active": false
     },
     {
@@ -17283,7 +17271,7 @@
       "rsi10": 60.84015586190245,
       "sma200": 2.880049999952316,
       "above_sma200": true,
-      "avg_volume_20d": 13035901.75,
+      "avg_volume_20d": 13032369.25,
       "active": false
     },
     {
@@ -18363,7 +18351,7 @@
       "rsi10": 63.0928723729171,
       "sma200": 17.440600004196167,
       "above_sma200": true,
-      "avg_volume_20d": 2505696.5,
+      "avg_volume_20d": 2505071.75,
       "active": false
     },
     {
@@ -18447,7 +18435,7 @@
       "rsi10": 63.397789255823085,
       "sma200": 4.119449998140335,
       "above_sma200": true,
-      "avg_volume_20d": 18123071.55,
+      "avg_volume_20d": 18120330.3,
       "active": false
     },
     {
@@ -18639,7 +18627,7 @@
       "rsi10": 63.80200160793146,
       "sma200": 89.91359973907471,
       "above_sma200": false,
-      "avg_volume_20d": 750834.75,
+      "avg_volume_20d": 750726.75,
       "active": false
     },
     {
@@ -19251,7 +19239,7 @@
       "rsi10": 65.3819962153448,
       "sma200": 2.171474996805191,
       "above_sma200": true,
-      "avg_volume_20d": 6796488.75,
+      "avg_volume_20d": 6792712.6,
       "active": false
     },
     {
@@ -19299,7 +19287,7 @@
       "rsi10": 65.49362782190258,
       "sma200": 18.143550047874452,
       "above_sma200": true,
-      "avg_volume_20d": 1628362.45,
+      "avg_volume_20d": 1628061.7,
       "active": false
     },
     {
@@ -20883,7 +20871,7 @@
       "rsi10": 71.07740471154295,
       "sma200": 3.7147500097751616,
       "above_sma200": false,
-      "avg_volume_20d": 7243222.4,
+      "avg_volume_20d": 7242053.15,
       "active": false
     },
     {
@@ -21555,7 +21543,7 @@
       "rsi10": 73.7824241859292,
       "sma200": 5.3833500051498415,
       "above_sma200": true,
-      "avg_volume_20d": 3796421.95,
+      "avg_volume_20d": 3795611.95,
       "active": false
     },
     {
@@ -21795,7 +21783,7 @@
       "rsi10": 74.94898009126243,
       "sma200": 7.117699992656708,
       "above_sma200": true,
-      "avg_volume_20d": 3546166.25,
+      "avg_volume_20d": 3545698.25,
       "active": false
     },
     {
@@ -22011,7 +21999,7 @@
       "rsi10": 76.21420780789148,
       "sma200": 13.411349992752076,
       "above_sma200": true,
-      "avg_volume_20d": 1544259.8,
+      "avg_volume_20d": 1544066.3,
       "active": false
     },
     {
