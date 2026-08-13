@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-13T21:57:19.854909+00:00",
+  "generated_at": "2026-08-13T22:04:38.506551+00:00",
   "market": {
     "ticker": "^AXJO",
     "name": "S&P/ASX 200",
     "date": "2026-08-12",
     "close": 9209.400390625,
-    "sma200": 8786.62599609375,
+    "sma200": 8784.054497070312,
     "above_sma200": true
   },
   "stats": {
     "universe": 1924,
-    "scanned": 1820,
+    "scanned": 1739,
     "entries_today": 0,
     "exits_today": 0,
     "active": 104,
-    "errors": 104,
+    "errors": 185,
     "completed_trades": 8,
     "rsi_exits": 8,
     "time_exits": 0,
@@ -1303,18 +1303,6 @@
       "active": true
     },
     {
-      "symbol": "WTN",
-      "company": "WINTON LAND LIMITED",
-      "ticker": "WTN.AX",
-      "date": "2026-08-13",
-      "price": 1.149999976158142,
-      "rsi10": 3.183462382594371e-07,
-      "sma200": 2.219300010204315,
-      "above_sma200": false,
-      "avg_volume_20d": 9519.6,
-      "active": true
-    },
-    {
       "symbol": "OZZ",
       "company": "OZZ RESOURCES LIMITED",
       "ticker": "OZZ.AX",
@@ -1687,18 +1675,6 @@
       "active": true
     },
     {
-      "symbol": "WEL",
-      "company": "WINCHESTER ENERGY LTD",
-      "ticker": "WEL.AX",
-      "date": "2026-08-13",
-      "price": 0.0010000000474974513,
-      "rsi10": 16.935587716299636,
-      "sma200": 0.001807500064605847,
-      "above_sma200": false,
-      "avg_volume_20d": 19.15,
-      "active": true
-    },
-    {
       "symbol": "AKG",
       "company": "ACADEMIES AUSTRALASIA GROUP LIMITED",
       "ticker": "AKG.AX",
@@ -1755,7 +1731,7 @@
       "rsi10": 17.984298473996816,
       "sma200": 3.377650001049042,
       "above_sma200": false,
-      "avg_volume_20d": 2737838.65,
+      "avg_volume_20d": 2738245.15,
       "active": true
     },
     {
@@ -1971,7 +1947,7 @@
       "rsi10": 21.928203818625875,
       "sma200": 0.09208000032231212,
       "above_sma200": false,
-      "avg_volume_20d": 9087756.45,
+      "avg_volume_20d": 9087760.55,
       "active": true
     },
     {
@@ -1995,7 +1971,7 @@
       "rsi10": 22.15322336105538,
       "sma200": 1.2887249982357025,
       "above_sma200": false,
-      "avg_volume_20d": 3325291.35,
+      "avg_volume_20d": 3326988.25,
       "active": false
     },
     {
@@ -2079,7 +2055,7 @@
       "rsi10": 23.866734294803905,
       "sma200": 1.452587513104081,
       "above_sma200": false,
-      "avg_volume_20d": 13549254.25,
+      "avg_volume_20d": 13553552.3,
       "active": true
     },
     {
@@ -2263,6 +2239,18 @@
       "active": false
     },
     {
+      "symbol": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "ticker": "RIV.AX",
+      "date": "2026-08-13",
+      "price": 1.3600000143051147,
+      "rsi10": 26.505940354585363,
+      "sma200": 1.4580374962091447,
+      "above_sma200": false,
+      "avg_volume_20d": 480674.8,
+      "active": false
+    },
+    {
       "symbol": "OLY",
       "company": "OLYMPIO METALS LIMITED",
       "ticker": "OLY.AX",
@@ -2272,6 +2260,18 @@
       "sma200": 0.05511500019580126,
       "above_sma200": false,
       "avg_volume_20d": 109764.45,
+      "active": false
+    },
+    {
+      "symbol": "AXP",
+      "company": "AXP ENERGY LIMITED",
+      "ticker": "AXP.AX",
+      "date": "2026-08-13",
+      "price": 0.004000000189989805,
+      "rsi10": 26.710560380128427,
+      "sma200": null,
+      "above_sma200": false,
+      "avg_volume_20d": 458035.05,
       "active": false
     },
     {
@@ -2307,7 +2307,7 @@
       "rsi10": 26.890373943368985,
       "sma200": 21.7674999332428,
       "above_sma200": true,
-      "avg_volume_20d": 3274578.15,
+      "avg_volume_20d": 3275455.65,
       "active": true
     },
     {
@@ -2333,18 +2333,6 @@
       "above_sma200": false,
       "avg_volume_20d": 55210.9,
       "active": false
-    },
-    {
-      "symbol": "TZL",
-      "company": "TZ LIMITED",
-      "ticker": "TZL.AX",
-      "date": "2026-08-13",
-      "price": 0.024000000208616257,
-      "rsi10": 27.256563160703777,
-      "sma200": 0.03736000006087124,
-      "above_sma200": false,
-      "avg_volume_20d": 7298.55,
-      "active": true
     },
     {
       "symbol": "AN1",
@@ -2415,7 +2403,7 @@
       "rsi10": 27.586610971007318,
       "sma200": 13.910499978065491,
       "above_sma200": false,
-      "avg_volume_20d": 624764.55,
+      "avg_volume_20d": 624866.55,
       "active": true
     },
     {
@@ -2475,7 +2463,7 @@
       "rsi10": 28.069833952664055,
       "sma200": 7.856050004959107,
       "above_sma200": false,
-      "avg_volume_20d": 977894.55,
+      "avg_volume_20d": 978371.55,
       "active": false
     },
     {
@@ -2731,15 +2719,15 @@
       "active": false
     },
     {
-      "symbol": "XF1",
-      "company": "XREF LIMITED",
-      "ticker": "XF1.AX",
-      "date": "2026-08-13",
-      "price": 0.052000001072883606,
-      "rsi10": 29.94367467926628,
-      "sma200": 0.10642000041902065,
+      "symbol": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "ticker": "KIT.AX",
+      "date": "2026-08-12",
+      "price": 1.7999999523162842,
+      "rsi10": 29.921884517475505,
+      "sma200": null,
       "above_sma200": false,
-      "avg_volume_20d": 250534.7,
+      "avg_volume_20d": 259630.35,
       "active": false
     },
     {
@@ -2799,7 +2787,7 @@
       "rsi10": 30.322786088503562,
       "sma200": 7.685800015926361,
       "above_sma200": true,
-      "avg_volume_20d": 5136352.3,
+      "avg_volume_20d": 5137756.3,
       "active": false
     },
     {
@@ -2863,18 +2851,6 @@
       "active": true
     },
     {
-      "symbol": "ZGL",
-      "company": "ZICOM GROUP LIMITED",
-      "ticker": "ZGL.AX",
-      "date": "2026-08-13",
-      "price": 0.10000000149011612,
-      "rsi10": 30.700713614064398,
-      "sma200": 0.1309375002235174,
-      "above_sma200": false,
-      "avg_volume_20d": 33789.55,
-      "active": false
-    },
-    {
       "symbol": "MNB",
       "company": "MINBOS RESOURCES LIMITED",
       "ticker": "MNB.AX",
@@ -2919,7 +2895,7 @@
       "rsi10": 31.142503925672102,
       "sma200": 44.22340009689331,
       "above_sma200": false,
-      "avg_volume_20d": 634370.7,
+      "avg_volume_20d": 636495.0,
       "active": false
     },
     {
@@ -3015,7 +2991,7 @@
       "rsi10": 31.57552404276575,
       "sma200": 0.03929500017315149,
       "above_sma200": true,
-      "avg_volume_20d": 18434211.2,
+      "avg_volume_20d": 18500370.55,
       "active": false
     },
     {
@@ -3065,18 +3041,6 @@
       "above_sma200": false,
       "avg_volume_20d": 532871.6,
       "active": true
-    },
-    {
-      "symbol": "VMS",
-      "company": "VENARI MINERALS NL",
-      "ticker": "VMS.AX",
-      "date": "2026-08-13",
-      "price": 0.07999999821186066,
-      "rsi10": 32.212785934260395,
-      "sma200": 0.14875000063329935,
-      "above_sma200": false,
-      "avg_volume_20d": 23667.2,
-      "active": false
     },
     {
       "symbol": "CQE",
@@ -3139,18 +3103,6 @@
       "active": false
     },
     {
-      "symbol": "WSR",
-      "company": "WESTAR RESOURCES LIMITED",
-      "ticker": "WSR.AX",
-      "date": "2026-08-13",
-      "price": 0.006000000052154064,
-      "rsi10": 32.532335924810354,
-      "sma200": 0.0067050001677125695,
-      "above_sma200": false,
-      "avg_volume_20d": 117466.9,
-      "active": false
-    },
-    {
       "symbol": "UWC",
       "company": "UNDERWOOD CAPITAL LIMITED",
       "ticker": "UWC.AX",
@@ -3171,7 +3123,7 @@
       "rsi10": 32.573358124853755,
       "sma200": 3.8656500029563903,
       "above_sma200": false,
-      "avg_volume_20d": 8590305.85,
+      "avg_volume_20d": 8593242.1,
       "active": false
     },
     {
@@ -3184,18 +3136,6 @@
       "sma200": 7.933499984741211,
       "above_sma200": false,
       "avg_volume_20d": 101761.2,
-      "active": false
-    },
-    {
-      "symbol": "YRL",
-      "company": "YANDAL RESOURCES LIMITED",
-      "ticker": "YRL.AX",
-      "date": "2026-08-13",
-      "price": 0.15000000596046448,
-      "rsi10": 32.62663073445678,
-      "sma200": 0.2245374995470047,
-      "above_sma200": false,
-      "avg_volume_20d": 209847.85,
       "active": false
     },
     {
@@ -3271,18 +3211,6 @@
       "active": true
     },
     {
-      "symbol": "XRG",
-      "company": "XREALITY GROUP LTD",
-      "ticker": "XRG.AX",
-      "date": "2026-08-13",
-      "price": 0.05999999865889549,
-      "rsi10": 33.06363129847249,
-      "sma200": 0.056382500268518924,
-      "above_sma200": true,
-      "avg_volume_20d": 415680.75,
-      "active": false
-    },
-    {
       "symbol": "TLS",
       "company": "TELSTRA GROUP LIMITED",
       "ticker": "TLS.AX",
@@ -3291,7 +3219,7 @@
       "rsi10": 33.12164135704704,
       "sma200": 5.0661499977111815,
       "above_sma200": false,
-      "avg_volume_20d": 28455796.8,
+      "avg_volume_20d": 28529080.6,
       "active": false
     },
     {
@@ -3327,7 +3255,7 @@
       "rsi10": 33.24041662544626,
       "sma200": 166.28155021667482,
       "above_sma200": true,
-      "avg_volume_20d": 1883809.25,
+      "avg_volume_20d": 1885096.95,
       "active": false
     },
     {
@@ -3367,18 +3295,6 @@
       "active": true
     },
     {
-      "symbol": "KIT",
-      "company": "KAPSTREAM INVESTMENT TRUST",
-      "ticker": "KIT.AX",
-      "date": "2026-08-11",
-      "price": 1.8200000524520874,
-      "rsi10": 33.40287116103778,
-      "sma200": null,
-      "above_sma200": false,
-      "avg_volume_20d": 236651.7,
-      "active": false
-    },
-    {
       "symbol": "CVC",
       "company": "CVC LIMITED",
       "ticker": "CVC.AX",
@@ -3388,6 +3304,18 @@
       "sma200": 2.005774986743927,
       "above_sma200": false,
       "avg_volume_20d": 1366.6,
+      "active": false
+    },
+    {
+      "symbol": "MRE",
+      "company": "METRICS REAL ESTATE MULTI-STRATEGY FUND",
+      "ticker": "MRE.AX",
+      "date": "2026-08-12",
+      "price": 1.8200000524520874,
+      "rsi10": 33.41754580912716,
+      "sma200": 1.9240625029802323,
+      "above_sma200": false,
+      "avg_volume_20d": 154667.5,
       "active": false
     },
     {
@@ -3427,15 +3355,15 @@
       "active": false
     },
     {
-      "symbol": "WAM",
-      "company": "WAM CAPITAL LIMITED",
-      "ticker": "WAM.AX",
+      "symbol": "LKO",
+      "company": "LAKES BLUE ENERGY NL",
+      "ticker": "LKO.AX",
       "date": "2026-08-13",
-      "price": 1.534999966621399,
-      "rsi10": 33.674925596772965,
-      "sma200": 1.6945499980449676,
+      "price": 0.2849999964237213,
+      "rsi10": 33.68066262934279,
+      "sma200": 0.9097768765687942,
       "above_sma200": false,
-      "avg_volume_20d": 849237.65,
+      "avg_volume_20d": 211254.45,
       "active": false
     },
     {
@@ -3475,18 +3403,6 @@
       "active": false
     },
     {
-      "symbol": "LKO",
-      "company": "LAKES BLUE ENERGY NL",
-      "ticker": "LKO.AX",
-      "date": "2026-08-13",
-      "price": 0.2849999964237213,
-      "rsi10": 33.92846669314453,
-      "sma200": 0.9096672265231609,
-      "above_sma200": false,
-      "avg_volume_20d": 211642.85,
-      "active": false
-    },
-    {
       "symbol": "TG6",
       "company": "TG METALS LIMITED",
       "ticker": "TG6.AX",
@@ -3507,7 +3423,7 @@
       "rsi10": 34.0128159047657,
       "sma200": 5.206050002574921,
       "above_sma200": false,
-      "avg_volume_20d": 1260440.75,
+      "avg_volume_20d": 1260722.0,
       "active": false
     },
     {
@@ -3530,18 +3446,6 @@
       "price": 0.0020000000949949026,
       "rsi10": 34.03894421157281,
       "sma200": 0.002782500054454431,
-      "above_sma200": false,
-      "avg_volume_20d": 0.0,
-      "active": false
-    },
-    {
-      "symbol": "VIG",
-      "company": "VICTOR GROUP HOLDINGS LIMITED",
-      "ticker": "VIG.AX",
-      "date": "2026-08-13",
-      "price": 0.04100000113248825,
-      "rsi10": 34.1765038333519,
-      "sma200": 0.04100000113248825,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
       "active": false
@@ -3607,18 +3511,6 @@
       "active": false
     },
     {
-      "symbol": "MRE",
-      "company": "METRICS REAL ESTATE MULTI-STRATEGY FUND",
-      "ticker": "MRE.AX",
-      "date": "2026-08-11",
-      "price": 1.8250000476837158,
-      "rsi10": 34.40278828693515,
-      "sma200": 1.924212502837181,
-      "above_sma200": false,
-      "avg_volume_20d": 155523.1,
-      "active": false
-    },
-    {
       "symbol": "ORI",
       "company": "ORICA LIMITED",
       "ticker": "ORI.AX",
@@ -3627,7 +3519,7 @@
       "rsi10": 34.43557868214495,
       "sma200": 23.194399995803835,
       "above_sma200": false,
-      "avg_volume_20d": 1191625.65,
+      "avg_volume_20d": 1191912.15,
       "active": false
     },
     {
@@ -3640,6 +3532,18 @@
       "sma200": 0.003930000064428896,
       "above_sma200": false,
       "avg_volume_20d": 1411553.75,
+      "active": false
+    },
+    {
+      "symbol": "PAB",
+      "company": "PATRYS LIMITED",
+      "ticker": "PAB.AX",
+      "date": "2026-08-13",
+      "price": 0.03200000151991844,
+      "rsi10": 34.576106261727986,
+      "sma200": null,
+      "above_sma200": false,
+      "avg_volume_20d": 229353.9,
       "active": false
     },
     {
@@ -3691,18 +3595,6 @@
       "active": false
     },
     {
-      "symbol": "WBC",
-      "company": "WESTPAC BANKING CORPORATION",
-      "ticker": "WBC.AX",
-      "date": "2026-08-13",
-      "price": 35.70000076293945,
-      "rsi10": 34.77704861196543,
-      "sma200": 38.38404993057251,
-      "above_sma200": false,
-      "avg_volume_20d": 4407362.35,
-      "active": true
-    },
-    {
       "symbol": "AL3",
       "company": "AML3D LIMITED",
       "ticker": "AL3.AX",
@@ -3723,7 +3615,7 @@
       "rsi10": 34.80755516872354,
       "sma200": 1.4773750045895577,
       "above_sma200": false,
-      "avg_volume_20d": 5887897.05,
+      "avg_volume_20d": 5888968.05,
       "active": false
     },
     {
@@ -3844,18 +3736,6 @@
       "sma200": 0.03781499978154898,
       "above_sma200": false,
       "avg_volume_20d": 362335.45,
-      "active": false
-    },
-    {
-      "symbol": "XPN",
-      "company": "XPON TECHNOLOGIES GROUP LIMITED",
-      "ticker": "XPN.AX",
-      "date": "2026-08-13",
-      "price": 0.009999999776482582,
-      "rsi10": 35.24379834162761,
-      "sma200": 0.01335500000976026,
-      "above_sma200": false,
-      "avg_volume_20d": 305083.1,
       "active": false
     },
     {
@@ -4179,7 +4059,7 @@
       "rsi10": 36.52925899538042,
       "sma200": 3.9742250102758407,
       "above_sma200": false,
-      "avg_volume_20d": 1593738.15,
+      "avg_volume_20d": 1613362.8,
       "active": false
     },
     {
@@ -4251,7 +4131,7 @@
       "rsi10": 36.83968232993188,
       "sma200": 4.828850009441376,
       "above_sma200": true,
-      "avg_volume_20d": 1792446.35,
+      "avg_volume_20d": 1792803.35,
       "active": false
     },
     {
@@ -4299,7 +4179,7 @@
       "rsi10": 36.983260276340545,
       "sma200": 3.77085000038147,
       "above_sma200": false,
-      "avg_volume_20d": 1418247.0,
+      "avg_volume_20d": 1418897.25,
       "active": false
     },
     {
@@ -4311,7 +4191,7 @@
       "rsi10": 36.999486922916184,
       "sma200": 0.9342999961972237,
       "above_sma200": false,
-      "avg_volume_20d": 21552.75,
+      "avg_volume_20d": 21553.9,
       "active": false
     },
     {
@@ -4347,7 +4227,7 @@
       "rsi10": 37.049986659533175,
       "sma200": 20.59755000114441,
       "above_sma200": false,
-      "avg_volume_20d": 5687460.6,
+      "avg_volume_20d": 5688443.1,
       "active": false
     },
     {
@@ -4359,7 +4239,7 @@
       "rsi10": 37.0672010745785,
       "sma200": 4.72885000705719,
       "above_sma200": true,
-      "avg_volume_20d": 5695056.85,
+      "avg_volume_20d": 5696630.35,
       "active": false
     },
     {
@@ -4479,7 +4359,7 @@
       "rsi10": 37.48532332834936,
       "sma200": 26.90159996986389,
       "above_sma200": false,
-      "avg_volume_20d": 1369135.25,
+      "avg_volume_20d": 1369515.2,
       "active": false
     },
     {
@@ -4516,18 +4396,6 @@
       "sma200": 0.0314599999692291,
       "above_sma200": true,
       "avg_volume_20d": 271829.65,
-      "active": false
-    },
-    {
-      "symbol": "VIT",
-      "company": "VITURA HEALTH LIMITED",
-      "ticker": "VIT.AX",
-      "date": "2026-08-13",
-      "price": 0.024000000208616257,
-      "rsi10": 37.73489944902411,
-      "sma200": 0.044237499944865706,
-      "above_sma200": false,
-      "avg_volume_20d": 278816.9,
       "active": false
     },
     {
@@ -4611,7 +4479,7 @@
       "rsi10": 38.02497077567463,
       "sma200": 0.05069999997504056,
       "above_sma200": true,
-      "avg_volume_20d": 12118042.65,
+      "avg_volume_20d": 12118043.6,
       "active": false
     },
     {
@@ -4671,7 +4539,7 @@
       "rsi10": 38.272311021695536,
       "sma200": 5.044250020980835,
       "above_sma200": false,
-      "avg_volume_20d": 2974346.4,
+      "avg_volume_20d": 2974673.4,
       "active": false
     },
     {
@@ -4695,7 +4563,7 @@
       "rsi10": 38.35985720838476,
       "sma200": 0.2867749995738268,
       "above_sma200": false,
-      "avg_volume_20d": 4145600.05,
+      "avg_volume_20d": 4169693.95,
       "active": false
     },
     {
@@ -4707,7 +4575,7 @@
       "rsi10": 38.372970743447915,
       "sma200": 9.113099977970123,
       "above_sma200": true,
-      "avg_volume_20d": 1422867.4,
+      "avg_volume_20d": 1424386.55,
       "active": false
     },
     {
@@ -4852,18 +4720,6 @@
       "sma200": 0.1273074649646878,
       "above_sma200": true,
       "avg_volume_20d": 80261.25,
-      "active": false
-    },
-    {
-      "symbol": "VSL",
-      "company": "VULCAN STEEL LIMITED",
-      "ticker": "VSL.AX",
-      "date": "2026-08-13",
-      "price": 5.079999923706055,
-      "rsi10": 38.71808350730141,
-      "sma200": 6.099599990844727,
-      "above_sma200": false,
-      "avg_volume_20d": 55499.2,
       "active": false
     },
     {
@@ -5019,19 +4875,7 @@
       "rsi10": 39.04758843894281,
       "sma200": 1.1508139723539352,
       "above_sma200": false,
-      "avg_volume_20d": 3506183.75,
-      "active": false
-    },
-    {
-      "symbol": "VEE",
-      "company": "VEEM LTD",
-      "ticker": "VEE.AX",
-      "date": "2026-08-13",
-      "price": 0.5099999904632568,
-      "rsi10": 39.078629957827,
-      "sma200": 0.6600374966859818,
-      "above_sma200": false,
-      "avg_volume_20d": 42301.35,
+      "avg_volume_20d": 3506665.3,
       "active": false
     },
     {
@@ -5167,18 +5011,6 @@
       "active": false
     },
     {
-      "symbol": "VFX",
-      "company": "VISIONFLEX GROUP LIMITED",
-      "ticker": "VFX.AX",
-      "date": "2026-08-13",
-      "price": 0.04899999871850014,
-      "rsi10": 39.37342911678591,
-      "sma200": 0.07308250041678548,
-      "above_sma200": false,
-      "avg_volume_20d": 37045.45,
-      "active": false
-    },
-    {
       "symbol": "KNG",
       "company": "KINGSLAND MINERALS LTD",
       "ticker": "KNG.AX",
@@ -5188,18 +5020,6 @@
       "sma200": 0.08212999971583486,
       "above_sma200": false,
       "avg_volume_20d": 9689.7,
-      "active": false
-    },
-    {
-      "symbol": "PCX",
-      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
-      "ticker": "PCX.AX",
-      "date": "2026-08-11",
-      "price": 1.975000023841858,
-      "rsi10": 39.4504231251501,
-      "sma200": 1.9995750004053117,
-      "above_sma200": false,
-      "avg_volume_20d": 134630.25,
       "active": false
     },
     {
@@ -5467,18 +5287,6 @@
       "active": false
     },
     {
-      "symbol": "VGN",
-      "company": "VIRGIN AUSTRALIA HOLDINGS LIMITED.",
-      "ticker": "VGN.AX",
-      "date": "2026-08-13",
-      "price": 2.7300000190734863,
-      "rsi10": 40.05417682410638,
-      "sma200": 2.8940500009059904,
-      "above_sma200": false,
-      "avg_volume_20d": 826971.45,
-      "active": false
-    },
-    {
       "symbol": "M4M",
       "company": "MACRO METALS LIMITED",
       "ticker": "M4M.AX",
@@ -5523,7 +5331,7 @@
       "rsi10": 40.114014753703636,
       "sma200": 5.379400005340576,
       "above_sma200": true,
-      "avg_volume_20d": 3342056.3,
+      "avg_volume_20d": 3343446.05,
       "active": false
     },
     {
@@ -5535,7 +5343,7 @@
       "rsi10": 40.159874288938056,
       "sma200": 97.97825004577636,
       "above_sma200": true,
-      "avg_volume_20d": 136063.65,
+      "avg_volume_20d": 136087.65,
       "active": false
     },
     {
@@ -5583,7 +5391,7 @@
       "rsi10": 40.199767596191236,
       "sma200": 8.032300021648407,
       "above_sma200": false,
-      "avg_volume_20d": 377384.55,
+      "avg_volume_20d": 377809.8,
       "active": false
     },
     {
@@ -5623,18 +5431,6 @@
       "active": false
     },
     {
-      "symbol": "WES",
-      "company": "WESFARMERS LIMITED",
-      "ticker": "WES.AX",
-      "date": "2026-08-13",
-      "price": 88.4800033569336,
-      "rsi10": 40.253118687942404,
-      "sma200": 81.4093000793457,
-      "above_sma200": true,
-      "avg_volume_20d": 1373722.95,
-      "active": false
-    },
-    {
       "symbol": "PPE",
       "company": "PEOPLEIN LIMITED",
       "ticker": "PPE.AX",
@@ -5644,18 +5440,6 @@
       "sma200": 0.7108249986171722,
       "above_sma200": false,
       "avg_volume_20d": 32804.1,
-      "active": false
-    },
-    {
-      "symbol": "YOJ",
-      "company": "YOJEE LIMITED",
-      "ticker": "YOJ.AX",
-      "date": "2026-08-13",
-      "price": 0.23499999940395355,
-      "rsi10": 40.386577312569734,
-      "sma200": 0.3179250006377697,
-      "above_sma200": false,
-      "avg_volume_20d": 123027.25,
       "active": false
     },
     {
@@ -5955,7 +5739,7 @@
       "rsi10": 41.15910606743664,
       "sma200": 6.605449998378754,
       "above_sma200": false,
-      "avg_volume_20d": 1751039.45,
+      "avg_volume_20d": 1751553.95,
       "active": false
     },
     {
@@ -6063,7 +5847,7 @@
       "rsi10": 41.278419639154755,
       "sma200": 4.7261000037193295,
       "above_sma200": false,
-      "avg_volume_20d": 1981192.65,
+      "avg_volume_20d": 1981467.9,
       "active": false
     },
     {
@@ -6159,7 +5943,7 @@
       "rsi10": 41.420606796193745,
       "sma200": 9.693049955368043,
       "above_sma200": true,
-      "avg_volume_20d": 5385966.5,
+      "avg_volume_20d": 5386899.5,
       "active": false
     },
     {
@@ -6232,18 +6016,6 @@
       "sma200": 0.006477500076871365,
       "above_sma200": false,
       "avg_volume_20d": 1230999.3,
-      "active": false
-    },
-    {
-      "symbol": "WBT",
-      "company": "WEEBIT NANO LTD",
-      "ticker": "WBT.AX",
-      "date": "2026-08-13",
-      "price": 4.679999828338623,
-      "rsi10": 41.66340701223126,
-      "sma200": 5.178250002861023,
-      "above_sma200": false,
-      "avg_volume_20d": 1966289.6,
       "active": false
     },
     {
@@ -6327,7 +6099,7 @@
       "rsi10": 41.77601134429897,
       "sma200": 1.1095999985933305,
       "above_sma200": false,
-      "avg_volume_20d": 11638184.8,
+      "avg_volume_20d": 11639076.55,
       "active": false
     },
     {
@@ -6375,7 +6147,7 @@
       "rsi10": 41.85941620011829,
       "sma200": 0.22956033930182457,
       "above_sma200": false,
-      "avg_volume_20d": 2201288.35,
+      "avg_volume_20d": 2238356.8,
       "active": false
     },
     {
@@ -6555,7 +6327,7 @@
       "rsi10": 42.31798437472584,
       "sma200": 10.78120002269745,
       "above_sma200": true,
-      "avg_volume_20d": 306740.1,
+      "avg_volume_20d": 306860.85,
       "active": false
     },
     {
@@ -6567,7 +6339,7 @@
       "rsi10": 42.38696383683542,
       "sma200": 2.999599995613098,
       "above_sma200": true,
-      "avg_volume_20d": 1451908.75,
+      "avg_volume_20d": 1452319.0,
       "active": false
     },
     {
@@ -6579,7 +6351,7 @@
       "rsi10": 42.461040485297865,
       "sma200": 17.59629997730255,
       "above_sma200": false,
-      "avg_volume_20d": 1760386.25,
+      "avg_volume_20d": 1760629.25,
       "active": false
     },
     {
@@ -6739,18 +6511,6 @@
       "active": false
     },
     {
-      "symbol": "WMX",
-      "company": "WAM INCOME MAXIMISER LIMITED",
-      "ticker": "WMX.AX",
-      "date": "2026-08-11",
-      "price": 1.6749999523162842,
-      "rsi10": 42.79830506795301,
-      "sma200": 1.6201000154018401,
-      "above_sma200": true,
-      "avg_volume_20d": 528293.9,
-      "active": false
-    },
-    {
       "symbol": "PKP",
       "company": "PEAK PROCESSING LIMITED",
       "ticker": "PKP.AX",
@@ -6847,18 +6607,6 @@
       "active": false
     },
     {
-      "symbol": "ZEO",
-      "company": "ZEOTECH LIMITED",
-      "ticker": "ZEO.AX",
-      "date": "2026-08-13",
-      "price": 0.07599999755620956,
-      "rsi10": 43.172465287409224,
-      "sma200": 0.07622500024735927,
-      "above_sma200": false,
-      "avg_volume_20d": 754411.45,
-      "active": false
-    },
-    {
       "symbol": "RDM",
       "company": "RED METAL LIMITED",
       "ticker": "RDM.AX",
@@ -6939,7 +6687,7 @@
       "rsi10": 43.26519663778824,
       "sma200": 5.66065000295639,
       "above_sma200": false,
-      "avg_volume_20d": 1759638.4,
+      "avg_volume_20d": 1760065.15,
       "active": false
     },
     {
@@ -7099,18 +6847,6 @@
       "active": false
     },
     {
-      "symbol": "VSR",
-      "company": "VOLTAIC STRATEGIC RESOURCES LTD",
-      "ticker": "VSR.AX",
-      "date": "2026-08-13",
-      "price": 0.02500000037252903,
-      "rsi10": 43.53091783567613,
-      "sma200": 0.04025500000454486,
-      "above_sma200": false,
-      "avg_volume_20d": 234717.15,
-      "active": false
-    },
-    {
       "symbol": "IOV",
       "company": "ION VIDEO LTD",
       "ticker": "IOV.AX",
@@ -7143,7 +6879,7 @@
       "rsi10": 43.58609192021355,
       "sma200": 3.10030000269413,
       "above_sma200": false,
-      "avg_volume_20d": 13834194.2,
+      "avg_volume_20d": 13834824.2,
       "active": false
     },
     {
@@ -7263,7 +6999,7 @@
       "rsi10": 43.70607528141378,
       "sma200": 6.640899975299835,
       "above_sma200": false,
-      "avg_volume_20d": 419920.2,
+      "avg_volume_20d": 426776.05,
       "active": false
     },
     {
@@ -7335,7 +7071,7 @@
       "rsi10": 43.82889974495867,
       "sma200": 13.859500002861022,
       "above_sma200": false,
-      "avg_volume_20d": 320923.2,
+      "avg_volume_20d": 321067.95,
       "active": false
     },
     {
@@ -7359,7 +7095,7 @@
       "rsi10": 43.85084319322701,
       "sma200": 5.11375,
       "above_sma200": false,
-      "avg_volume_20d": 1952543.9,
+      "avg_volume_20d": 1954048.2,
       "active": false
     },
     {
@@ -7371,7 +7107,7 @@
       "rsi10": 43.8962887255065,
       "sma200": 7.024499990940094,
       "above_sma200": true,
-      "avg_volume_20d": 443612.85,
+      "avg_volume_20d": 443920.35,
       "active": false
     },
     {
@@ -7383,7 +7119,7 @@
       "rsi10": 43.90526679248667,
       "sma200": 0.22455499846488236,
       "above_sma200": false,
-      "avg_volume_20d": 836644.15,
+      "avg_volume_20d": 839910.25,
       "active": false
     },
     {
@@ -7551,7 +7287,7 @@
       "rsi10": 44.164331179958424,
       "sma200": 14.410750017166137,
       "above_sma200": true,
-      "avg_volume_20d": 3979078.8,
+      "avg_volume_20d": 3980896.05,
       "active": false
     },
     {
@@ -7719,7 +7455,7 @@
       "rsi10": 44.5912865873028,
       "sma200": 7.851549997329712,
       "above_sma200": false,
-      "avg_volume_20d": 120142.65,
+      "avg_volume_20d": 120154.2,
       "active": false
     },
     {
@@ -7791,7 +7527,7 @@
       "rsi10": 44.69172419459356,
       "sma200": 6.8233999919891355,
       "above_sma200": true,
-      "avg_volume_20d": 902697.25,
+      "avg_volume_20d": 903070.75,
       "active": false
     },
     {
@@ -7923,7 +7659,7 @@
       "rsi10": 44.932679761324465,
       "sma200": 0.4340250006318092,
       "above_sma200": false,
-      "avg_volume_20d": 1917954.8,
+      "avg_volume_20d": 1918517.15,
       "active": false
     },
     {
@@ -7999,6 +7735,18 @@
       "active": false
     },
     {
+      "symbol": "PIL",
+      "company": "PEPPERMINT INNOVATION LIMITED",
+      "ticker": "PIL.AX",
+      "date": "2026-08-13",
+      "price": 0.004000000189989805,
+      "rsi10": 45.02101048108457,
+      "sma200": 0.004025000168476254,
+      "above_sma200": false,
+      "avg_volume_20d": 0.0,
+      "active": false
+    },
+    {
       "symbol": "GTE",
       "company": "GREAT WESTERN EXPLORATION LIMITED.",
       "ticker": "GTE.AX",
@@ -8067,7 +7815,7 @@
       "rsi10": 45.15120525527565,
       "sma200": 3.9727500104904174,
       "above_sma200": false,
-      "avg_volume_20d": 2311881.2,
+      "avg_volume_20d": 2312223.2,
       "active": false
     },
     {
@@ -8163,7 +7911,7 @@
       "rsi10": 45.382583573647366,
       "sma200": 34.077400007247924,
       "above_sma200": true,
-      "avg_volume_20d": 1695794.9,
+      "avg_volume_20d": 1699885.75,
       "active": false
     },
     {
@@ -8239,6 +7987,18 @@
       "active": false
     },
     {
+      "symbol": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "ticker": "PCX.AX",
+      "date": "2026-08-12",
+      "price": 1.9900000095367432,
+      "rsi10": 45.579190967589945,
+      "sma200": 1.9993750005960464,
+      "above_sma200": false,
+      "avg_volume_20d": 128970.65,
+      "active": false
+    },
+    {
       "symbol": "ALY",
       "company": "ALCHEMY RESOURCES LIMITED",
       "ticker": "ALY.AX",
@@ -8287,18 +8047,6 @@
       "active": false
     },
     {
-      "symbol": "WGR",
-      "company": "WESTERN GOLD RESOURCES LIMITED.",
-      "ticker": "WGR.AX",
-      "date": "2026-08-13",
-      "price": 0.09200000017881393,
-      "rsi10": 45.655102861777486,
-      "sma200": 0.15756500009447336,
-      "above_sma200": false,
-      "avg_volume_20d": 652407.35,
-      "active": false
-    },
-    {
       "symbol": "IFN",
       "company": "INFRAGREEN GROUP LIMITED",
       "ticker": "IFN.AX",
@@ -8319,7 +8067,7 @@
       "rsi10": 45.67244088423145,
       "sma200": 3.9237999987602232,
       "above_sma200": true,
-      "avg_volume_20d": 5412298.0,
+      "avg_volume_20d": 5413492.0,
       "active": false
     },
     {
@@ -8343,7 +8091,7 @@
       "rsi10": 45.73617528380888,
       "sma200": 5.823699998855591,
       "above_sma200": true,
-      "avg_volume_20d": 1455827.85,
+      "avg_volume_20d": 1456370.1,
       "active": false
     },
     {
@@ -8547,7 +8295,7 @@
       "rsi10": 46.04455815608907,
       "sma200": 0.9009499979019165,
       "above_sma200": false,
-      "avg_volume_20d": 8272330.8,
+      "avg_volume_20d": 8274129.3,
       "active": false
     },
     {
@@ -8707,30 +8455,6 @@
       "active": false
     },
     {
-      "symbol": "LF1",
-      "company": "LA TROBE PRIVATE CREDIT FUND",
-      "ticker": "LF1.AX",
-      "date": "2026-08-11",
-      "price": 1.8899999856948853,
-      "rsi10": 46.44378918810467,
-      "sma200": 1.9377499961853026,
-      "above_sma200": false,
-      "avg_volume_20d": 148244.15,
-      "active": false
-    },
-    {
-      "symbol": "VHM",
-      "company": "VHM LIMITED",
-      "ticker": "VHM.AX",
-      "date": "2026-08-13",
-      "price": 0.22499999403953552,
-      "rsi10": 46.45976096641058,
-      "sma200": 0.34481249913573264,
-      "above_sma200": false,
-      "avg_volume_20d": 487212.35,
-      "active": false
-    },
-    {
       "symbol": "E25",
       "company": "ELEMENT 25 LIMITED",
       "ticker": "E25.AX",
@@ -8751,7 +8475,7 @@
       "rsi10": 46.491268252770986,
       "sma200": 22.20460000038147,
       "above_sma200": true,
-      "avg_volume_20d": 2217939.2,
+      "avg_volume_20d": 2218925.8,
       "active": false
     },
     {
@@ -8971,18 +8695,6 @@
       "active": false
     },
     {
-      "symbol": "UOS",
-      "company": "UNITED OVERSEAS AUSTRALIA LIMITED",
-      "ticker": "UOS.AX",
-      "date": "2026-08-13",
-      "price": 0.6850000023841858,
-      "rsi10": 46.88792100210529,
-      "sma200": 0.6987000063061715,
-      "above_sma200": false,
-      "avg_volume_20d": 23339.55,
-      "active": false
-    },
-    {
       "symbol": "NSB",
       "company": "NEUROSCIENTIFIC BIOPHARMACEUTICALS LTD",
       "ticker": "NSB.AX",
@@ -9007,18 +8719,6 @@
       "active": false
     },
     {
-      "symbol": "VPR",
-      "company": "VOLT GROUP LIMITED",
-      "ticker": "VPR.AX",
-      "date": "2026-08-13",
-      "price": 0.10999999940395355,
-      "rsi10": 46.93970074447748,
-      "sma200": 0.14545000091195107,
-      "above_sma200": false,
-      "avg_volume_20d": 25811.3,
-      "active": false
-    },
-    {
       "symbol": "BXB",
       "company": "BRAMBLES LIMITED",
       "ticker": "BXB.AX",
@@ -9027,7 +8727,7 @@
       "rsi10": 47.01562425452114,
       "sma200": 21.724199895858764,
       "above_sma200": false,
-      "avg_volume_20d": 3544150.1,
+      "avg_volume_20d": 3544942.1,
       "active": false
     },
     {
@@ -9088,18 +8788,6 @@
       "sma200": 0.018730000134091825,
       "above_sma200": false,
       "avg_volume_20d": 7928918.0,
-      "active": false
-    },
-    {
-      "symbol": "WAX",
-      "company": "WAM RESEARCH LIMITED",
-      "ticker": "WAX.AX",
-      "date": "2026-08-13",
-      "price": 1.059999942779541,
-      "rsi10": 47.13306161208939,
-      "sma200": 1.1542250007390975,
-      "above_sma200": false,
-      "avg_volume_20d": 145395.65,
       "active": false
     },
     {
@@ -9279,7 +8967,7 @@
       "rsi10": 47.44074803616615,
       "sma200": 1.0185250034928321,
       "above_sma200": false,
-      "avg_volume_20d": 3535216.15,
+      "avg_volume_20d": 3536259.4,
       "active": false
     },
     {
@@ -9340,18 +9028,6 @@
       "sma200": 0.02544749998021871,
       "above_sma200": false,
       "avg_volume_20d": 393813.15,
-      "active": false
-    },
-    {
-      "symbol": "VR8",
-      "company": "VANADIUM RESOURCES LIMITED",
-      "ticker": "VR8.AX",
-      "date": "2026-08-13",
-      "price": 0.013000000268220901,
-      "rsi10": 47.5228462070137,
-      "sma200": 0.02081000017002225,
-      "above_sma200": false,
-      "avg_volume_20d": 389259.85,
       "active": false
     },
     {
@@ -9459,7 +9135,7 @@
       "rsi10": 47.67136181272161,
       "sma200": 4.242499998807907,
       "above_sma200": true,
-      "avg_volume_20d": 1408446.9,
+      "avg_volume_20d": 1408706.4,
       "active": false
     },
     {
@@ -9508,18 +9184,6 @@
       "sma200": 0.3389375029504299,
       "above_sma200": false,
       "avg_volume_20d": 1385.5,
-      "active": false
-    },
-    {
-      "symbol": "WOW",
-      "company": "WOOLWORTHS GROUP LIMITED",
-      "ticker": "WOW.AX",
-      "date": "2026-08-13",
-      "price": 39.720001220703125,
-      "rsi10": 47.780958484675544,
-      "sma200": 34.15494994163513,
-      "above_sma200": true,
-      "avg_volume_20d": 1966045.25,
       "active": false
     },
     {
@@ -9595,18 +9259,6 @@
       "active": false
     },
     {
-      "symbol": "ZNO",
-      "company": "ZOONO GROUP LIMITED",
-      "ticker": "ZNO.AX",
-      "date": "2026-08-13",
-      "price": 0.052000001072883606,
-      "rsi10": 47.8977895226901,
-      "sma200": 0.06600500017404556,
-      "above_sma200": false,
-      "avg_volume_20d": 64994.35,
-      "active": false
-    },
-    {
       "symbol": "MAG",
       "company": "MAGMATIC RESOURCES LIMITED",
       "ticker": "MAG.AX",
@@ -9627,7 +9279,7 @@
       "rsi10": 47.935821965954545,
       "sma200": 9.648150024414063,
       "above_sma200": true,
-      "avg_volume_20d": 2236901.55,
+      "avg_volume_20d": 2237678.55,
       "active": false
     },
     {
@@ -9735,7 +9387,7 @@
       "rsi10": 48.130502260733344,
       "sma200": 4.501549998521805,
       "above_sma200": false,
-      "avg_volume_20d": 586286.2,
+      "avg_volume_20d": 586627.45,
       "active": false
     },
     {
@@ -9759,7 +9411,7 @@
       "rsi10": 48.153529652718696,
       "sma200": 12.199399991035461,
       "above_sma200": false,
-      "avg_volume_20d": 1610935.55,
+      "avg_volume_20d": 1611208.55,
       "active": false
     },
     {
@@ -9847,18 +9499,6 @@
       "active": false
     },
     {
-      "symbol": "PCI",
-      "company": "PERPETUAL CREDIT INCOME TRUST",
-      "ticker": "PCI.AX",
-      "date": "2026-08-11",
-      "price": 1.0950000286102295,
-      "rsi10": 48.25605167509322,
-      "sma200": 1.1031375181674958,
-      "above_sma200": false,
-      "avg_volume_20d": 864634.6,
-      "active": false
-    },
-    {
       "symbol": "CC9",
       "company": "CHARIOT RESOURCES LTD",
       "ticker": "CC9.AX",
@@ -9927,7 +9567,7 @@
       "rsi10": 48.29982019751649,
       "sma200": 4.950650013685227,
       "above_sma200": false,
-      "avg_volume_20d": 379222.8,
+      "avg_volume_20d": 379244.3,
       "active": false
     },
     {
@@ -9975,7 +9615,7 @@
       "rsi10": 48.4043639767635,
       "sma200": 3.7508250111341477,
       "above_sma200": true,
-      "avg_volume_20d": 5609870.25,
+      "avg_volume_20d": 5610213.0,
       "active": false
     },
     {
@@ -10027,18 +9667,6 @@
       "active": false
     },
     {
-      "symbol": "WJL",
-      "company": "WEBJET GROUP LIMITED",
-      "ticker": "WJL.AX",
-      "date": "2026-08-13",
-      "price": 0.4000000059604645,
-      "rsi10": 48.47474151968262,
-      "sma200": 0.6149999988079071,
-      "above_sma200": false,
-      "avg_volume_20d": 661264.4,
-      "active": false
-    },
-    {
       "symbol": "BWP",
       "company": "BWP GROUP",
       "ticker": "BWP.AX",
@@ -10047,7 +9675,7 @@
       "rsi10": 48.48505381501839,
       "sma200": 3.8357457733154297,
       "above_sma200": true,
-      "avg_volume_20d": 892930.1,
+      "avg_volume_20d": 893404.1,
       "active": false
     },
     {
@@ -10239,7 +9867,7 @@
       "rsi10": 48.753478711984066,
       "sma200": 1.89314999461174,
       "above_sma200": false,
-      "avg_volume_20d": 7995760.8,
+      "avg_volume_20d": 7998142.05,
       "active": false
     },
     {
@@ -10263,7 +9891,7 @@
       "rsi10": 48.818989382110196,
       "sma200": 2.330300006866455,
       "above_sma200": true,
-      "avg_volume_20d": 2094569.5,
+      "avg_volume_20d": 2095333.0,
       "active": false
     },
     {
@@ -10339,18 +9967,6 @@
       "active": false
     },
     {
-      "symbol": "XEN",
-      "company": "XENITRA LIMITED",
-      "ticker": "XEN.AX",
-      "date": "2026-08-13",
-      "price": 0.003000000026077032,
-      "rsi10": 48.90921140298132,
-      "sma200": 0.0028150000411551446,
-      "above_sma200": true,
-      "avg_volume_20d": 5613741.25,
-      "active": false
-    },
-    {
       "symbol": "CDP",
       "company": "CARINDALE PROPERTY TRUST",
       "ticker": "CDP.AX",
@@ -10383,7 +9999,7 @@
       "rsi10": 48.969718718720145,
       "sma200": 1.794325001835823,
       "above_sma200": false,
-      "avg_volume_20d": 3463413.2,
+      "avg_volume_20d": 3464257.7,
       "active": false
     },
     {
@@ -10639,18 +10255,6 @@
       "active": false
     },
     {
-      "symbol": "VCX",
-      "company": "VICINITY CENTRES",
-      "ticker": "VCX.AX",
-      "date": "2026-08-13",
-      "price": 2.6700000762939453,
-      "rsi10": 49.32217143810779,
-      "sma200": 2.525099985599518,
-      "above_sma200": true,
-      "avg_volume_20d": 7502700.1,
-      "active": false
-    },
-    {
       "symbol": "JAY",
       "company": "JAYRIDE GROUP LIMITED",
       "ticker": "JAY.AX",
@@ -10671,7 +10275,7 @@
       "rsi10": 49.32703359578715,
       "sma200": 8.091699998378754,
       "above_sma200": false,
-      "avg_volume_20d": 1677899.6,
+      "avg_volume_20d": 1678371.35,
       "active": false
     },
     {
@@ -10743,7 +10347,7 @@
       "rsi10": 49.41098017909664,
       "sma200": 26.2598499584198,
       "above_sma200": false,
-      "avg_volume_20d": 321575.9,
+      "avg_volume_20d": 321633.65,
       "active": false
     },
     {
@@ -10791,19 +10395,7 @@
       "rsi10": 49.45949400869447,
       "sma200": 67.22949996948242,
       "above_sma200": false,
-      "avg_volume_20d": 74416.65,
-      "active": false
-    },
-    {
-      "symbol": "WAK",
-      "company": "WA KAOLIN LIMITED",
-      "ticker": "WAK.AX",
-      "date": "2026-08-13",
-      "price": 0.006000000052154064,
-      "rsi10": 49.46061795555587,
-      "sma200": 0.018865000228397547,
-      "above_sma200": false,
-      "avg_volume_20d": 98850.8,
+      "avg_volume_20d": 74419.9,
       "active": false
     },
     {
@@ -10947,7 +10539,7 @@
       "rsi10": 49.70501217512144,
       "sma200": 10.766399989128113,
       "above_sma200": true,
-      "avg_volume_20d": 1215576.35,
+      "avg_volume_20d": 1215983.6,
       "active": false
     },
     {
@@ -10960,18 +10552,6 @@
       "sma200": 0.04685749993659556,
       "above_sma200": true,
       "avg_volume_20d": 1324836.6,
-      "active": false
-    },
-    {
-      "symbol": "W2V",
-      "company": "WAY 2 VAT LTD.",
-      "ticker": "W2V.AX",
-      "date": "2026-08-13",
-      "price": 0.05299999937415123,
-      "rsi10": 49.730353566663574,
-      "sma200": 0.08360500000417233,
-      "above_sma200": false,
-      "avg_volume_20d": 150210.3,
       "active": false
     },
     {
@@ -10996,18 +10576,6 @@
       "sma200": 0.20412499986588956,
       "above_sma200": false,
       "avg_volume_20d": 722564.3,
-      "active": false
-    },
-    {
-      "symbol": "WMG",
-      "company": "WESTERN MINES GROUP LTD",
-      "ticker": "WMG.AX",
-      "date": "2026-08-13",
-      "price": 0.18000000715255737,
-      "rsi10": 49.74370333799001,
-      "sma200": 0.21181250005960464,
-      "above_sma200": false,
-      "avg_volume_20d": 52218.2,
       "active": false
     },
     {
@@ -11068,18 +10636,6 @@
       "sma200": 0.12124499928206206,
       "above_sma200": false,
       "avg_volume_20d": 96418.15,
-      "active": false
-    },
-    {
-      "symbol": "RF1",
-      "company": "REGAL INVESTMENT FUND",
-      "ticker": "RF1.AX",
-      "date": "2026-08-11",
-      "price": 3.559999942779541,
-      "rsi10": 49.81120952018904,
-      "sma200": 3.4730749988555907,
-      "above_sma200": true,
-      "avg_volume_20d": 152891.35,
       "active": false
     },
     {
@@ -11151,7 +10707,7 @@
       "rsi10": 49.99466633551349,
       "sma200": 2.6397500056028367,
       "above_sma200": true,
-      "avg_volume_20d": 15054229.15,
+      "avg_volume_20d": 15055096.9,
       "active": false
     },
     {
@@ -11335,18 +10891,6 @@
       "active": false
     },
     {
-      "symbol": "YOW",
-      "company": "YOWIE GROUP LTD",
-      "ticker": "YOW.AX",
-      "date": "2026-08-13",
-      "price": 0.014000000432133675,
-      "rsi10": 50.0,
-      "sma200": 0.014000000432133675,
-      "above_sma200": false,
-      "avg_volume_20d": 0.0,
-      "active": false
-    },
-    {
       "symbol": "SB2",
       "company": "SALTER BROTHERS EMERGING COMPANIES LIMITED",
       "ticker": "SB2.AX",
@@ -11379,7 +10923,7 @@
       "rsi10": 50.09514340483493,
       "sma200": 4.823650021553039,
       "above_sma200": false,
-      "avg_volume_20d": 9722061.15,
+      "avg_volume_20d": 9723531.15,
       "active": false
     },
     {
@@ -11391,7 +10935,7 @@
       "rsi10": 50.12344567949677,
       "sma200": 22.147849922180175,
       "above_sma200": true,
-      "avg_volume_20d": 876398.45,
+      "avg_volume_20d": 876700.7,
       "active": false
     },
     {
@@ -11583,7 +11127,7 @@
       "rsi10": 50.630583059473295,
       "sma200": 5.856099996566773,
       "above_sma200": true,
-      "avg_volume_20d": 640649.25,
+      "avg_volume_20d": 641727.35,
       "active": false
     },
     {
@@ -11691,7 +11235,7 @@
       "rsi10": 50.89696776045036,
       "sma200": 5.094700002670288,
       "above_sma200": false,
-      "avg_volume_20d": 2028650.1,
+      "avg_volume_20d": 2028906.6,
       "active": false
     },
     {
@@ -11799,7 +11343,7 @@
       "rsi10": 51.06516243513208,
       "sma200": 2.8703500092029572,
       "above_sma200": true,
-      "avg_volume_20d": 956616.15,
+      "avg_volume_20d": 957043.65,
       "active": false
     },
     {
@@ -11823,19 +11367,7 @@
       "rsi10": 51.09613373536372,
       "sma200": 5.061450004577637,
       "above_sma200": false,
-      "avg_volume_20d": 570291.4,
-      "active": false
-    },
-    {
-      "symbol": "WPR",
-      "company": "WAYPOINT REIT",
-      "ticker": "WPR.AX",
-      "date": "2026-08-13",
-      "price": 2.490000009536743,
-      "rsi10": 51.13363025972422,
-      "sma200": 2.4977500259876253,
-      "above_sma200": false,
-      "avg_volume_20d": 983138.15,
+      "avg_volume_20d": 570534.4,
       "active": false
     },
     {
@@ -11959,18 +11491,6 @@
       "active": false
     },
     {
-      "symbol": "UBI",
-      "company": "UNIVERSAL BIOSENSORS INC.",
-      "ticker": "UBI.AX",
-      "date": "2026-08-13",
-      "price": 0.014000000432133675,
-      "rsi10": 51.265828828483,
-      "sma200": 0.014000000432133675,
-      "above_sma200": false,
-      "avg_volume_20d": 0.0,
-      "active": false
-    },
-    {
       "symbol": "MBK",
       "company": "METAL BANK LIMITED",
       "ticker": "MBK.AX",
@@ -12087,7 +11607,7 @@
       "rsi10": 51.55155165169432,
       "sma200": 12.51379997253418,
       "above_sma200": false,
-      "avg_volume_20d": 632540.9,
+      "avg_volume_20d": 632667.65,
       "active": false
     },
     {
@@ -12423,7 +11943,7 @@
       "rsi10": 51.99097456479304,
       "sma200": 223.19105010986328,
       "above_sma200": true,
-      "avg_volume_20d": 602324.35,
+      "avg_volume_20d": 602534.35,
       "active": false
     },
     {
@@ -12435,7 +11955,7 @@
       "rsi10": 51.99785534256402,
       "sma200": 160.31769969940186,
       "above_sma200": true,
-      "avg_volume_20d": 1196529.65,
+      "avg_volume_20d": 1196955.45,
       "active": false
     },
     {
@@ -12495,7 +12015,7 @@
       "rsi10": 52.03808178727805,
       "sma200": 24.133450040817262,
       "above_sma200": false,
-      "avg_volume_20d": 282864.15,
+      "avg_volume_20d": 285362.2,
       "active": false
     },
     {
@@ -12579,7 +12099,7 @@
       "rsi10": 52.23280140117846,
       "sma200": 6.377549986839295,
       "above_sma200": false,
-      "avg_volume_20d": 1726038.4,
+      "avg_volume_20d": 1726213.9,
       "active": false
     },
     {
@@ -12735,7 +12255,7 @@
       "rsi10": 52.461433921761454,
       "sma200": 1.7433250030875207,
       "above_sma200": false,
-      "avg_volume_20d": 38858197.3,
+      "avg_volume_20d": 38859807.55,
       "active": false
     },
     {
@@ -12759,7 +12279,19 @@
       "rsi10": 52.50662385167983,
       "sma200": 3.5667500066757203,
       "above_sma200": true,
-      "avg_volume_20d": 2165604.3,
+      "avg_volume_20d": 2166092.55,
+      "active": false
+    },
+    {
+      "symbol": "LF1",
+      "company": "LA TROBE PRIVATE CREDIT FUND",
+      "ticker": "LF1.AX",
+      "date": "2026-08-12",
+      "price": 1.9049999713897705,
+      "rsi10": 52.51276346079302,
+      "sma200": 1.937349995970726,
+      "above_sma200": false,
+      "avg_volume_20d": 146186.35,
       "active": false
     },
     {
@@ -12784,18 +12316,6 @@
       "sma200": 0.03710750011727214,
       "above_sma200": false,
       "avg_volume_20d": 187636.9,
-      "active": false
-    },
-    {
-      "symbol": "YAL",
-      "company": "YANCOAL AUSTRALIA LIMITED",
-      "ticker": "YAL.AX",
-      "date": "2026-08-13",
-      "price": 5.75,
-      "rsi10": 52.63451338281719,
-      "sma200": 6.166150000095367,
-      "above_sma200": false,
-      "avg_volume_20d": 2552083.85,
       "active": false
     },
     {
@@ -12891,7 +12411,7 @@
       "rsi10": 52.74793424499816,
       "sma200": 29.798449993133545,
       "above_sma200": true,
-      "avg_volume_20d": 2676603.2,
+      "avg_volume_20d": 2677814.45,
       "active": false
     },
     {
@@ -12915,7 +12435,7 @@
       "rsi10": 52.78556166226813,
       "sma200": 24.486100025177002,
       "above_sma200": false,
-      "avg_volume_20d": 386738.6,
+      "avg_volume_20d": 387469.8,
       "active": false
     },
     {
@@ -12951,7 +12471,7 @@
       "rsi10": 52.85684925622018,
       "sma200": 30.20004994392395,
       "above_sma200": true,
-      "avg_volume_20d": 325032.35,
+      "avg_volume_20d": 325112.6,
       "active": false
     },
     {
@@ -13059,7 +12579,7 @@
       "rsi10": 52.95556700578942,
       "sma200": 28.6546000289917,
       "above_sma200": true,
-      "avg_volume_20d": 1321458.65,
+      "avg_volume_20d": 1321726.4,
       "active": false
     },
     {
@@ -13191,7 +12711,7 @@
       "rsi10": 53.25406047018119,
       "sma200": 12.603549981117249,
       "above_sma200": true,
-      "avg_volume_20d": 1263439.6,
+      "avg_volume_20d": 1274368.9,
       "active": false
     },
     {
@@ -13267,18 +12787,6 @@
       "active": false
     },
     {
-      "symbol": "WRX",
-      "company": "WESTERN RIDGE RESOURCES LIMITED",
-      "ticker": "WRX.AX",
-      "date": "2026-08-13",
-      "price": 0.024000000208616257,
-      "rsi10": 53.42567768545268,
-      "sma200": 0.03274749999400228,
-      "above_sma200": false,
-      "avg_volume_20d": 206938.95,
-      "active": false
-    },
-    {
       "symbol": "CLV",
       "company": "CLOVER CORPORATION LIMITED",
       "ticker": "CLV.AX",
@@ -13311,7 +12819,7 @@
       "rsi10": 53.488425447080935,
       "sma200": 6.35849999666214,
       "above_sma200": false,
-      "avg_volume_20d": 3034459.7,
+      "avg_volume_20d": 3035043.95,
       "active": false
     },
     {
@@ -13384,6 +12892,18 @@
       "sma200": 0.09775749962776899,
       "above_sma200": false,
       "avg_volume_20d": 34748.35,
+      "active": false
+    },
+    {
+      "symbol": "RF1",
+      "company": "REGAL INVESTMENT FUND",
+      "ticker": "RF1.AX",
+      "date": "2026-08-12",
+      "price": 3.5899999141693115,
+      "rsi10": 53.59937774772946,
+      "sma200": 3.474374998807907,
+      "above_sma200": true,
+      "avg_volume_20d": 154499.0,
       "active": false
     },
     {
@@ -13611,7 +13131,7 @@
       "rsi10": 54.02968999739209,
       "sma200": 3.1444500052928923,
       "above_sma200": false,
-      "avg_volume_20d": 1131522.45,
+      "avg_volume_20d": 1132980.5,
       "active": false
     },
     {
@@ -13647,7 +13167,7 @@
       "rsi10": 54.093996085204566,
       "sma200": 54.45324996948242,
       "above_sma200": true,
-      "avg_volume_20d": 1263513.25,
+      "avg_volume_20d": 1263873.25,
       "active": false
     },
     {
@@ -13683,7 +13203,7 @@
       "rsi10": 54.12634167368071,
       "sma200": 3.192699980735779,
       "above_sma200": false,
-      "avg_volume_20d": 3499366.55,
+      "avg_volume_20d": 3500088.05,
       "active": false
     },
     {
@@ -13719,7 +13239,7 @@
       "rsi10": 54.18367671519673,
       "sma200": 41.59594995498657,
       "above_sma200": false,
-      "avg_volume_20d": 4140313.9,
+      "avg_volume_20d": 4142143.9,
       "active": false
     },
     {
@@ -13768,6 +13288,18 @@
       "sma200": 0.1457949996367097,
       "above_sma200": false,
       "avg_volume_20d": 4850057.25,
+      "active": false
+    },
+    {
+      "symbol": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "ticker": "PCI.AX",
+      "date": "2026-08-12",
+      "price": 1.100000023841858,
+      "rsi10": 54.27867056589598,
+      "sma200": 1.1027125185728073,
+      "above_sma200": false,
+      "avg_volume_20d": 902389.45,
       "active": false
     },
     {
@@ -13947,7 +13479,7 @@
       "rsi10": 54.603646093084855,
       "sma200": 1.60867500603199,
       "above_sma200": false,
-      "avg_volume_20d": 2281193.55,
+      "avg_volume_20d": 2281767.3,
       "active": false
     },
     {
@@ -13995,7 +13527,7 @@
       "rsi10": 54.65291252109352,
       "sma200": null,
       "above_sma200": false,
-      "avg_volume_20d": 82664.2,
+      "avg_volume_20d": 82665.1,
       "active": false
     },
     {
@@ -14043,7 +13575,7 @@
       "rsi10": 54.713083332105775,
       "sma200": 3.517400014400482,
       "above_sma200": true,
-      "avg_volume_20d": 4673038.5,
+      "avg_volume_20d": 4674107.25,
       "active": false
     },
     {
@@ -14115,19 +13647,7 @@
       "rsi10": 54.8363820415901,
       "sma200": 21.454900016784666,
       "above_sma200": true,
-      "avg_volume_20d": 555703.1,
-      "active": false
-    },
-    {
-      "symbol": "VML",
-      "company": "VITAL METALS LIMITED",
-      "ticker": "VML.AX",
-      "date": "2026-08-13",
-      "price": 0.10499999672174454,
-      "rsi10": 54.83718199696465,
-      "sma200": 0.156582500487566,
-      "above_sma200": false,
-      "avg_volume_20d": 37675.3,
+      "avg_volume_20d": 555817.1,
       "active": false
     },
     {
@@ -14163,7 +13683,7 @@
       "rsi10": 54.86563058247683,
       "sma200": 89.97439964294433,
       "above_sma200": false,
-      "avg_volume_20d": 189186.3,
+      "avg_volume_20d": 189238.8,
       "active": false
     },
     {
@@ -14175,7 +13695,7 @@
       "rsi10": 54.88858634172621,
       "sma200": 28.484299974441527,
       "above_sma200": true,
-      "avg_volume_20d": 349489.9,
+      "avg_volume_20d": 349578.4,
       "active": false
     },
     {
@@ -14271,7 +13791,7 @@
       "rsi10": 54.957921907787274,
       "sma200": 82.99274997711181,
       "above_sma200": false,
-      "avg_volume_20d": 436027.55,
+      "avg_volume_20d": 436094.3,
       "active": false
     },
     {
@@ -14299,18 +13819,6 @@
       "active": false
     },
     {
-      "symbol": "WRK",
-      "company": "WRKR LTD",
-      "ticker": "WRK.AX",
-      "date": "2026-08-13",
-      "price": 0.08100000023841858,
-      "rsi10": 55.01390908737729,
-      "sma200": 0.11557500023394823,
-      "above_sma200": false,
-      "avg_volume_20d": 1366728.05,
-      "active": false
-    },
-    {
       "symbol": "DTL",
       "company": "DATA#3 LIMITED",
       "ticker": "DTL.AX",
@@ -14319,7 +13827,7 @@
       "rsi10": 55.01924343022955,
       "sma200": 8.763200008869171,
       "above_sma200": true,
-      "avg_volume_20d": 401851.05,
+      "avg_volume_20d": 401999.55,
       "active": false
     },
     {
@@ -14343,7 +13851,7 @@
       "rsi10": 55.07749202184568,
       "sma200": 42.689249954223634,
       "above_sma200": true,
-      "avg_volume_20d": 260741.55,
+      "avg_volume_20d": 260763.3,
       "active": false
     },
     {
@@ -14379,7 +13887,7 @@
       "rsi10": 55.15479945449785,
       "sma200": 4.9339000248908995,
       "above_sma200": true,
-      "avg_volume_20d": 2156056.3,
+      "avg_volume_20d": 2156453.05,
       "active": false
     },
     {
@@ -14391,7 +13899,7 @@
       "rsi10": 55.1658615627145,
       "sma200": 0.9176750022172928,
       "above_sma200": false,
-      "avg_volume_20d": 4872840.15,
+      "avg_volume_20d": 4874528.4,
       "active": false
     },
     {
@@ -14439,7 +13947,7 @@
       "rsi10": 55.23675169981727,
       "sma200": 7.691950035095215,
       "above_sma200": false,
-      "avg_volume_20d": 125076.55,
+      "avg_volume_20d": 125096.9,
       "active": false
     },
     {
@@ -14703,7 +14211,7 @@
       "rsi10": 55.68737622219399,
       "sma200": 17.660550017356872,
       "above_sma200": true,
-      "avg_volume_20d": 265725.25,
+      "avg_volume_20d": 265816.0,
       "active": false
     },
     {
@@ -14727,7 +14235,7 @@
       "rsi10": 55.69081527690314,
       "sma200": 10.30444999217987,
       "above_sma200": true,
-      "avg_volume_20d": 537250.25,
+      "avg_volume_20d": 539796.2,
       "active": false
     },
     {
@@ -14787,7 +14295,7 @@
       "rsi10": 55.84643787488593,
       "sma200": 4.80010000705719,
       "above_sma200": true,
-      "avg_volume_20d": 3702337.95,
+      "avg_volume_20d": 3713818.45,
       "active": false
     },
     {
@@ -14823,7 +14331,7 @@
       "rsi10": 55.860920296097625,
       "sma200": 3.0622500050067902,
       "above_sma200": true,
-      "avg_volume_20d": 1185489.8,
+      "avg_volume_20d": 1185994.55,
       "active": false
     },
     {
@@ -14859,7 +14367,7 @@
       "rsi10": 55.882861140512844,
       "sma200": 5.060000004768372,
       "above_sma200": true,
-      "avg_volume_20d": 4440536.6,
+      "avg_volume_20d": 4441600.1,
       "active": false
     },
     {
@@ -14883,7 +14391,7 @@
       "rsi10": 55.899872977875106,
       "sma200": 1.8867974650859833,
       "above_sma200": false,
-      "avg_volume_20d": 3796483.6,
+      "avg_volume_20d": 3797283.1,
       "active": false
     },
     {
@@ -14943,7 +14451,7 @@
       "rsi10": 55.98037925191376,
       "sma200": 22.555150003433226,
       "above_sma200": true,
-      "avg_volume_20d": 1528004.35,
+      "avg_volume_20d": 1528336.6,
       "active": false
     },
     {
@@ -15087,7 +14595,7 @@
       "rsi10": 56.16046347850856,
       "sma200": 18.754850006103517,
       "above_sma200": false,
-      "avg_volume_20d": 488860.5,
+      "avg_volume_20d": 488940.75,
       "active": false
     },
     {
@@ -15100,30 +14608,6 @@
       "sma200": 1.1406624922156334,
       "above_sma200": true,
       "avg_volume_20d": 88133.8,
-      "active": false
-    },
-    {
-      "symbol": "ZMM",
-      "company": "ZIMI LIMITED",
-      "ticker": "ZMM.AX",
-      "date": "2026-08-13",
-      "price": 0.004000000189989805,
-      "rsi10": 56.17672659318581,
-      "sma200": 0.0054200000665150586,
-      "above_sma200": false,
-      "avg_volume_20d": 251981.8,
-      "active": false
-    },
-    {
-      "symbol": "ZIM",
-      "company": "ZIMPLATS HOLDINGS LIMITED",
-      "ticker": "ZIM.AX",
-      "date": "2026-08-13",
-      "price": 15.149999618530273,
-      "rsi10": 56.190247352288175,
-      "sma200": 17.846800003051758,
-      "above_sma200": false,
-      "avg_volume_20d": 13029.55,
       "active": false
     },
     {
@@ -15231,7 +14715,7 @@
       "rsi10": 56.56653947246456,
       "sma200": 2.3867999935150146,
       "above_sma200": false,
-      "avg_volume_20d": 1503147.25,
+      "avg_volume_20d": 1503767.5,
       "active": false
     },
     {
@@ -15435,7 +14919,7 @@
       "rsi10": 57.07053193083002,
       "sma200": 8.823599977493286,
       "above_sma200": false,
-      "avg_volume_20d": 165016.7,
+      "avg_volume_20d": 166891.35,
       "active": false
     },
     {
@@ -15471,7 +14955,7 @@
       "rsi10": 57.153869953969355,
       "sma200": 61.28950008392334,
       "above_sma200": true,
-      "avg_volume_20d": 587303.3,
+      "avg_volume_20d": 587380.55,
       "active": false
     },
     {
@@ -15747,7 +15231,7 @@
       "rsi10": 57.868002556387594,
       "sma200": 3.44399999499321,
       "above_sma200": true,
-      "avg_volume_20d": 3754347.65,
+      "avg_volume_20d": 3755423.15,
       "active": false
     },
     {
@@ -15795,7 +15279,7 @@
       "rsi10": 57.926794947350736,
       "sma200": 1.73582499563694,
       "above_sma200": false,
-      "avg_volume_20d": 7128894.8,
+      "avg_volume_20d": 7129421.3,
       "active": false
     },
     {
@@ -15808,18 +15292,6 @@
       "sma200": 0.1686000005155802,
       "above_sma200": false,
       "avg_volume_20d": 785609.4,
-      "active": false
-    },
-    {
-      "symbol": "WMA",
-      "company": "WAM ALTERNATIVE ASSETS LIMITED",
-      "ticker": "WMA.AX",
-      "date": "2026-08-13",
-      "price": 1.0,
-      "rsi10": 57.96845773953878,
-      "sma200": 0.995087499320507,
-      "above_sma200": true,
-      "avg_volume_20d": 144541.45,
       "active": false
     },
     {
@@ -15951,7 +15423,7 @@
       "rsi10": 58.150497028467115,
       "sma200": 81.5957498550415,
       "above_sma200": false,
-      "avg_volume_20d": 524560.6,
+      "avg_volume_20d": 524583.85,
       "active": false
     },
     {
@@ -15987,7 +15459,7 @@
       "rsi10": 58.205100019223714,
       "sma200": 28.718350019454956,
       "above_sma200": true,
-      "avg_volume_20d": 4830887.2,
+      "avg_volume_20d": 4832009.95,
       "active": false
     },
     {
@@ -16263,7 +15735,7 @@
       "rsi10": 58.60850268501343,
       "sma200": 40.53480001449585,
       "above_sma200": true,
-      "avg_volume_20d": 461246.3,
+      "avg_volume_20d": 461464.55,
       "active": false
     },
     {
@@ -16335,7 +15807,7 @@
       "rsi10": 58.73222222524086,
       "sma200": 24.21384992599487,
       "above_sma200": false,
-      "avg_volume_20d": 398245.9,
+      "avg_volume_20d": 398336.65,
       "active": false
     },
     {
@@ -16395,7 +15867,7 @@
       "rsi10": 58.84129324868131,
       "sma200": 5.290350008010864,
       "above_sma200": false,
-      "avg_volume_20d": 2361606.3,
+      "avg_volume_20d": 2361811.8,
       "active": false
     },
     {
@@ -16587,7 +16059,7 @@
       "rsi10": 59.25192282300635,
       "sma200": 1.8989943128824234,
       "above_sma200": true,
-      "avg_volume_20d": 2948284.4,
+      "avg_volume_20d": 2948954.9,
       "active": false
     },
     {
@@ -16623,7 +16095,7 @@
       "rsi10": 59.30564334165967,
       "sma200": 19.069900035858154,
       "above_sma200": true,
-      "avg_volume_20d": 449636.55,
+      "avg_volume_20d": 449702.55,
       "active": false
     },
     {
@@ -16647,7 +16119,7 @@
       "rsi10": 59.31711225811987,
       "sma200": 8.144549989700318,
       "above_sma200": false,
-      "avg_volume_20d": 231812.1,
+      "avg_volume_20d": 231814.3,
       "active": false
     },
     {
@@ -16687,18 +16159,6 @@
       "active": false
     },
     {
-      "symbol": "VUL",
-      "company": "VULCAN ENERGY RESOURCES LIMITED",
-      "ticker": "VUL.AX",
-      "date": "2026-08-13",
-      "price": 2.9600000381469727,
-      "rsi10": 59.43477427172669,
-      "sma200": 3.886024295091629,
-      "above_sma200": false,
-      "avg_volume_20d": 1919300.35,
-      "active": false
-    },
-    {
       "symbol": "ESR",
       "company": "ESTRELLA RESOURCES LIMITED",
       "ticker": "ESR.AX",
@@ -16732,18 +16192,6 @@
       "sma200": 2.6192899489402772,
       "above_sma200": false,
       "avg_volume_20d": 409268.8,
-      "active": false
-    },
-    {
-      "symbol": "LGF",
-      "company": "L1 GOLD FUND LIMITED",
-      "ticker": "LGF.AX",
-      "date": "2026-08-11",
-      "price": 2.0799999237060547,
-      "rsi10": 59.566371602487166,
-      "sma200": null,
-      "above_sma200": false,
-      "avg_volume_20d": 407965.55,
       "active": false
     },
     {
@@ -16855,18 +16303,6 @@
       "active": false
     },
     {
-      "symbol": "VGL",
-      "company": "VISTA GROUP INTERNATIONAL LIMITED.",
-      "ticker": "VGL.AX",
-      "date": "2026-08-13",
-      "price": 2.180000066757202,
-      "rsi10": 59.898964704333636,
-      "sma200": 1.88207499563694,
-      "above_sma200": true,
-      "avg_volume_20d": 22236.35,
-      "active": false
-    },
-    {
       "symbol": "SHL",
       "company": "SONIC HEALTHCARE LIMITED",
       "ticker": "SHL.AX",
@@ -16875,19 +16311,7 @@
       "rsi10": 59.918395911348696,
       "sma200": 21.334349994659423,
       "above_sma200": true,
-      "avg_volume_20d": 1693310.2,
-      "active": false
-    },
-    {
-      "symbol": "VRC",
-      "company": "VOLT RESOURCES LIMITED",
-      "ticker": "VRC.AX",
-      "date": "2026-08-13",
-      "price": 0.005499999970197678,
-      "rsi10": 59.92950907711182,
-      "sma200": 0.006442500005941838,
-      "above_sma200": false,
-      "avg_volume_20d": 0.0,
+      "avg_volume_20d": 1693622.95,
       "active": false
     },
     {
@@ -17175,7 +16599,7 @@
       "rsi10": 60.58135555341962,
       "sma200": 0.8204624981433153,
       "above_sma200": true,
-      "avg_volume_20d": 3317623.1,
+      "avg_volume_20d": 3317877.3,
       "active": false
     },
     {
@@ -17227,18 +16651,6 @@
       "active": false
     },
     {
-      "symbol": "WCN",
-      "company": "WHITE CLIFF MINERALS LIMITED",
-      "ticker": "WCN.AX",
-      "date": "2026-08-13",
-      "price": 0.017999999225139618,
-      "rsi10": 60.77998975122518,
-      "sma200": 0.016796885100193323,
-      "above_sma200": true,
-      "avg_volume_20d": 8776190.7,
-      "active": false
-    },
-    {
       "symbol": "BSR",
       "company": "BISON RESOURCES LIMITED",
       "ticker": "BSR.AX",
@@ -17271,7 +16683,7 @@
       "rsi10": 60.84015586190245,
       "sma200": 2.880049999952316,
       "above_sma200": true,
-      "avg_volume_20d": 13032369.25,
+      "avg_volume_20d": 13035901.75,
       "active": false
     },
     {
@@ -17295,7 +16707,7 @@
       "rsi10": 60.86207056014878,
       "sma200": 1.8140750014781952,
       "above_sma200": false,
-      "avg_volume_20d": 5318347.85,
+      "avg_volume_20d": 5319092.6,
       "active": false
     },
     {
@@ -17355,7 +16767,7 @@
       "rsi10": 60.96940904976506,
       "sma200": 16.495900011062623,
       "above_sma200": true,
-      "avg_volume_20d": 1040176.25,
+      "avg_volume_20d": 1040318.75,
       "active": false
     },
     {
@@ -17487,7 +16899,7 @@
       "rsi10": 61.228318376391975,
       "sma200": 176.56079986572266,
       "above_sma200": true,
-      "avg_volume_20d": 235963.8,
+      "avg_volume_20d": 235997.55,
       "active": false
     },
     {
@@ -17547,7 +16959,7 @@
       "rsi10": 61.38536903919694,
       "sma200": 0.19714499980211259,
       "above_sma200": true,
-      "avg_volume_20d": 4103855.8,
+      "avg_volume_20d": 4104016.1,
       "active": false
     },
     {
@@ -17623,18 +17035,6 @@
       "active": false
     },
     {
-      "symbol": "WA1",
-      "company": "WA1 RESOURCES LTD",
-      "ticker": "WA1.AX",
-      "date": "2026-08-13",
-      "price": 12.869999885559082,
-      "rsi10": 61.627855997962364,
-      "sma200": 15.011800022125245,
-      "above_sma200": false,
-      "avg_volume_20d": 183668.25,
-      "active": false
-    },
-    {
       "symbol": "TTM",
       "company": "TITAN MINERALS LIMITED",
       "ticker": "TTM.AX",
@@ -17691,7 +17091,7 @@
       "rsi10": 61.717690654348644,
       "sma200": 27.653550062179566,
       "above_sma200": true,
-      "avg_volume_20d": 1650330.3,
+      "avg_volume_20d": 1650574.05,
       "active": false
     },
     {
@@ -17727,7 +17127,7 @@
       "rsi10": 61.80904281201006,
       "sma200": 36.49950000762939,
       "above_sma200": true,
-      "avg_volume_20d": 4005515.35,
+      "avg_volume_20d": 4009373.6,
       "active": false
     },
     {
@@ -17907,7 +17307,7 @@
       "rsi10": 62.22981730103931,
       "sma200": 6.631600000858307,
       "above_sma200": false,
-      "avg_volume_20d": 738183.45,
+      "avg_volume_20d": 738380.7,
       "active": false
     },
     {
@@ -17943,7 +17343,7 @@
       "rsi10": 62.32438160909068,
       "sma200": 14.149999961853027,
       "above_sma200": true,
-      "avg_volume_20d": 539513.45,
+      "avg_volume_20d": 541461.75,
       "active": false
     },
     {
@@ -17956,18 +17356,6 @@
       "sma200": 1.7714000010490418,
       "above_sma200": false,
       "avg_volume_20d": 3583.2,
-      "active": false
-    },
-    {
-      "symbol": "WWI",
-      "company": "WEST WITS MINING LIMITED",
-      "ticker": "WWI.AX",
-      "date": "2026-08-13",
-      "price": 0.4300000071525574,
-      "rsi10": 62.41634953091687,
-      "sma200": 0.6032499997317791,
-      "above_sma200": false,
-      "avg_volume_20d": 691706.05,
       "active": false
     },
     {
@@ -17995,18 +17383,6 @@
       "active": false
     },
     {
-      "symbol": "VAN",
-      "company": "VANTAGE METALS LIMITED",
-      "ticker": "VAN.AX",
-      "date": "2026-08-13",
-      "price": 0.03999999910593033,
-      "rsi10": 62.457483133787434,
-      "sma200": 0.0694975003041327,
-      "above_sma200": false,
-      "avg_volume_20d": 200087.8,
-      "active": false
-    },
-    {
       "symbol": "LYC",
       "company": "LYNAS RARE EARTHS LIMITED",
       "ticker": "LYC.AX",
@@ -18015,7 +17391,7 @@
       "rsi10": 62.471693387119984,
       "sma200": 16.762700033187866,
       "above_sma200": false,
-      "avg_volume_20d": 4738321.05,
+      "avg_volume_20d": 4738882.05,
       "active": false
     },
     {
@@ -18127,18 +17503,6 @@
       "active": false
     },
     {
-      "symbol": "WQG",
-      "company": "WCM GLOBAL GROWTH LIMITED",
-      "ticker": "WQG.AX",
-      "date": "2026-08-13",
-      "price": 2.0999999046325684,
-      "rsi10": 62.644621363396034,
-      "sma200": 1.9129374879598617,
-      "above_sma200": true,
-      "avg_volume_20d": 263166.8,
-      "active": false
-    },
-    {
       "symbol": "MFF",
       "company": "MFF CAPITAL INVESTMENTS LIMITED",
       "ticker": "MFF.AX",
@@ -18195,7 +17559,7 @@
       "rsi10": 62.81080833193218,
       "sma200": 6.091599988937378,
       "above_sma200": true,
-      "avg_volume_20d": 1040872.05,
+      "avg_volume_20d": 1041233.55,
       "active": false
     },
     {
@@ -18259,18 +17623,6 @@
       "active": false
     },
     {
-      "symbol": "WHC",
-      "company": "WHITEHAVEN COAL LIMITED",
-      "ticker": "WHC.AX",
-      "date": "2026-08-13",
-      "price": 7.730000019073486,
-      "rsi10": 62.91498853796803,
-      "sma200": 8.089249997138976,
-      "above_sma200": false,
-      "avg_volume_20d": 3606965.9,
-      "active": false
-    },
-    {
       "symbol": "SNG",
       "company": "SIREN GOLD LIMITED",
       "ticker": "SNG.AX",
@@ -18303,7 +17655,7 @@
       "rsi10": 62.9722909888424,
       "sma200": 6.5191500067710875,
       "above_sma200": false,
-      "avg_volume_20d": 997164.6,
+      "avg_volume_20d": 997377.6,
       "active": false
     },
     {
@@ -18315,7 +17667,7 @@
       "rsi10": 62.97774246956667,
       "sma200": 0.2101749999076128,
       "above_sma200": false,
-      "avg_volume_20d": 433641.3,
+      "avg_volume_20d": 434038.2,
       "active": false
     },
     {
@@ -18327,7 +17679,7 @@
       "rsi10": 63.02665052365956,
       "sma200": 8.32614999294281,
       "above_sma200": true,
-      "avg_volume_20d": 2728885.45,
+      "avg_volume_20d": 2729012.95,
       "active": false
     },
     {
@@ -18351,7 +17703,7 @@
       "rsi10": 63.0928723729171,
       "sma200": 17.440600004196167,
       "above_sma200": true,
-      "avg_volume_20d": 2505071.75,
+      "avg_volume_20d": 2505696.5,
       "active": false
     },
     {
@@ -18391,18 +17743,6 @@
       "active": false
     },
     {
-      "symbol": "VYS",
-      "company": "VYSARN LIMITED",
-      "ticker": "VYS.AX",
-      "date": "2026-08-13",
-      "price": 1.149999976158142,
-      "rsi10": 63.29669605673428,
-      "sma200": 0.797212498486042,
-      "above_sma200": true,
-      "avg_volume_20d": 1000211.35,
-      "active": false
-    },
-    {
       "symbol": "SPD",
       "company": "SOUTHERN PALLADIUM LIMITED",
       "ticker": "SPD.AX",
@@ -18435,7 +17775,7 @@
       "rsi10": 63.397789255823085,
       "sma200": 4.119449998140335,
       "above_sma200": true,
-      "avg_volume_20d": 18120330.3,
+      "avg_volume_20d": 18123071.55,
       "active": false
     },
     {
@@ -18459,7 +17799,7 @@
       "rsi10": 63.44973580659268,
       "sma200": 3.947250019311905,
       "above_sma200": true,
-      "avg_volume_20d": 1308532.35,
+      "avg_volume_20d": 1308965.85,
       "active": false
     },
     {
@@ -18471,7 +17811,7 @@
       "rsi10": 63.44988059926104,
       "sma200": 33.26205006599426,
       "above_sma200": false,
-      "avg_volume_20d": 1973731.25,
+      "avg_volume_20d": 1974350.4,
       "active": false
     },
     {
@@ -18543,7 +17883,7 @@
       "rsi10": 63.53886657627554,
       "sma200": 3.8069000124931334,
       "above_sma200": true,
-      "avg_volume_20d": 1137802.5,
+      "avg_volume_20d": 1138161.75,
       "active": false
     },
     {
@@ -18567,7 +17907,7 @@
       "rsi10": 63.640488341524375,
       "sma200": 32.07530003547669,
       "above_sma200": true,
-      "avg_volume_20d": 268078.5,
+      "avg_volume_20d": 268206.55,
       "active": false
     },
     {
@@ -18580,18 +17920,6 @@
       "sma200": 0.03103500010445714,
       "above_sma200": false,
       "avg_volume_20d": 157709.25,
-      "active": false
-    },
-    {
-      "symbol": "UM1",
-      "company": "UNITY METALS LIMITED",
-      "ticker": "UM1.AX",
-      "date": "2026-08-13",
-      "price": 0.1850000023841858,
-      "rsi10": 63.70487897476426,
-      "sma200": null,
-      "above_sma200": false,
-      "avg_volume_20d": 445137.15,
       "active": false
     },
     {
@@ -18615,19 +17943,7 @@
       "rsi10": 63.78129611635513,
       "sma200": 2.312174998521805,
       "above_sma200": true,
-      "avg_volume_20d": 2524932.2,
-      "active": false
-    },
-    {
-      "symbol": "XRO",
-      "company": "XERO LIMITED",
-      "ticker": "XRO.AX",
-      "date": "2026-08-13",
-      "price": 77.19999694824219,
-      "rsi10": 63.80200160793146,
-      "sma200": 89.91359973907471,
-      "above_sma200": false,
-      "avg_volume_20d": 750726.75,
+      "avg_volume_20d": 2525673.95,
       "active": false
     },
     {
@@ -18687,7 +18003,7 @@
       "rsi10": 63.8594044180448,
       "sma200": 3.9261499881744384,
       "above_sma200": false,
-      "avg_volume_20d": 1824233.65,
+      "avg_volume_20d": 1824860.4,
       "active": false
     },
     {
@@ -18700,18 +18016,6 @@
       "sma200": 0.6394999985396862,
       "above_sma200": false,
       "avg_volume_20d": 2522217.4,
-      "active": false
-    },
-    {
-      "symbol": "USL",
-      "company": "UNICO SILVER LIMITED",
-      "ticker": "USL.AX",
-      "date": "2026-08-13",
-      "price": 0.800000011920929,
-      "rsi10": 63.89486424781924,
-      "sma200": 0.723674997985363,
-      "above_sma200": true,
-      "avg_volume_20d": 2457205.5,
       "active": false
     },
     {
@@ -18783,7 +18087,7 @@
       "rsi10": 64.02002942210507,
       "sma200": 0.5964750026166439,
       "above_sma200": true,
-      "avg_volume_20d": 11942193.7,
+      "avg_volume_20d": 11943740.95,
       "active": false
     },
     {
@@ -18799,18 +18103,6 @@
       "active": false
     },
     {
-      "symbol": "USC",
-      "company": "US1 CRITICAL MINERALS LIMITED",
-      "ticker": "USC.AX",
-      "date": "2026-08-13",
-      "price": 0.02199999988079071,
-      "rsi10": 64.06621478273468,
-      "sma200": 0.016457500057294964,
-      "above_sma200": true,
-      "avg_volume_20d": 1347519.8,
-      "active": false
-    },
-    {
       "symbol": "PNR",
       "company": "PANTORO GOLD LIMITED",
       "ticker": "PNR.AX",
@@ -18819,7 +18111,7 @@
       "rsi10": 64.15097341847697,
       "sma200": 3.893399996161461,
       "above_sma200": false,
-      "avg_volume_20d": 3202684.45,
+      "avg_volume_20d": 3257568.55,
       "active": false
     },
     {
@@ -18939,7 +18231,7 @@
       "rsi10": 64.4954316181021,
       "sma200": 5.394950001239777,
       "above_sma200": true,
-      "avg_volume_20d": 1281484.7,
+      "avg_volume_20d": 1281722.45,
       "active": false
     },
     {
@@ -18951,7 +18243,7 @@
       "rsi10": 64.49604977797755,
       "sma200": 10.695899970531464,
       "above_sma200": false,
-      "avg_volume_20d": 3057665.65,
+      "avg_volume_20d": 3057967.9,
       "active": false
     },
     {
@@ -18987,7 +18279,7 @@
       "rsi10": 64.51289866038312,
       "sma200": 36.833800086975096,
       "above_sma200": true,
-      "avg_volume_20d": 460600.5,
+      "avg_volume_20d": 460682.25,
       "active": false
     },
     {
@@ -19047,7 +18339,7 @@
       "rsi10": 64.73212494203048,
       "sma200": 38.370849981307984,
       "above_sma200": true,
-      "avg_volume_20d": 704037.5,
+      "avg_volume_20d": 704162.0,
       "active": false
     },
     {
@@ -19095,7 +18387,7 @@
       "rsi10": 64.8544859357892,
       "sma200": 6.6128000020980835,
       "above_sma200": false,
-      "avg_volume_20d": 1276655.25,
+      "avg_volume_20d": 1276825.5,
       "active": false
     },
     {
@@ -19119,7 +18411,7 @@
       "rsi10": 65.12124249257306,
       "sma200": 5.365649996995926,
       "above_sma200": false,
-      "avg_volume_20d": 1495562.55,
+      "avg_volume_20d": 1495774.9,
       "active": false
     },
     {
@@ -19143,7 +18435,7 @@
       "rsi10": 65.2804100861556,
       "sma200": 9.489300012588501,
       "above_sma200": true,
-      "avg_volume_20d": 546927.75,
+      "avg_volume_20d": 547071.0,
       "active": false
     },
     {
@@ -19155,19 +18447,7 @@
       "rsi10": 65.32079306597765,
       "sma200": 7.178999998569489,
       "above_sma200": true,
-      "avg_volume_20d": 11227345.15,
-      "active": false
-    },
-    {
-      "symbol": "WZR",
-      "company": "WISR LIMITED",
-      "ticker": "WZR.AX",
-      "date": "2026-08-13",
-      "price": 0.028999999165534973,
-      "rsi10": 65.32314203076481,
-      "sma200": 0.025289999926462768,
-      "above_sma200": true,
-      "avg_volume_20d": 4938996.65,
+      "avg_volume_20d": 11229200.65,
       "active": false
     },
     {
@@ -19231,18 +18511,6 @@
       "active": false
     },
     {
-      "symbol": "VEA",
-      "company": "VIVA ENERGY GROUP LIMITED",
-      "ticker": "VEA.AX",
-      "date": "2026-08-13",
-      "price": 2.7300000190734863,
-      "rsi10": 65.3819962153448,
-      "sma200": 2.171474996805191,
-      "above_sma200": true,
-      "avg_volume_20d": 6792712.6,
-      "active": false
-    },
-    {
       "symbol": "AQD",
       "company": "AUSQUEST LIMITED",
       "ticker": "AQD.AX",
@@ -19263,7 +18531,7 @@
       "rsi10": 65.44675766980183,
       "sma200": 28.804400033950806,
       "above_sma200": true,
-      "avg_volume_20d": 768055.15,
+      "avg_volume_20d": 768252.4,
       "active": false
     },
     {
@@ -19287,7 +18555,7 @@
       "rsi10": 65.49362782190258,
       "sma200": 18.143550047874452,
       "above_sma200": true,
-      "avg_volume_20d": 1628061.7,
+      "avg_volume_20d": 1628362.45,
       "active": false
     },
     {
@@ -19299,7 +18567,7 @@
       "rsi10": 65.50547541638534,
       "sma200": 53.04005004882813,
       "above_sma200": true,
-      "avg_volume_20d": 6403995.2,
+      "avg_volume_20d": 6407332.45,
       "active": false
     },
     {
@@ -19359,7 +18627,7 @@
       "rsi10": 65.62166771934486,
       "sma200": 6.715299987792969,
       "above_sma200": true,
-      "avg_volume_20d": 2064584.95,
+      "avg_volume_20d": 2064876.7,
       "active": false
     },
     {
@@ -19371,7 +18639,7 @@
       "rsi10": 65.65734384173442,
       "sma200": 8.6382000207901,
       "above_sma200": true,
-      "avg_volume_20d": 1483004.9,
+      "avg_volume_20d": 1483139.9,
       "active": false
     },
     {
@@ -19395,7 +18663,7 @@
       "rsi10": 65.81353300083322,
       "sma200": 1.520374999642372,
       "above_sma200": false,
-      "avg_volume_20d": 6728931.9,
+      "avg_volume_20d": 6730041.9,
       "active": false
     },
     {
@@ -19503,7 +18771,7 @@
       "rsi10": 66.05456792291716,
       "sma200": 13.795511660575867,
       "above_sma200": true,
-      "avg_volume_20d": 2168307.4,
+      "avg_volume_20d": 2168796.4,
       "active": false
     },
     {
@@ -19555,30 +18823,6 @@
       "active": false
     },
     {
-      "symbol": "WAU",
-      "company": "WA GOLD LIMITED",
-      "ticker": "WAU.AX",
-      "date": "2026-08-13",
-      "price": 0.023000000044703484,
-      "rsi10": 66.17468340815532,
-      "sma200": 0.0252750002220273,
-      "above_sma200": false,
-      "avg_volume_20d": 3793599.7,
-      "active": false
-    },
-    {
-      "symbol": "WEB",
-      "company": "WEB TRAVEL GROUP LIMITED",
-      "ticker": "WEB.AX",
-      "date": "2026-08-13",
-      "price": 3.4600000381469727,
-      "rsi10": 66.22587777945766,
-      "sma200": 3.4286999881267546,
-      "above_sma200": true,
-      "avg_volume_20d": 2555077.75,
-      "active": false
-    },
-    {
       "symbol": "BLS",
       "company": "BLS PHARMACEUTICALS LIMITED",
       "ticker": "BLS.AX",
@@ -19600,18 +18844,6 @@
       "sma200": null,
       "above_sma200": false,
       "avg_volume_20d": 1432721.6,
-      "active": false
-    },
-    {
-      "symbol": "WNX",
-      "company": "WELLNEX LIFE LIMITED",
-      "ticker": "WNX.AX",
-      "date": "2026-08-13",
-      "price": 0.09200000017881393,
-      "rsi10": 66.32054896401479,
-      "sma200": 0.0999200002104044,
-      "above_sma200": false,
-      "avg_volume_20d": 90459.05,
       "active": false
     },
     {
@@ -19671,7 +18903,7 @@
       "rsi10": 66.4778742556282,
       "sma200": 32.85980007171631,
       "above_sma200": true,
-      "avg_volume_20d": 1094542.3,
+      "avg_volume_20d": 1094958.05,
       "active": false
     },
     {
@@ -19719,7 +18951,7 @@
       "rsi10": 66.61180186509552,
       "sma200": 4.836200015544891,
       "above_sma200": true,
-      "avg_volume_20d": 23366339.1,
+      "avg_volume_20d": 23368247.85,
       "active": false
     },
     {
@@ -19779,7 +19011,7 @@
       "rsi10": 66.81016498021573,
       "sma200": 0.36269570857286454,
       "above_sma200": false,
-      "avg_volume_20d": 3677844.25,
+      "avg_volume_20d": 3680396.85,
       "active": false
     },
     {
@@ -19804,18 +19036,6 @@
       "sma200": 0.18002500034868718,
       "above_sma200": false,
       "avg_volume_20d": 70735.75,
-      "active": false
-    },
-    {
-      "symbol": "VMM",
-      "company": "VIRIDIS MINING AND MINERALS LIMITED",
-      "ticker": "VMM.AX",
-      "date": "2026-08-13",
-      "price": 4.210000038146973,
-      "rsi10": 66.91180745523394,
-      "sma200": 2.3397249960899353,
-      "above_sma200": true,
-      "avg_volume_20d": 829433.5,
       "active": false
     },
     {
@@ -19987,18 +19207,6 @@
       "active": false
     },
     {
-      "symbol": "WIA",
-      "company": "WIA GOLD LIMITED",
-      "ticker": "WIA.AX",
-      "date": "2026-08-13",
-      "price": 0.4699999988079071,
-      "rsi10": 67.25794143675839,
-      "sma200": 0.45337499961256983,
-      "above_sma200": true,
-      "avg_volume_20d": 1058098.35,
-      "active": false
-    },
-    {
       "symbol": "MLX",
       "company": "METALS X LIMITED",
       "ticker": "MLX.AX",
@@ -20023,18 +19231,6 @@
       "active": false
     },
     {
-      "symbol": "VTX",
-      "company": "VERTEX MINERALS LIMITED",
-      "ticker": "VTX.AX",
-      "date": "2026-08-13",
-      "price": 0.14499999582767487,
-      "rsi10": 67.3117317799369,
-      "sma200": 0.1784899989515543,
-      "above_sma200": false,
-      "avg_volume_20d": 513268.7,
-      "active": false
-    },
-    {
       "symbol": "SLD",
       "company": "SALUDA MEDICAL, INC.",
       "ticker": "SLD.AX",
@@ -20044,18 +19240,6 @@
       "sma200": null,
       "above_sma200": false,
       "avg_volume_20d": 527116.15,
-      "active": false
-    },
-    {
-      "symbol": "WTC",
-      "company": "WISETECH GLOBAL LIMITED",
-      "ticker": "WTC.AX",
-      "date": "2026-08-13",
-      "price": 41.099998474121094,
-      "rsi10": 67.64417570490156,
-      "sma200": 49.23960020065308,
-      "above_sma200": false,
-      "avg_volume_20d": 1910408.05,
       "active": false
     },
     {
@@ -20151,7 +19335,7 @@
       "rsi10": 67.95448718763606,
       "sma200": 9.091300015449525,
       "above_sma200": false,
-      "avg_volume_20d": 3259100.9,
+      "avg_volume_20d": 3259463.9,
       "active": false
     },
     {
@@ -20163,7 +19347,7 @@
       "rsi10": 67.96142075668283,
       "sma200": 7.775049986839295,
       "above_sma200": true,
-      "avg_volume_20d": 3067893.35,
+      "avg_volume_20d": 3068406.05,
       "active": false
     },
     {
@@ -20235,7 +19419,7 @@
       "rsi10": 68.08350312808736,
       "sma200": 1.4286249980330468,
       "above_sma200": true,
-      "avg_volume_20d": 4878315.1,
+      "avg_volume_20d": 4879116.1,
       "active": false
     },
     {
@@ -20283,7 +19467,7 @@
       "rsi10": 68.34459938205244,
       "sma200": 0.2139500015974045,
       "above_sma200": true,
-      "avg_volume_20d": 728145.0,
+      "avg_volume_20d": 729855.7,
       "active": false
     },
     {
@@ -20323,18 +19507,6 @@
       "active": false
     },
     {
-      "symbol": "WAR",
-      "company": "WAM STRATEGIC VALUE LIMITED",
-      "ticker": "WAR.AX",
-      "date": "2026-08-13",
-      "price": 1.149999976158142,
-      "rsi10": 68.56408397981205,
-      "sma200": 1.1258375000953675,
-      "above_sma200": true,
-      "avg_volume_20d": 148840.45,
-      "active": false
-    },
-    {
       "symbol": "RIE",
       "company": "RIEDEL RESOURCES LIMITED",
       "ticker": "RIE.AX",
@@ -20356,6 +19528,18 @@
       "sma200": 2.540924999117851,
       "above_sma200": true,
       "avg_volume_20d": 94076.95,
+      "active": false
+    },
+    {
+      "symbol": "LGF",
+      "company": "L1 GOLD FUND LIMITED",
+      "ticker": "LGF.AX",
+      "date": "2026-08-12",
+      "price": 2.200000047683716,
+      "rsi10": 68.79293967468877,
+      "sma200": null,
+      "above_sma200": false,
+      "avg_volume_20d": 436240.5,
       "active": false
     },
     {
@@ -20403,7 +19587,7 @@
       "rsi10": 69.08711385655144,
       "sma200": 58.25940002441406,
       "above_sma200": true,
-      "avg_volume_20d": 1163883.1,
+      "avg_volume_20d": 1164863.05,
       "active": false
     },
     {
@@ -20439,7 +19623,7 @@
       "rsi10": 69.28410972930934,
       "sma200": 1.6324000012874604,
       "above_sma200": true,
-      "avg_volume_20d": 14241264.3,
+      "avg_volume_20d": 14217121.2,
       "active": false
     },
     {
@@ -20451,7 +19635,7 @@
       "rsi10": 69.35606387082441,
       "sma200": 28.612099990844726,
       "above_sma200": true,
-      "avg_volume_20d": 185132.05,
+      "avg_volume_20d": 185209.3,
       "active": false
     },
     {
@@ -20487,7 +19671,7 @@
       "rsi10": 69.4166546208967,
       "sma200": 54.633150024414064,
       "above_sma200": true,
-      "avg_volume_20d": 875317.4,
+      "avg_volume_20d": 875438.9,
       "active": false
     },
     {
@@ -20535,7 +19719,7 @@
       "rsi10": 69.76730760782553,
       "sma200": 12.954100008010863,
       "above_sma200": true,
-      "avg_volume_20d": 161017.9,
+      "avg_volume_20d": 161087.65,
       "active": false
     },
     {
@@ -20571,7 +19755,7 @@
       "rsi10": 69.85101880051228,
       "sma200": 15.355900044441222,
       "above_sma200": false,
-      "avg_volume_20d": 718911.2,
+      "avg_volume_20d": 719009.45,
       "active": false
     },
     {
@@ -20595,7 +19779,7 @@
       "rsi10": 69.93137684684542,
       "sma200": 11.643099982738494,
       "above_sma200": true,
-      "avg_volume_20d": 1599647.9,
+      "avg_volume_20d": 1599990.65,
       "active": false
     },
     {
@@ -20608,18 +19792,6 @@
       "sma200": 0.0054925000807270405,
       "above_sma200": true,
       "avg_volume_20d": 4008998.85,
-      "active": false
-    },
-    {
-      "symbol": "WHF",
-      "company": "WHITEFIELD INDUSTRIALS LIMITED",
-      "ticker": "WHF.AX",
-      "date": "2026-08-13",
-      "price": 5.0,
-      "rsi10": 69.96526058910493,
-      "sma200": 5.090524995326996,
-      "above_sma200": false,
-      "avg_volume_20d": 61506.85,
       "active": false
     },
     {
@@ -20743,18 +19915,6 @@
       "active": false
     },
     {
-      "symbol": "WYX",
-      "company": "WESTERN YILGARN NL",
-      "ticker": "WYX.AX",
-      "date": "2026-08-13",
-      "price": 0.032999999821186066,
-      "rsi10": 70.62339662085145,
-      "sma200": 0.03716500012204051,
-      "above_sma200": false,
-      "avg_volume_20d": 90666.35,
-      "active": false
-    },
-    {
       "symbol": "MP1",
       "company": "MEGAPORT LIMITED",
       "ticker": "MP1.AX",
@@ -20763,7 +19923,7 @@
       "rsi10": 70.62918130771976,
       "sma200": 13.28361787557602,
       "above_sma200": true,
-      "avg_volume_20d": 1590838.55,
+      "avg_volume_20d": 1590993.05,
       "active": false
     },
     {
@@ -20787,19 +19947,7 @@
       "rsi10": 70.71732725145446,
       "sma200": 14.61404996395111,
       "above_sma200": true,
-      "avg_volume_20d": 57451.3,
-      "active": false
-    },
-    {
-      "symbol": "WAF",
-      "company": "WEST AFRICAN RESOURCES LIMITED",
-      "ticker": "WAF.AX",
-      "date": "2026-08-13",
-      "price": 3.4800000190734863,
-      "rsi10": 70.71743137028446,
-      "sma200": 3.1385500013828276,
-      "above_sma200": true,
-      "avg_volume_20d": 3998770.4,
+      "avg_volume_20d": 57451.85,
       "active": false
     },
     {
@@ -20871,7 +20019,7 @@
       "rsi10": 71.07740471154295,
       "sma200": 3.7147500097751616,
       "above_sma200": false,
-      "avg_volume_20d": 7242053.15,
+      "avg_volume_20d": 7243222.4,
       "active": false
     },
     {
@@ -20919,7 +20067,7 @@
       "rsi10": 71.1049193446711,
       "sma200": 1.2944499975442887,
       "above_sma200": true,
-      "avg_volume_20d": 9676655.85,
+      "avg_volume_20d": 9677639.1,
       "active": false
     },
     {
@@ -20956,18 +20104,6 @@
       "sma200": 0.10255250025540591,
       "above_sma200": true,
       "avg_volume_20d": 801234.3,
-      "active": false
-    },
-    {
-      "symbol": "VRX",
-      "company": "VRX SILICA LIMITED",
-      "ticker": "VRX.AX",
-      "date": "2026-08-13",
-      "price": 0.04399999976158142,
-      "rsi10": 71.3561498690322,
-      "sma200": 0.05875628503039479,
-      "above_sma200": false,
-      "avg_volume_20d": 419009.35,
       "active": false
     },
     {
@@ -21027,7 +20163,7 @@
       "rsi10": 71.6823136756239,
       "sma200": 0.7813250014185905,
       "above_sma200": true,
-      "avg_volume_20d": 12591493.0,
+      "avg_volume_20d": 12594097.0,
       "active": false
     },
     {
@@ -21039,7 +20175,7 @@
       "rsi10": 71.70590925770284,
       "sma200": 170.96965019226073,
       "above_sma200": true,
-      "avg_volume_20d": 329751.55,
+      "avg_volume_20d": 329783.05,
       "active": false
     },
     {
@@ -21087,7 +20223,7 @@
       "rsi10": 71.85083644802975,
       "sma200": 23.641200017929076,
       "above_sma200": false,
-      "avg_volume_20d": 5087735.6,
+      "avg_volume_20d": 5088587.6,
       "active": false
     },
     {
@@ -21147,7 +20283,7 @@
       "rsi10": 72.25504483733987,
       "sma200": 131.16295009613037,
       "above_sma200": false,
-      "avg_volume_20d": 226999.25,
+      "avg_volume_20d": 227048.75,
       "active": false
     },
     {
@@ -21183,7 +20319,7 @@
       "rsi10": 72.34036727837415,
       "sma200": 1.2064375004172325,
       "above_sma200": false,
-      "avg_volume_20d": 8016603.35,
+      "avg_volume_20d": 8018109.35,
       "active": false
     },
     {
@@ -21219,7 +20355,7 @@
       "rsi10": 72.44562704418179,
       "sma200": 12.80099997997284,
       "above_sma200": true,
-      "avg_volume_20d": 7174161.1,
+      "avg_volume_20d": 7176546.1,
       "active": false
     },
     {
@@ -21279,7 +20415,7 @@
       "rsi10": 72.74032803388107,
       "sma200": 31.693899908065795,
       "above_sma200": true,
-      "avg_volume_20d": 328072.55,
+      "avg_volume_20d": 328172.3,
       "active": false
     },
     {
@@ -21375,7 +20511,7 @@
       "rsi10": 73.17687676554546,
       "sma200": 6.43769999742508,
       "above_sma200": true,
-      "avg_volume_20d": 7758714.6,
+      "avg_volume_20d": 7759442.1,
       "active": false
     },
     {
@@ -21399,7 +20535,7 @@
       "rsi10": 73.22770676019607,
       "sma200": 144.39850017547607,
       "above_sma200": false,
-      "avg_volume_20d": 1164370.65,
+      "avg_volume_20d": 1164660.15,
       "active": false
     },
     {
@@ -21424,18 +20560,6 @@
       "sma200": 0.07941500037908554,
       "above_sma200": true,
       "avg_volume_20d": 556501.9,
-      "active": false
-    },
-    {
-      "symbol": "WC1",
-      "company": "WEST COBAR METALS LIMITED",
-      "ticker": "WC1.AX",
-      "date": "2026-08-13",
-      "price": 0.01899999938905239,
-      "rsi10": 73.4157334518552,
-      "sma200": 0.01997499985154718,
-      "above_sma200": false,
-      "avg_volume_20d": 1269910.15,
       "active": false
     },
     {
@@ -21507,7 +20631,7 @@
       "rsi10": 73.66603276029933,
       "sma200": 13.688600001335145,
       "above_sma200": true,
-      "avg_volume_20d": 968316.2,
+      "avg_volume_20d": 968436.95,
       "active": false
     },
     {
@@ -21543,7 +20667,7 @@
       "rsi10": 73.7824241859292,
       "sma200": 5.3833500051498415,
       "above_sma200": true,
-      "avg_volume_20d": 3795611.95,
+      "avg_volume_20d": 3796421.95,
       "active": false
     },
     {
@@ -21583,18 +20707,6 @@
       "active": false
     },
     {
-      "symbol": "VMC",
-      "company": "VENUS METALS CORPORATION LIMITED",
-      "ticker": "VMC.AX",
-      "date": "2026-08-13",
-      "price": 0.27000001072883606,
-      "rsi10": 74.2764464229222,
-      "sma200": 0.2240994142740965,
-      "above_sma200": true,
-      "avg_volume_20d": 414510.4,
-      "active": false
-    },
-    {
       "symbol": "EMR",
       "company": "EMERALD RESOURCES NL",
       "ticker": "EMR.AX",
@@ -21603,7 +20715,7 @@
       "rsi10": 74.31336498568214,
       "sma200": 5.937949993610382,
       "above_sma200": true,
-      "avg_volume_20d": 1243714.15,
+      "avg_volume_20d": 1244110.15,
       "active": false
     },
     {
@@ -21639,7 +20751,7 @@
       "rsi10": 74.62940256338055,
       "sma200": 4.834950004816055,
       "above_sma200": true,
-      "avg_volume_20d": 4105094.85,
+      "avg_volume_20d": 4105627.35,
       "active": false
     },
     {
@@ -21727,18 +20839,6 @@
       "active": false
     },
     {
-      "symbol": "VFY",
-      "company": "VITRAFY LIFE SCIENCES LIMITED",
-      "ticker": "VFY.AX",
-      "date": "2026-08-13",
-      "price": 4.170000076293945,
-      "rsi10": 74.8886651567113,
-      "sma200": 2.129112495779991,
-      "above_sma200": true,
-      "avg_volume_20d": 87536.2,
-      "active": false
-    },
-    {
       "symbol": "AQN",
       "company": "AQUIRIAN LIMITED",
       "ticker": "AQN.AX",
@@ -21783,7 +20883,7 @@
       "rsi10": 74.94898009126243,
       "sma200": 7.117699992656708,
       "above_sma200": true,
-      "avg_volume_20d": 3545698.25,
+      "avg_volume_20d": 3546166.25,
       "active": false
     },
     {
@@ -21831,7 +20931,7 @@
       "rsi10": 75.06022255041725,
       "sma200": 13.321099953651428,
       "above_sma200": true,
-      "avg_volume_20d": 2085446.45,
+      "avg_volume_20d": 2086946.6,
       "active": false
     },
     {
@@ -21883,18 +20983,6 @@
       "active": false
     },
     {
-      "symbol": "WTL",
-      "company": "WT FINANCIAL GROUP LIMITED",
-      "ticker": "WTL.AX",
-      "date": "2026-08-13",
-      "price": 0.18000000715255737,
-      "rsi10": 75.39002004176952,
-      "sma200": 0.140137500166893,
-      "above_sma200": true,
-      "avg_volume_20d": 243764.15,
-      "active": false
-    },
-    {
       "symbol": "GRX",
       "company": "GREENX METALS LIMITED",
       "ticker": "GRX.AX",
@@ -21943,30 +21031,6 @@
       "active": false
     },
     {
-      "symbol": "WGX",
-      "company": "WESTGOLD RESOURCES LIMITED.",
-      "ticker": "WGX.AX",
-      "date": "2026-08-13",
-      "price": 5.820000171661377,
-      "rsi10": 75.67958253329455,
-      "sma200": 5.878749988079071,
-      "above_sma200": false,
-      "avg_volume_20d": 3319853.2,
-      "active": false
-    },
-    {
-      "symbol": "VAU",
-      "company": "VAULT MINERALS LIMITED",
-      "ticker": "VAU.AX",
-      "date": "2026-08-13",
-      "price": 6.059999942779541,
-      "rsi10": 76.06422105477827,
-      "sma200": 4.956549999713897,
-      "above_sma200": true,
-      "avg_volume_20d": 6029005.4,
-      "active": false
-    },
-    {
       "symbol": "AEI",
       "company": "AERIS ENVIRONMENTAL LTD",
       "ticker": "AEI.AX",
@@ -21999,7 +21063,7 @@
       "rsi10": 76.21420780789148,
       "sma200": 13.411349992752076,
       "above_sma200": true,
-      "avg_volume_20d": 1544066.3,
+      "avg_volume_20d": 1544259.8,
       "active": false
     },
     {
@@ -22107,7 +21171,7 @@
       "rsi10": 76.64934095898076,
       "sma200": 0.2592749985307455,
       "above_sma200": true,
-      "avg_volume_20d": 20554203.2,
+      "avg_volume_20d": 20577911.95,
       "active": false
     },
     {
@@ -22119,7 +21183,7 @@
       "rsi10": 76.73707135995355,
       "sma200": 184.1110498046875,
       "above_sma200": false,
-      "avg_volume_20d": 380040.8,
+      "avg_volume_20d": 380082.05,
       "active": false
     },
     {
@@ -22179,7 +21243,7 @@
       "rsi10": 77.04960475653156,
       "sma200": 32.09524996757507,
       "above_sma200": true,
-      "avg_volume_20d": 1823463.9,
+      "avg_volume_20d": 1823664.9,
       "active": false
     },
     {
@@ -22279,18 +21343,6 @@
       "active": false
     },
     {
-      "symbol": "ZMI",
-      "company": "ZINC OF IRELAND LIMITED",
-      "ticker": "ZMI.AX",
-      "date": "2026-08-13",
-      "price": 0.020999999716877937,
-      "rsi10": 78.04611203995063,
-      "sma200": 0.014412499964237213,
-      "above_sma200": true,
-      "avg_volume_20d": 2512781.75,
-      "active": false
-    },
-    {
       "symbol": "CTD",
       "company": "CORPORATE TRAVEL MANAGEMENT LIMITED",
       "ticker": "CTD.AX",
@@ -22387,18 +21439,6 @@
       "active": false
     },
     {
-      "symbol": "TYX",
-      "company": "TYRANNA RESOURCES LIMITED",
-      "ticker": "TYX.AX",
-      "date": "2026-08-13",
-      "price": 0.004000000189989805,
-      "rsi10": 79.95062601469225,
-      "sma200": 0.0036400000913999974,
-      "above_sma200": true,
-      "avg_volume_20d": 1009654.85,
-      "active": false
-    },
-    {
       "symbol": "CAV",
       "company": "CARNAVALE RESOURCES LIMITED",
       "ticker": "CAV.AX",
@@ -22479,7 +21519,7 @@
       "rsi10": 81.6706586939947,
       "sma200": 11.481149978637696,
       "above_sma200": true,
-      "avg_volume_20d": 4561665.95,
+      "avg_volume_20d": 4565736.1,
       "active": false
     },
     {
@@ -22563,7 +21603,7 @@
       "rsi10": 82.7185537489257,
       "sma200": 151.28419986724853,
       "above_sma200": true,
-      "avg_volume_20d": 337177.2,
+      "avg_volume_20d": 337531.0,
       "active": false
     },
     {
@@ -22671,7 +21711,7 @@
       "rsi10": 84.70469591617768,
       "sma200": 7.387000021934509,
       "above_sma200": true,
-      "avg_volume_20d": 882336.6,
+      "avg_volume_20d": 882530.85,
       "active": false
     },
     {
@@ -22743,7 +21783,7 @@
       "rsi10": 85.5295537808971,
       "sma200": 0.01942750004120171,
       "above_sma200": true,
-      "avg_volume_20d": 20802779.9,
+      "avg_volume_20d": 20804241.95,
       "active": false
     },
     {
@@ -22755,7 +21795,7 @@
       "rsi10": 85.60321909896392,
       "sma200": 15.724249968528747,
       "above_sma200": true,
-      "avg_volume_20d": 581948.9,
+      "avg_volume_20d": 582041.15,
       "active": false
     },
     {
@@ -22779,7 +21819,7 @@
       "rsi10": 86.54752625471173,
       "sma200": 2.4246999943256378,
       "above_sma200": true,
-      "avg_volume_20d": 11981709.05,
+      "avg_volume_20d": 12009764.95,
       "active": false
     },
     {
@@ -22840,18 +21880,6 @@
       "sma200": 0.09255499951541424,
       "above_sma200": false,
       "avg_volume_20d": 8870.0,
-      "active": false
-    },
-    {
-      "symbol": "UCM",
-      "company": "USCOM LIMITED",
-      "ticker": "UCM.AX",
-      "date": "2026-08-13",
-      "price": 0.012000000104308128,
-      "rsi10": 88.32111783332043,
-      "sma200": 0.012000000104308128,
-      "above_sma200": false,
-      "avg_volume_20d": 0.0,
       "active": false
     },
     {
