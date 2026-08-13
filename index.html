@@ -144,25 +144,24 @@
     <h2>Live Engine Results</h2>
 
     <p class="muted">
-      Based only on trades actually picked up by this scanner.
-      This is not a historical backtest.
+      Based only on signals actually picked up by this scanner. This is not a historical backtest.
     </p>
 
     <div class="stats">
 
       <div class="outcome">
-        RSI Exit Rate to Date
+        RSI Recovery Rate
         <div class="outcomeMain" id="rsiExitRate">—</div>
         <div class="outcomeSub" id="rsiExitDetail">—</div>
       </div>
 
       <div class="stat">
-        Completed trades
-        <div class="n" id="completedTrades">—</div>
+        Scanner-picked entries
+        <div class="n" id="totalPicked">—</div>
       </div>
 
       <div class="stat">
-        RSI exits
+        Reached RSI &gt; 40
         <div class="n" id="rsiExits">—</div>
       </div>
 
@@ -239,7 +238,8 @@
 
 let D = {
   stocks: [],
-  active_signals: []
+  active_signals: [],
+  completed_trades: []
 };
 
 const money = n =>
@@ -292,21 +292,41 @@ async function load(){
       : "—";
 
 
-  const completed =
-    Number(D.stats.completed_trades || 0);
+  const activeSignals =
+    Array.isArray(D.active_signals)
+      ? D.active_signals
+      : [];
+
+  const completedTrades =
+    Array.isArray(D.completed_trades)
+      ? D.completed_trades
+      : [];
+
+  const pickedCount =
+    activeSignals.length + completedTrades.length;
 
   const rsiCount =
-    Number(D.stats.rsi_exits || 0);
+    completedTrades.filter(trade =>
+      String(trade.exit_reason || "")
+        .startsWith("RSI(10) rose above")
+      && Number(trade.holding_trading_days) <= 10
+    ).length;
 
   const timeCount =
-    Number(D.stats.time_exits || 0);
+    completedTrades.filter(trade =>
+      String(trade.exit_reason || "")
+        .toLowerCase()
+        .includes("time exit")
+    ).length;
 
-  const rate =
-    D.stats.rsi_exit_rate_pct;
+  const recoveryRate =
+    pickedCount > 0
+      ? (rsiCount / pickedCount) * 100
+      : null;
 
 
-  completedTrades.textContent =
-    completed;
+  totalPicked.textContent =
+    pickedCount;
 
   rsiExits.textContent =
     rsiCount;
@@ -315,24 +335,24 @@ async function load(){
     timeCount;
 
 
-  if(rate == null){
+  if(recoveryRate == null){
 
     rsiExitRate.textContent =
       "—";
 
     rsiExitDetail.textContent =
-      "No completed trades yet";
+      "No scanner-picked entries yet";
 
   }else{
 
     rsiExitRate.textContent =
-      Number(rate).toFixed(1) + "%";
+      recoveryRate.toFixed(1) + "%";
 
     rsiExitDetail.textContent =
       rsiCount +
       " of " +
-      completed +
-      " completed trades exited after RSI rose above 40";
+      pickedCount +
+      " scanner-picked stocks entered below RSI 30 and later reached above RSI 40 within 10 trading days";
   }
 
 
