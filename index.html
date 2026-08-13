@@ -144,7 +144,7 @@
     <h2>Live Engine Results</h2>
 
     <p class="muted">
-      Based only on signals actually picked up by this scanner. This is not a historical backtest.
+      Based only on signals actually picked up by this scanner. Pending signals are excluded from the recovery-rate denominator until they either reach RSI &gt; 40 or complete the 10-trading-day window.
     </p>
 
     <div class="stats">
@@ -156,8 +156,8 @@
       </div>
 
       <div class="stat">
-        Scanner-picked entries
-        <div class="n" id="totalPicked">—</div>
+        Resolved signals
+        <div class="n" id="resolvedSignals">—</div>
       </div>
 
       <div class="stat">
@@ -166,8 +166,13 @@
       </div>
 
       <div class="stat">
-        10-day exits
+        10-day failures
         <div class="n" id="timeExits">—</div>
+      </div>
+
+      <div class="stat">
+        Pending
+        <div class="n" id="pendingSignals">—</div>
       </div>
 
     </div>
@@ -302,9 +307,6 @@ async function load(){
       ? D.completed_trades
       : [];
 
-  const pickedCount =
-    activeSignals.length + completedTrades.length;
-
   const rsiCount =
     completedTrades.filter(trade =>
       String(trade.exit_reason || "")
@@ -319,20 +321,29 @@ async function load(){
         .includes("time exit")
     ).length;
 
+  const resolvedCount =
+    rsiCount + timeCount;
+
+  const pendingCount =
+    activeSignals.length;
+
   const recoveryRate =
-    pickedCount > 0
-      ? (rsiCount / pickedCount) * 100
+    resolvedCount > 0
+      ? (rsiCount / resolvedCount) * 100
       : null;
 
 
-  totalPicked.textContent =
-    pickedCount;
+  resolvedSignals.textContent =
+    resolvedCount;
 
   rsiExits.textContent =
     rsiCount;
 
   timeExits.textContent =
     timeCount;
+
+  pendingSignals.textContent =
+    pendingCount;
 
 
   if(recoveryRate == null){
@@ -341,7 +352,7 @@ async function load(){
       "—";
 
     rsiExitDetail.textContent =
-      "No scanner-picked entries yet";
+      "No resolved signals yet";
 
   }else{
 
@@ -351,8 +362,12 @@ async function load(){
     rsiExitDetail.textContent =
       rsiCount +
       " of " +
-      pickedCount +
-      " scanner-picked stocks entered below RSI 30 and later reached above RSI 40 within 10 trading days";
+      resolvedCount +
+      " resolved signals reached RSI above 40 within 10 trading days; " +
+      pendingCount +
+      " signal" +
+      (pendingCount === 1 ? " is" : "s are") +
+      " still pending";
   }
 
 
