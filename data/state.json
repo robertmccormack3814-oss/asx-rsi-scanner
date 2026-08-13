@@ -1148,6 +1148,112 @@
       "latest_rsi10": 29.638366695088976
     }
   },
+  "completed_trades": [
+    {
+      "symbol": "DTM",
+      "company": "DART MINING NL",
+      "ticker": "DTM.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.010999999940395355,
+      "entry_rsi10": 20.382940355868627,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.012000000104308128,
+      "exit_rsi10": 47.71198310489537,
+      "holding_trading_days": 1,
+      "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "EFE",
+      "company": "EASTERN RESOURCES LIMITED",
+      "ticker": "EFE.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.029999999329447746,
+      "entry_rsi10": 29.92153866978198,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.03099999949336052,
+      "exit_rsi10": 49.03295772895291,
+      "holding_trading_days": 2,
+      "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "EGR",
+      "company": "ECOGRAF LIMITED",
+      "ticker": "EGR.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.19499999284744263,
+      "entry_rsi10": 23.767804508338685,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.3100000023841858,
+      "exit_rsi10": 72.29953118305919,
+      "holding_trading_days": 1,
+      "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "ERD",
+      "company": "EROAD LIMITED",
+      "ticker": "ERD.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.7749999761581421,
+      "entry_rsi10": 29.493147044868564,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.7950000166893005,
+      "exit_rsi10": 40.47373711854614,
+      "holding_trading_days": 1,
+      "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "JAT",
+      "company": "JATCORP LIMITED",
+      "ticker": "JAT.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.10999999940395355,
+      "entry_rsi10": 14.022698351640912,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.14000000059604645,
+      "exit_rsi10": 66.43305898053038,
+      "holding_trading_days": 2,
+      "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "OLI",
+      "company": "OLIVER'S REAL FOOD LIMITED",
+      "ticker": "OLI.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.004999999888241291,
+      "entry_rsi10": 15.14811209128375,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.006000000052154064,
+      "exit_rsi10": 52.055070112377976,
+      "holding_trading_days": 1,
+      "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "PR1",
+      "company": "PURE RESOURCES LIMITED",
+      "ticker": "PR1.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.26499998569488525,
+      "entry_rsi10": 27.168282877210217,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.30000001192092896,
+      "exit_rsi10": 48.90262485709933,
+      "holding_trading_days": 2,
+      "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "UBI",
+      "company": "UNIVERSAL BIOSENSORS INC.",
+      "ticker": "UBI.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.014000000432133675,
+      "entry_rsi10": 2.666227944905714,
+      "exit_date": "2026-08-13",
+      "exit_price": 0.014000000432133675,
+      "exit_rsi10": 51.265828828483,
+      "holding_trading_days": 2,
+      "exit_reason": "RSI(10) rose above 40.0"
+    }
+  ],
   "last_scan_date": "2026-08-12",
-  "updated_at": "2026-08-13T20:03:37.689341+00:00"
+  "updated_at": "2026-08-13T21:35:47.726906+00:00"
 }
