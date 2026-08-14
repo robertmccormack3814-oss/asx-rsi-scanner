@@ -22,17 +22,6 @@
       "latest_price": 0.009999999776482582,
       "latest_rsi10": 39.482750732457724
     },
-    "ADC": {
-      "symbol": "ADC",
-      "company": "ACDC METALS LTD",
-      "ticker": "ADC.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.04100000113248825,
-      "entry_rsi10": 25.361805542338928,
-      "holding_trading_days": 2,
-      "latest_price": 0.04100000113248825,
-      "latest_rsi10": 25.361805542075388
-    },
     "ADY": {
       "symbol": "ADY",
       "company": "ADMIRALTY RESOURCES NL.",
@@ -40,7 +29,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.006000000052154064,
       "entry_rsi10": 0.0,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.006000000052154064,
       "latest_rsi10": 0.0
     },
@@ -51,7 +40,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.06499999761581421,
       "entry_rsi10": 17.0497132547426,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.06499999761581421,
       "latest_rsi10": 17.0497132547426
     },
@@ -62,7 +51,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.7149999737739563,
       "entry_rsi10": 8.964506240556915,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.7149999737739563,
       "latest_rsi10": 8.964506240976036
     },
@@ -73,7 +62,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.008999999612569809,
       "entry_rsi10": 17.81983149562153,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.008999999612569809,
       "latest_rsi10": 17.819831496884433
     },
@@ -84,7 +73,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.44999998807907104,
       "entry_rsi10": 20.047017605158956,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.44999998807907104,
       "latest_rsi10": 20.047017605158942
     },
@@ -107,8 +96,8 @@
       "entry_price": 2.3299999237060547,
       "entry_rsi10": 17.43408956450493,
       "holding_trading_days": 2,
-      "latest_price": 2.2950000762939453,
-      "latest_rsi10": 17.332244832216844
+      "latest_price": 2.299999952316284,
+      "latest_rsi10": 17.42248356150121
     },
     "ASP": {
       "symbol": "ASP",
@@ -129,8 +118,8 @@
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 23.774808487595962,
       "holding_trading_days": 2,
-      "latest_price": 0.0020000000949949026,
-      "latest_rsi10": 34.541808807593085
+      "latest_price": 0.0010000000474974513,
+      "latest_rsi10": 23.410957188272178
     },
     "AUG": {
       "symbol": "AUG",
@@ -139,7 +128,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.029999999329447746,
       "entry_rsi10": 20.668646020713382,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.03099999949336052,
       "latest_rsi10": 30.157837636154028
     },
@@ -161,20 +150,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.009999999776482582,
       "entry_rsi10": 22.379574629859206,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.009999999776482582,
       "latest_rsi10": 22.379574632151375
-    },
-    "BGP": {
-      "symbol": "BGP",
-      "company": "BRISCOE GROUP AUSTRALASIA LIMITED",
-      "ticker": "BGP.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 3.5399999618530273,
-      "entry_rsi10": 0.7389682526778785,
-      "holding_trading_days": 2,
-      "latest_price": 3.5399999618530273,
-      "latest_rsi10": 0.7389682526778785
     },
     "BOC": {
       "symbol": "BOC",
@@ -194,7 +172,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.05917000025510788,
       "entry_rsi10": 0.0811567908873343,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.05917000025510788,
       "latest_rsi10": 0.08115678206947052
     },
@@ -216,9 +194,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.017000000923871994,
       "entry_rsi10": 24.80883044858132,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.017000000923871994,
-      "latest_rsi10": 24.80883044016437
+      "latest_rsi10": 24.808830440164385
     },
     "CAY": {
       "symbol": "CAY",
@@ -260,7 +238,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.02199999988079071,
       "entry_rsi10": 19.88901794986039,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.02199999988079071,
       "latest_rsi10": 19.88901794967836
     },
@@ -271,7 +249,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.3700000047683716,
       "entry_rsi10": 12.607077651530616,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.36000001430511475,
       "latest_rsi10": 10.550557444208138
     },
@@ -315,7 +293,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.004000000189989805,
       "entry_rsi10": 27.78108854360879,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.004000000189989805,
       "latest_rsi10": 27.781088540413975
     },
@@ -341,17 +319,6 @@
       "latest_price": 0.15000000596046448,
       "latest_rsi10": 22.148635702854904
     },
-    "DTR": {
-      "symbol": "DTR",
-      "company": "DATELINE RESOURCES LIMITED",
-      "ticker": "DTR.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.08799999952316284,
-      "entry_rsi10": 16.56963762029885,
-      "holding_trading_days": 2,
-      "latest_price": 0.10499999672174454,
-      "latest_rsi10": 38.173547041514695
-    },
     "DUG": {
       "symbol": "DUG",
       "company": "DUG TECHNOLOGY LTD",
@@ -360,8 +327,8 @@
       "entry_price": 1.8600000143051147,
       "entry_rsi10": 23.51743036454674,
       "holding_trading_days": 2,
-      "latest_price": 1.9199999570846558,
-      "latest_rsi10": 39.548824850650426
+      "latest_price": 1.899999976158142,
+      "latest_rsi10": 35.770465709727176
     },
     "DYM": {
       "symbol": "DYM",
@@ -370,7 +337,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.4000000059604645,
       "entry_rsi10": 28.833226110379073,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.4000000059604645,
       "latest_rsi10": 28.833226110379073
     },
@@ -381,7 +348,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.4000000059604645,
       "entry_rsi10": 11.285018805268422,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.4050000011920929,
       "latest_rsi10": 12.767572403588701
     },
@@ -393,8 +360,8 @@
       "entry_price": 0.04600000008940697,
       "entry_rsi10": 16.619346226510814,
       "holding_trading_days": 2,
-      "latest_price": 0.04800000041723251,
-      "latest_rsi10": 23.964793669550005
+      "latest_price": 0.050999999046325684,
+      "latest_rsi10": 29.483300180122242
     },
     "FLX": {
       "symbol": "FLX",
@@ -414,7 +381,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.18000000715255737,
       "entry_rsi10": 14.583036231287252,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.18000000715255737,
       "latest_rsi10": 14.58544654271769
     },
@@ -436,7 +403,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 24.429436231692634,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 24.42943623263217
     },
@@ -459,8 +426,8 @@
       "entry_price": 0.05000000074505806,
       "entry_rsi10": 17.648976154492985,
       "holding_trading_days": 2,
-      "latest_price": 0.05000000074505806,
-      "latest_rsi10": 25.63068180543233
+      "latest_price": 0.04800000041723251,
+      "latest_rsi10": 20.787767004312272
     },
     "ICU": {
       "symbol": "ICU",
@@ -469,7 +436,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 0.0,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 0.0
     },
@@ -480,7 +447,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.6600000262260437,
       "entry_rsi10": 13.7596431074127,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.6600000262260437,
       "latest_rsi10": 13.7596431074127
     },
@@ -502,7 +469,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.05000000074505806,
       "entry_rsi10": 28.750275701252193,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.05000000074505806,
       "latest_rsi10": 28.750275701252193
     },
@@ -525,8 +492,8 @@
       "entry_price": 2.7200000286102295,
       "entry_rsi10": 27.750890489765794,
       "holding_trading_days": 2,
-      "latest_price": 2.6500000953674316,
-      "latest_rsi10": 25.75862538402508
+      "latest_price": 2.6700000762939453,
+      "latest_rsi10": 26.228188667916854
     },
     "LOT": {
       "symbol": "LOT",
@@ -536,8 +503,8 @@
       "entry_price": 0.2549999952316284,
       "entry_rsi10": 29.513222180569926,
       "holding_trading_days": 2,
-      "latest_price": 0.23199999332427979,
-      "latest_rsi10": 24.75548945399943
+      "latest_price": 0.23000000417232513,
+      "latest_rsi10": 23.866734295420656
     },
     "MAT": {
       "symbol": "MAT",
@@ -547,8 +514,8 @@
       "entry_price": 0.039000000804662704,
       "entry_rsi10": 22.977507204078833,
       "holding_trading_days": 2,
-      "latest_price": 0.04399999976158142,
-      "latest_rsi10": 35.54819458467803
+      "latest_price": 0.04500000178813934,
+      "latest_rsi10": 38.17477823969732
     },
     "MPP": {
       "symbol": "MPP",
@@ -579,20 +546,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.003000000026077032,
       "entry_rsi10": 3.6716407096545396,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.003000000026077032,
       "latest_rsi10": 3.6716407096545396
-    },
-    "NME": {
-      "symbol": "NME",
-      "company": "NEX METALS EXPLORATION LIMITED",
-      "ticker": "NME.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.010999999940395355,
-      "entry_rsi10": 2.6389632634794395,
-      "holding_trading_days": 3,
-      "latest_price": 0.010999999940395355,
-      "latest_rsi10": 2.6389632310911537
     },
     "NXD": {
       "symbol": "NXD",
@@ -601,9 +557,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.07500000298023224,
       "entry_rsi10": 27.885408051473874,
-      "holding_trading_days": 2,
-      "latest_price": 0.07500000298023224,
-      "latest_rsi10": 27.88540805041474
+      "holding_trading_days": 3,
+      "latest_price": 0.07400000095367432,
+      "latest_rsi10": 25.44995714933117
     },
     "OEQ": {
       "symbol": "OEQ",
@@ -623,7 +579,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.0020000000949949026,
       "entry_rsi10": 28.920966996145623,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.003000000026077032,
       "latest_rsi10": 37.23337863593149
     },
@@ -656,7 +612,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.01899999938905239,
       "entry_rsi10": 1.7831653999603674,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.017000000923871994,
       "latest_rsi10": 0.6037237675107292
     },
@@ -668,8 +624,8 @@
       "entry_price": 1.1299999952316284,
       "entry_rsi10": 23.593163806719346,
       "holding_trading_days": 2,
-      "latest_price": 1.1349999904632568,
-      "latest_rsi10": 28.51894893011351
+      "latest_price": 1.1449999809265137,
+      "latest_rsi10": 31.52991516072433
     },
     "PIM": {
       "symbol": "PIM",
@@ -678,7 +634,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.035999998450279236,
       "entry_rsi10": 23.87688395586693,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.035999998450279236,
       "latest_rsi10": 23.87688395592363
     },
@@ -690,8 +646,8 @@
       "entry_price": 12.300000190734863,
       "entry_rsi10": 21.163902857063206,
       "holding_trading_days": 2,
-      "latest_price": 12.510000228881836,
-      "latest_rsi10": 33.88998785381989
+      "latest_price": 12.520000457763672,
+      "latest_rsi10": 34.12890559098862
     },
     "PPG": {
       "symbol": "PPG",
@@ -700,7 +656,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.017999999225139618,
       "entry_rsi10": 9.83122111241363,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.017999999225139618,
       "latest_rsi10": 34.7020224742579
     },
@@ -711,7 +667,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 27.268908101048098,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 27.268908101048112
     },
@@ -723,8 +679,8 @@
       "entry_price": 23.610000610351562,
       "entry_rsi10": 28.62986027625935,
       "holding_trading_days": 2,
-      "latest_price": 22.954999923706055,
-      "latest_rsi10": 21.689813419603
+      "latest_price": 23.09000015258789,
+      "latest_rsi10": 22.848142620600214
     },
     "QPM": {
       "symbol": "QPM",
@@ -733,7 +689,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.008999999612569809,
       "entry_rsi10": 12.184438195812078,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.008999999612569809,
       "latest_rsi10": 12.184438192647576
     },
@@ -744,7 +700,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.05000000074505806,
       "entry_rsi10": 1.8553602501469868e-05,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.05000000074505806,
       "latest_rsi10": 1.8553602501469868e-05
     },
@@ -756,8 +712,8 @@
       "entry_price": 0.012000000104308128,
       "entry_rsi10": 29.021617588728702,
       "holding_trading_days": 2,
-      "latest_price": 0.009999999776482582,
-      "latest_rsi10": 21.67129927636728
+      "latest_price": 0.010999999940395355,
+      "latest_rsi10": 24.813571565629175
     },
     "RAS": {
       "symbol": "RAS",
@@ -767,8 +723,8 @@
       "entry_price": 0.017999999225139618,
       "entry_rsi10": 29.770993388576457,
       "holding_trading_days": 2,
-      "latest_price": 0.017000000923871994,
-      "latest_rsi10": 25.475507804399015
+      "latest_price": 0.017999999225139618,
+      "latest_rsi10": 29.77099338787822
     },
     "RAU": {
       "symbol": "RAU",
@@ -777,7 +733,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.2849999964237213,
       "entry_rsi10": 24.042890638772988,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.2849999964237213,
       "latest_rsi10": 24.042890638478212
     },
@@ -788,7 +744,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.014999999664723873,
       "entry_rsi10": 20.613576127574916,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.014999999664723873,
       "latest_rsi10": 20.613576125646887
     },
@@ -799,7 +755,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.008999999612569809,
       "entry_rsi10": 0.0029230803910138548,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.008999999612569809,
       "latest_rsi10": 0.0029230803910138548
     },
@@ -821,9 +777,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 2.5999999046325684,
       "entry_rsi10": 18.669630588109214,
-      "holding_trading_days": 2,
-      "latest_price": 2.5999999046325684,
-      "latest_rsi10": 18.66963058777543
+      "holding_trading_days": 3,
+      "latest_price": 2.6600000858306885,
+      "latest_rsi10": 24.921538573847414
     },
     "SIS": {
       "symbol": "SIS",
@@ -843,7 +799,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.9449999928474426,
       "entry_rsi10": 18.767966031968243,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.949999988079071,
       "latest_rsi10": 24.851800782605068
     },
@@ -854,9 +810,9 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.38999998569488525,
       "entry_rsi10": 25.17980304548712,
-      "holding_trading_days": 1,
-      "latest_price": 0.3700000047683716,
-      "latest_rsi10": 20.621240447965846
+      "holding_trading_days": 2,
+      "latest_price": 0.33000001311302185,
+      "latest_rsi10": 15.005515775218583
     },
     "SP8": {
       "symbol": "SP8",
@@ -865,7 +821,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.00800000037997961,
       "entry_rsi10": 28.79280734568883,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.00800000037997961,
       "latest_rsi10": 28.79280734568883
     },
@@ -876,9 +832,9 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.14000000059604645,
       "entry_rsi10": 26.83853619481414,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.14000000059604645,
-      "latest_rsi10": 26.838536194983277
+      "latest_rsi10": 26.83853619498329
     },
     "SSL": {
       "symbol": "SSL",
@@ -887,7 +843,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 8.600000381469727,
       "entry_rsi10": 16.668799499762613,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 8.600000381469727,
       "latest_rsi10": 16.668799499762613
     },
@@ -898,7 +854,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 9.539999961853027,
       "entry_rsi10": 5.092459022800114,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 9.550000190734863,
       "latest_rsi10": 14.607488310619658
     },
@@ -909,7 +865,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.07999999821186066,
       "entry_rsi10": 21.626270345472875,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.07999999821186066,
       "latest_rsi10": 21.626270345472875
     },
@@ -920,7 +876,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.004999999888241291,
       "entry_rsi10": 29.3068320382513,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.004999999888241291,
       "latest_rsi10": 29.30668518019344
     },
@@ -942,9 +898,9 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.06800000369548798,
       "entry_rsi10": 29.968007287631366,
-      "holding_trading_days": 1,
-      "latest_price": 0.06300000101327896,
-      "latest_rsi10": 25.995180192019447
+      "holding_trading_days": 2,
+      "latest_price": 0.06499999761581421,
+      "latest_rsi10": 28.529009286918694
     },
     "TRA": {
       "symbol": "TRA",
@@ -953,7 +909,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 6.800000190734863,
       "entry_rsi10": 8.767998615155648e-05,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 6.800000190734863,
       "latest_rsi10": 8.767998615155648e-05
     },
@@ -964,7 +920,7 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.03999999910593033,
       "entry_rsi10": 7.125136863365654,
-      "holding_trading_days": 2,
+      "holding_trading_days": 3,
       "latest_price": 0.03999999910593033,
       "latest_rsi10": 7.125136863365654
     },
@@ -975,7 +931,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.057999998331069946,
       "entry_rsi10": 25.048291472429497,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.057999998331069946,
       "latest_rsi10": 25.048291472429497
     },
@@ -1065,8 +1021,8 @@
       "entry_rsi10": 29.253289821921996,
       "entry_sma200": 0.014847500014584512,
       "holding_trading_days": 1,
-      "latest_price": 0.017000000923871994,
-      "latest_rsi10": 29.253289821921996
+      "latest_price": 0.017999999225139618,
+      "latest_rsi10": 35.94738455386458
     },
     "ASV": {
       "symbol": "ASV",
@@ -1101,8 +1057,8 @@
       "entry_rsi10": 27.553387376686103,
       "entry_sma200": 0.039365000165998934,
       "holding_trading_days": 0,
-      "latest_price": 0.0430000014603138,
-      "latest_rsi10": 29.42766017237244
+      "latest_price": 0.04399999976158142,
+      "latest_rsi10": 31.57552404288488
     },
     "CBA": {
       "symbol": "CBA",
@@ -1113,8 +1069,8 @@
       "entry_rsi10": 29.552871002349576,
       "entry_sma200": 166.26475021362305,
       "holding_trading_days": 0,
-      "latest_price": 167.0399932861328,
-      "latest_rsi10": 29.552871002349576
+      "latest_price": 167.1699981689453,
+      "latest_rsi10": 29.77193962540065
     }
   },
   "completed_trades": [
@@ -1299,8 +1255,72 @@
       "exit_rsi10": 41.59119466674037,
       "exit_reason": "RSI(10) rose above 40.0",
       "gain_pct": 9.090904985905985
+    },
+    {
+      "symbol": "ADC",
+      "company": "ACDC METALS LTD",
+      "ticker": "ADC.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.04100000113248825,
+      "entry_rsi10": 25.361805542338928,
+      "holding_trading_days": 3,
+      "latest_price": 0.04100000113248825,
+      "latest_rsi10": 25.361805542075388,
+      "exit_date": "2026-08-14",
+      "exit_price": 0.0430000014603138,
+      "exit_rsi10": 45.52097501855592,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 4.878049445322461
+    },
+    {
+      "symbol": "BGP",
+      "company": "BRISCOE GROUP AUSTRALASIA LIMITED",
+      "ticker": "BGP.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 3.5399999618530273,
+      "entry_rsi10": 0.7389682526778785,
+      "holding_trading_days": 3,
+      "latest_price": 3.5399999618530273,
+      "latest_rsi10": 0.7389682526778785,
+      "exit_date": "2026-08-14",
+      "exit_price": 3.619999885559082,
+      "exit_rsi10": 44.4172546450667,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 2.2598848748059988
+    },
+    {
+      "symbol": "DTR",
+      "company": "DATELINE RESOURCES LIMITED",
+      "ticker": "DTR.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.08799999952316284,
+      "entry_rsi10": 16.56963762029885,
+      "holding_trading_days": 2,
+      "latest_price": 0.10499999672174454,
+      "latest_rsi10": 38.173547041514695,
+      "exit_date": "2026-08-14",
+      "exit_price": 0.11999999731779099,
+      "exit_rsi10": 49.009230813316194,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 36.36363405457212
+    },
+    {
+      "symbol": "NME",
+      "company": "NEX METALS EXPLORATION LIMITED",
+      "ticker": "NME.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.010999999940395355,
+      "entry_rsi10": 2.6389632634794395,
+      "holding_trading_days": 3,
+      "latest_price": 0.010999999940395355,
+      "latest_rsi10": 2.6389632310911537,
+      "exit_date": "2026-08-14",
+      "exit_price": 0.014000000432133675,
+      "exit_rsi10": 94.09717596377327,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 27.272731890855766
     }
   ],
   "last_scan_date": "2026-08-14",
-  "updated_at": "2026-08-14T05:04:54.718523+00:00"
+  "updated_at": "2026-08-14T10:45:46.896856+00:00"
 }
