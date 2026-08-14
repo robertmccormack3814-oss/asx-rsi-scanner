@@ -7,7 +7,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.006000000052154064,
       "entry_rsi10": 14.424083415841295,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.006000000052154064,
       "latest_rsi10": 14.42408341573929
     },
@@ -18,7 +18,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.008999999612569809,
       "entry_rsi10": 21.30140406736963,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.009999999776482582,
       "latest_rsi10": 39.482750732457724
     },
@@ -107,8 +107,8 @@
       "entry_price": 2.3299999237060547,
       "entry_rsi10": 17.43408956450493,
       "holding_trading_days": 2,
-      "latest_price": 2.2850000858306885,
-      "latest_rsi10": 17.154538745641716
+      "latest_price": 2.2950000762939453,
+      "latest_rsi10": 17.332244832216844
     },
     "ASP": {
       "symbol": "ASP",
@@ -129,8 +129,8 @@
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 23.774808487595962,
       "holding_trading_days": 2,
-      "latest_price": 0.0010000000474974513,
-      "latest_rsi10": 23.410957188272178
+      "latest_price": 0.0020000000949949026,
+      "latest_rsi10": 34.541808807593085
     },
     "AUG": {
       "symbol": "AUG",
@@ -326,7 +326,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.010999999940395355,
       "entry_rsi10": 24.022269864420636,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.012000000104308128,
       "latest_rsi10": 32.637677416738995
     },
@@ -491,9 +491,9 @@
       "entry_date": "2026-08-11",
       "entry_price": 0.2199999988079071,
       "entry_rsi10": 20.278023470755045,
-      "holding_trading_days": 2,
-      "latest_price": 0.23999999463558197,
-      "latest_rsi10": 35.72731331087854
+      "holding_trading_days": 3,
+      "latest_price": 0.2199999988079071,
+      "latest_rsi10": 29.397410633327155
     },
     "KAM": {
       "symbol": "KAM",
@@ -525,8 +525,8 @@
       "entry_price": 2.7200000286102295,
       "entry_rsi10": 27.750890489765794,
       "holding_trading_days": 2,
-      "latest_price": 2.700000047683716,
-      "latest_rsi10": 26.965535391283765
+      "latest_price": 2.6500000953674316,
+      "latest_rsi10": 25.75862538402508
     },
     "LOT": {
       "symbol": "LOT",
@@ -536,8 +536,8 @@
       "entry_price": 0.2549999952316284,
       "entry_rsi10": 29.513222180569926,
       "holding_trading_days": 2,
-      "latest_price": 0.22699999809265137,
-      "latest_rsi10": 23.451237599464534
+      "latest_price": 0.23199999332427979,
+      "latest_rsi10": 24.75548945399943
     },
     "MAT": {
       "symbol": "MAT",
@@ -547,8 +547,8 @@
       "entry_price": 0.039000000804662704,
       "entry_rsi10": 22.977507204078833,
       "holding_trading_days": 2,
-      "latest_price": 0.0430000014603138,
-      "latest_rsi10": 34.099515643815394
+      "latest_price": 0.04399999976158142,
+      "latest_rsi10": 35.54819458467803
     },
     "MPP": {
       "symbol": "MPP",
@@ -571,17 +571,6 @@
       "holding_trading_days": 2,
       "latest_price": 0.004999999888241291,
       "latest_rsi10": 28.336056390583792
-    },
-    "MPX": {
-      "symbol": "MPX",
-      "company": "MUSTERA PROPERTY GROUP LIMITED",
-      "ticker": "MPX.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.10000000149011612,
-      "entry_rsi10": 0.022441435723067116,
-      "holding_trading_days": 2,
-      "latest_price": 0.10000000149011612,
-      "latest_rsi10": 0.022441435723067116
     },
     "MSI": {
       "symbol": "MSI",
@@ -656,7 +645,7 @@
       "entry_date": "2026-08-12",
       "entry_price": 0.7049999833106995,
       "entry_rsi10": 29.04657440325883,
-      "holding_trading_days": 1,
+      "holding_trading_days": 2,
       "latest_price": 0.7200000286102295,
       "latest_rsi10": 36.20571205377418
     },
@@ -701,8 +690,8 @@
       "entry_price": 12.300000190734863,
       "entry_rsi10": 21.163902857063206,
       "holding_trading_days": 2,
-      "latest_price": 12.505000114440918,
-      "latest_rsi10": 33.76987787954822
+      "latest_price": 12.510000228881836,
+      "latest_rsi10": 33.88998785381989
     },
     "PPG": {
       "symbol": "PPG",
@@ -734,8 +723,8 @@
       "entry_price": 23.610000610351562,
       "entry_rsi10": 28.62986027625935,
       "holding_trading_days": 2,
-      "latest_price": 23.114999771118164,
-      "latest_rsi10": 23.076356633622026
+      "latest_price": 22.954999923706055,
+      "latest_rsi10": 21.689813419603
     },
     "QPM": {
       "symbol": "QPM",
@@ -767,8 +756,8 @@
       "entry_price": 0.012000000104308128,
       "entry_rsi10": 29.021617588728702,
       "holding_trading_days": 2,
-      "latest_price": 0.010999999940395355,
-      "latest_rsi10": 24.813571565629175
+      "latest_price": 0.009999999776482582,
+      "latest_rsi10": 21.67129927636728
     },
     "RAS": {
       "symbol": "RAS",
@@ -823,7 +812,7 @@
       "entry_rsi10": 10.111912561434494,
       "holding_trading_days": 2,
       "latest_price": 0.019999999552965164,
-      "latest_rsi10": 10.11191256177068
+      "latest_rsi10": 10.11191256251773
     },
     "SCP": {
       "symbol": "SCP",
@@ -912,28 +901,6 @@
       "holding_trading_days": 2,
       "latest_price": 9.550000190734863,
       "latest_rsi10": 14.607488310619658
-    },
-    "STV": {
-      "symbol": "STV",
-      "company": "SWIFT TV LTD",
-      "ticker": "STV.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.006000000052154064,
-      "entry_rsi10": 22.69781106233225,
-      "holding_trading_days": 2,
-      "latest_price": 0.004999999888241291,
-      "latest_rsi10": 7.1509695118054
-    },
-    "TAS": {
-      "symbol": "TAS",
-      "company": "TASMAN RESOURCES LTD",
-      "ticker": "TAS.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.032999999821186066,
-      "entry_rsi10": 20.875417084085782,
-      "holding_trading_days": 2,
-      "latest_price": 0.029999999329447746,
-      "latest_rsi10": 17.216570587233335
     },
     "TDO": {
       "symbol": "TDO",
@@ -1110,8 +1077,8 @@
       "entry_rsi10": 20.171520752035264,
       "entry_sma200": 0.03953250030055642,
       "holding_trading_days": 1,
-      "latest_price": 0.03999999910593033,
-      "latest_rsi10": 20.17152075198021
+      "latest_price": 0.03799999877810478,
+      "latest_rsi10": 16.41528694873186
     },
     "SEN": {
       "symbol": "SEN",
@@ -1122,8 +1089,8 @@
       "entry_rsi10": 29.638366695088976,
       "entry_sma200": 2.4948749923706055,
       "holding_trading_days": 1,
-      "latest_price": 3.0,
-      "latest_rsi10": 37.168007111691416
+      "latest_price": 2.940000057220459,
+      "latest_rsi10": 29.638366695088962
     },
     "AGE": {
       "symbol": "AGE",
@@ -1134,8 +1101,20 @@
       "entry_rsi10": 27.553387376686103,
       "entry_sma200": 0.039365000165998934,
       "holding_trading_days": 0,
-      "latest_price": 0.041999999433755875,
-      "latest_rsi10": 27.553387376686103
+      "latest_price": 0.0430000014603138,
+      "latest_rsi10": 29.42766017237244
+    },
+    "CBA": {
+      "symbol": "CBA",
+      "company": "COMMONWEALTH BANK OF AUSTRALIA.",
+      "ticker": "CBA.AX",
+      "entry_date": "2026-08-14",
+      "entry_price": 167.0399932861328,
+      "entry_rsi10": 29.552871002349576,
+      "entry_sma200": 166.26475021362305,
+      "holding_trading_days": 0,
+      "latest_price": 167.0399932861328,
+      "latest_rsi10": 29.552871002349576
     }
   },
   "completed_trades": [
@@ -1272,8 +1251,56 @@
       "exit_price": 0.024000000208616257,
       "exit_rsi10": 50.872142917185194,
       "exit_reason": "RSI(10) rose above 40.0"
+    },
+    {
+      "symbol": "MPX",
+      "company": "MUSTERA PROPERTY GROUP LIMITED",
+      "ticker": "MPX.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.10000000149011612,
+      "entry_rsi10": 0.022441435723067116,
+      "holding_trading_days": 3,
+      "latest_price": 0.10000000149011612,
+      "latest_rsi10": 0.022441435723067116,
+      "exit_date": "2026-08-14",
+      "exit_price": 0.10499999672174454,
+      "exit_rsi10": 80.58302775556415,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 4.999995157122685
+    },
+    {
+      "symbol": "STV",
+      "company": "SWIFT TV LTD",
+      "ticker": "STV.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.006000000052154064,
+      "entry_rsi10": 22.69781106233225,
+      "holding_trading_days": 3,
+      "latest_price": 0.004999999888241291,
+      "latest_rsi10": 7.1509695118054,
+      "exit_date": "2026-08-14",
+      "exit_price": 0.006000000052154064,
+      "exit_rsi10": 47.27645445910066,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 0.0
+    },
+    {
+      "symbol": "TAS",
+      "company": "TASMAN RESOURCES LTD",
+      "ticker": "TAS.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.032999999821186066,
+      "entry_rsi10": 20.875417084085782,
+      "holding_trading_days": 2,
+      "latest_price": 0.029999999329447746,
+      "latest_rsi10": 17.216570587233335,
+      "exit_date": "2026-08-14",
+      "exit_price": 0.035999998450279236,
+      "exit_rsi10": 41.59119466674037,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 9.090904985905985
     }
   ],
   "last_scan_date": "2026-08-14",
-  "updated_at": "2026-08-14T02:25:12.726541+00:00"
+  "updated_at": "2026-08-14T05:04:54.718523+00:00"
 }
