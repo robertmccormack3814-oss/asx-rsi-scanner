@@ -6,20 +6,20 @@
   <title>ASX RSI Performance Ledger</title>
   <style>
     body{font-family:Arial;background:#f4f6f8;color:#18324f;margin:0;padding:24px}
-    .wrap{max-width:1050px;margin:auto}
+    .wrap{max-width:1180px;margin:auto}
     .top{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:24px}
     h1{margin:0;font-size:34px}
     .sub{color:#667085;margin-top:8px}
     .button{display:inline-block;padding:12px 16px;border-radius:10px;background:#173d67;color:white;text-decoration:none;font-weight:700}
     .rule{height:3px;background:#173d67;margin:18px 0 28px}
-    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px}
     .stat{background:white;border:1px solid #d9e1ea;border-radius:4px;padding:26px;text-align:center;box-shadow:0 2px 8px #00000008}
     .label{font-size:14px;font-weight:700;color:#718096;text-transform:uppercase;letter-spacing:.4px}
     .value{font-size:31px;font-weight:800;color:#1f4f80;margin-top:10px}
     .tablewrap{background:white;border:1px solid #d9e1ea;overflow:auto}
-    table{width:100%;border-collapse:collapse;min-width:720px}
+    table{width:100%;border-collapse:collapse;min-width:1100px}
     thead{background:#173d67;color:white}
-    th,td{padding:14px 18px;text-align:left;border-bottom:1px solid #e4e9ef}
+    th,td{padding:14px 16px;text-align:left;border-bottom:1px solid #e4e9ef;white-space:nowrap}
     th:last-child,td:last-child{text-align:right}
     tbody tr:nth-child(even){background:#f7fafc}
     .ticker{font-weight:700}
@@ -28,7 +28,8 @@
     tfoot td{background:#e8f4fb;font-weight:800;color:#1f4f80}
     .note{margin-top:16px;color:#667085;font-size:13px;line-height:1.45}
     .updated{margin-top:20px;text-align:center;color:#98a2b3;font-size:12px}
-    @media(max-width:700px){body{padding:14px}h1{font-size:28px}.stats{grid-template-columns:1fr}.stat{padding:20px}}
+    @media(max-width:800px){body{padding:14px}h1{font-size:28px}.stats{grid-template-columns:1fr 1fr}.stat{padding:20px}}
+    @media(max-width:500px){.stats{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -46,6 +47,7 @@
     <div class="stat"><div class="label">Total Trades</div><div class="value" id="totalTrades">—</div></div>
     <div class="stat"><div class="label">Cumulative Gain</div><div class="value" id="cumulativeGain">—</div></div>
     <div class="stat"><div class="label">Average Gain Per Trade</div><div class="value" id="averageGain">—</div></div>
+    <div class="stat"><div class="label">Average Holding Days</div><div class="value" id="averageHolding">—</div></div>
   </div>
 
   <div class="tablewrap">
@@ -53,6 +55,9 @@
       <thead>
         <tr>
           <th>Stock Ticker</th>
+          <th>Entry Date</th>
+          <th>Exit Date</th>
+          <th>Holding Trading Days</th>
           <th>Entry Price ($)</th>
           <th>Exit Price ($)</th>
           <th>Percentage Gain (%)</th>
@@ -60,12 +65,12 @@
       </thead>
       <tbody id="tradeRows"></tbody>
       <tfoot>
-        <tr><td colspan="3">AVERAGE GAIN PER TRADE</td><td id="footerAverage">—</td></tr>
+        <tr><td colspan="6">AVERAGE GAIN PER TRADE</td><td id="footerAverage">—</td></tr>
       </tfoot>
     </table>
   </div>
 
-  <div class="note">This ledger is based only on trades actually recorded by the live RSI scanner. “Cumulative Gain” is the arithmetic sum of individual trade percentage returns, matching the format of your original report; it is not the return of a continuously compounded portfolio.</div>
+  <div class="note">This ledger is based only on trades actually recorded by the live RSI scanner. “Cumulative Gain” is the arithmetic sum of individual trade percentage returns, matching the format of your original report; it is not the return of a continuously compounded portfolio. Average holding days uses trading days, not calendar days.</div>
   <div class="updated" id="updated">—</div>
 </div>
 
@@ -90,6 +95,11 @@ function tradeGain(t){
 
 function price(n){return n==null?"—":"$"+Number(n).toFixed(3)}
 function pct(n){return (n>=0?"+":"")+Number(n).toFixed(2)+"%"}
+function dateText(d){
+  if(!d) return "—";
+  const parts=String(d).split("-");
+  return parts.length===3 ? `${parts[2]}/${parts[1]}/${parts[0]}` : d;
+}
 
 async function load(){
   const r=await fetch("data/scanner.json?t="+Date.now(),{cache:"no-store"});
@@ -103,15 +113,19 @@ async function load(){
   const total=gains.length;
   const cumulative=gains.reduce((a,b)=>a+b,0);
   const average=total?cumulative/total:0;
+  const holdingValues=trades.map(t=>Number(t.holding_trading_days)).filter(Number.isFinite);
+  const avgHolding=holdingValues.length?holdingValues.reduce((a,b)=>a+b,0)/holdingValues.length:0;
 
   totalTrades.textContent=total;
   cumulativeGain.textContent=pct(cumulative);
   averageGain.textContent=pct(average);
+  averageHolding.textContent=avgHolding.toFixed(1)+" days";
   footerAverage.textContent=pct(average);
 
   tradeRows.innerHTML=trades.map(t=>{
     const g=tradeGain(t);
-    return `<tr><td class="ticker">${t.symbol||"—"}</td><td>${price(t.entry_price)}</td><td>${price(t.exit_price)}</td><td class="gain ${g>=0?"positive":"negative"}">${pct(g)}</td></tr>`;
+    const held=Number.isFinite(Number(t.holding_trading_days))?Number(t.holding_trading_days):"—";
+    return `<tr><td class="ticker">${t.symbol||"—"}</td><td>${dateText(t.entry_date)}</td><td>${dateText(t.exit_date)}</td><td>${held}</td><td>${price(t.entry_price)}</td><td>${price(t.exit_price)}</td><td class="gain ${g>=0?"positive":"negative"}">${pct(g)}</td></tr>`;
   }).join("");
 
   updated.textContent=D.generated_at?"Last scanner update: "+new Date(D.generated_at).toLocaleString():"";
