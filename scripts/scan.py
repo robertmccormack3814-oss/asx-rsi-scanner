@@ -530,6 +530,13 @@ def main():
                     )
 
                 if exit_reason:
+                    entry_price = float(sig["entry_price"])
+                    gain_pct = (
+                        ((last_close - entry_price) / entry_price) * 100.0
+                        if entry_price
+                        else 0.0
+                    )
+
                     exit_row = {
                         **sig,
                         "exit_date": d,
@@ -537,6 +544,7 @@ def main():
                         "exit_rsi10": last_rsi,
                         "holding_trading_days": held,
                         "exit_reason": exit_reason,
+                        "gain_pct": gain_pct,
                     }
 
                     exits.append(exit_row)
@@ -561,11 +569,13 @@ def main():
                             f"Exit reason: {exit_reason}\n"
                             f"Exit price: "
                             f"A${last_close:.3f}\n"
+                            f"Gain from entry: "
+                            f"{gain_pct:+.2f}%\n"
                             f"RSI(10): {last_rsi:.2f}\n"
                             f"Entry date: "
                             f"{sig['entry_date']}\n"
                             f"Entry price: "
-                            f"A${sig['entry_price']:.3f}\n"
+                            f"A${entry_price:.3f}\n"
                             f"Holding trading days: "
                             f"{held}\n"
                         ),
