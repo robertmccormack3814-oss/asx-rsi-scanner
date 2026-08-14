@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>ASX RSI Scanner</title>
-
   <style>
     body{font-family:Arial;background:#f4f6f8;color:#142033;margin:0;padding:20px}
     .wrap{max-width:1150px;margin:auto}
@@ -16,9 +15,11 @@
     .outcomeSub{margin-top:5px;color:#667085}
     .n{font-size:24px;font-weight:700}
     .on{color:#087443}.off{color:#b42318}
-    .toolbar{display:flex;gap:10px;flex-wrap:wrap}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
     input,select{padding:12px;border:1px solid #d0d5dd;border-radius:10px;font-size:16px}
     #search{flex:1;min-width:250px}
+    .button{display:inline-block;padding:12px 16px;border-radius:10px;background:#173d67;color:#fff;text-decoration:none;font-weight:700;white-space:nowrap}
+    .button:hover{background:#102f51}
     .tablewrap{overflow:auto}
     table{width:100%;border-collapse:collapse;min-width:900px}
     th,td{padding:10px 7px;border-bottom:1px solid #e6e9ee;text-align:left}
@@ -39,6 +40,7 @@
         <option value="active_above">Active + Above SMA200</option>
         <option value="all">All scanned</option>
       </select>
+      <a class="button" href="ledger.html">Performance Ledger</a>
     </div>
   </div>
 
@@ -78,6 +80,25 @@
 let D={stocks:[],active_signals:[],completed_trades:[]};
 const money=n=>n==null?"—":"A$"+Number(n).toFixed(3);
 
+const earlyCompletedTrades=[
+  {symbol:"HTM",entry_price:0.230,exit_price:0.237,gain_pct:3.04,holding_trading_days:1,exit_reason:"RSI(10) rose above 40.0",historical_restore:true},
+  {symbol:"ABR",company:"ALBRIGHT METALS LTD",ticker:"ABR.AX",entry_date:"2026-08-11",entry_price:0.0024999999441206455,entry_rsi10:12.092412565753776,exit_date:"2026-08-12",exit_price:0.003000000026077032,exit_rsi10:65.48232326572364,holding_trading_days:1,exit_reason:"RSI(10) rose above 40.0",gain_pct:50.00,historical_restore:true},
+  {symbol:"CST",company:"CASTILE RESOURCES LTD",ticker:"CST.AX",entry_date:"2026-08-12",entry_price:0.06199999898672104,entry_rsi10:27.59248099170904,exit_date:"2026-08-12",exit_price:0.06700000166893005,exit_rsi10:43.23721050796366,holding_trading_days:0,exit_reason:"RSI(10) rose above 40.0",gain_pct:8.06,historical_restore:true},
+  {symbol:"FCT",company:"FIRSTWAVE CLOUD TECHNOLOGY LIMITED",ticker:"FCT.AX",entry_date:"2026-08-11",entry_price:0.004999999888241291,entry_rsi10:24.299899611672586,exit_date:"2026-08-12",exit_price:0.006000000052154064,exit_rsi10:41.60716695025016,holding_trading_days:1,exit_reason:"RSI(10) rose above 40.0",gain_pct:20.00,historical_restore:true},
+  {symbol:"R8R",company:"REGENER8 RESOURCES NL",ticker:"R8R.AX",entry_date:"2026-08-12",entry_price:0.10499999672174454,entry_rsi10:20.961594846955904,exit_date:"2026-08-12",exit_price:0.11999999731779099,exit_rsi10:48.97047407219087,holding_trading_days:0,exit_reason:"RSI(10) rose above 40.0",gain_pct:14.29,historical_restore:true}
+];
+
+function tradeIdentity(t){
+  return [t.symbol||"",t.entry_date||"",t.exit_date||"",Number(t.entry_price||0).toFixed(6),Number(t.exit_price||0).toFixed(6)].join("|");
+}
+
+function allCompletedTrades(){
+  const live=Array.isArray(D.completed_trades)?D.completed_trades:[];
+  const seen=new Set(live.map(tradeIdentity));
+  const restored=earlyCompletedTrades.filter(t=>!seen.has(tradeIdentity(t)));
+  return [...restored,...live];
+}
+
 async function load(){
   let r=await fetch("data/scanner.json?t="+Date.now(),{cache:"no-store"});
   D=await r.json();
@@ -92,7 +113,7 @@ async function load(){
   updated.textContent=D.generated_at?new Date(D.generated_at).toLocaleString():"—";
 
   const activeSignals=Array.isArray(D.active_signals)?D.active_signals:[];
-  const completedTrades=Array.isArray(D.completed_trades)?D.completed_trades:[];
+  const completedTrades=allCompletedTrades();
   const rsiCount=completedTrades.filter(trade=>String(trade.exit_reason||"").startsWith("RSI(10) rose above")&&Number(trade.holding_trading_days)<=10).length;
   const timeCount=completedTrades.filter(trade=>String(trade.exit_reason||"").toLowerCase().includes("time exit")).length;
   const resolvedCount=rsiCount+timeCount;
