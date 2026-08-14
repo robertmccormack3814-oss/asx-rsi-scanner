@@ -1,0 +1,44 @@
+name: Monitor active RSI exits intraday
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Covers ASX market hours year-round. The Python script itself checks
+    # Australia/Sydney local time and exits outside 10:00am-4:10pm weekdays.
+    - cron: "*/30 23 * * 0-4"
+    - cron: "*/30 0-6 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: asx-rsi-intraday-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Check active signals for provisional daily RSI above 40
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+        run: python scripts/intraday_exit_monitor.py
+
+      - name: Commit intraday monitor state
+        run: |
+          git config user.name "ASX RSI Intraday Bot"
+          git config user.email "actions@github.com"
+          git add data/intraday_state.json
+          git diff --cached --quiet || git commit -m "Refresh intraday RSI monitor"
+          git pull --rebase
+          git push
