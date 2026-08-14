@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ASX RSI Performance Ledger</title>
+  <style>
+    body{font-family:Arial;background:#f4f6f8;color:#18324f;margin:0;padding:24px}
+    .wrap{max-width:1050px;margin:auto}
+    .top{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:24px}
+    h1{margin:0;font-size:34px}
+    .sub{color:#667085;margin-top:8px}
+    .button{display:inline-block;padding:12px 16px;border-radius:10px;background:#173d67;color:white;text-decoration:none;font-weight:700}
+    .rule{height:3px;background:#173d67;margin:18px 0 28px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+    .stat{background:white;border:1px solid #d9e1ea;border-radius:4px;padding:26px;text-align:center;box-shadow:0 2px 8px #00000008}
+    .label{font-size:14px;font-weight:700;color:#718096;text-transform:uppercase;letter-spacing:.4px}
+    .value{font-size:31px;font-weight:800;color:#1f4f80;margin-top:10px}
+    .tablewrap{background:white;border:1px solid #d9e1ea;overflow:auto}
+    table{width:100%;border-collapse:collapse;min-width:720px}
+    thead{background:#173d67;color:white}
+    th,td{padding:14px 18px;text-align:left;border-bottom:1px solid #e4e9ef}
+    th:last-child,td:last-child{text-align:right}
+    tbody tr:nth-child(even){background:#f7fafc}
+    .ticker{font-weight:700}
+    .gain{font-weight:700}
+    .positive{color:#087443}.negative{color:#b42318}
+    tfoot td{background:#e8f4fb;font-weight:800;color:#1f4f80}
+    .note{margin-top:16px;color:#667085;font-size:13px;line-height:1.45}
+    .updated{margin-top:20px;text-align:center;color:#98a2b3;font-size:12px}
+    @media(max-width:700px){body{padding:14px}h1{font-size:28px}.stats{grid-template-columns:1fr}.stat{padding:20px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>Stock Trade Performance Ledger</h1>
+      <div class="sub">Individual Stock Gains &amp; Aggregate Scanner Statistics</div>
+    </div>
+    <a class="button" href="index.html">Back to Scanner</a>
+  </div>
+  <div class="rule"></div>
+
+  <div class="stats">
+    <div class="stat"><div class="label">Total Trades</div><div class="value" id="totalTrades">—</div></div>
+    <div class="stat"><div class="label">Cumulative Gain</div><div class="value" id="cumulativeGain">—</div></div>
+    <div class="stat"><div class="label">Average Gain Per Trade</div><div class="value" id="averageGain">—</div></div>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Stock Ticker</th>
+          <th>Entry Price ($)</th>
+          <th>Exit Price ($)</th>
+          <th>Percentage Gain (%)</th>
+        </tr>
+      </thead>
+      <tbody id="tradeRows"></tbody>
+      <tfoot>
+        <tr><td colspan="3">AVERAGE GAIN PER TRADE</td><td id="footerAverage">—</td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <div class="note">This ledger is based only on trades actually recorded by the live RSI scanner. “Cumulative Gain” is the arithmetic sum of individual trade percentage returns, matching the format of your original report; it is not the return of a continuously compounded portfolio.</div>
+  <div class="updated" id="updated">—</div>
+</div>
+
+<script>
+const earlyCompletedTrades=[
+  {symbol:"HTM",entry_price:0.230,exit_price:0.237,gain_pct:3.04,holding_trading_days:1,exit_reason:"RSI(10) rose above 40.0",historical_restore:true},
+  {symbol:"ABR",entry_date:"2026-08-11",entry_price:0.002,exit_date:"2026-08-12",exit_price:0.003,gain_pct:50.00,holding_trading_days:1,exit_reason:"RSI(10) rose above 40.0",historical_restore:true},
+  {symbol:"CST",entry_date:"2026-08-12",entry_price:0.062,exit_date:"2026-08-12",exit_price:0.067,gain_pct:8.06,holding_trading_days:0,exit_reason:"RSI(10) rose above 40.0",historical_restore:true},
+  {symbol:"FCT",entry_date:"2026-08-11",entry_price:0.005,exit_date:"2026-08-12",exit_price:0.006,gain_pct:20.00,holding_trading_days:1,exit_reason:"RSI(10) rose above 40.0",historical_restore:true},
+  {symbol:"R8R",entry_date:"2026-08-12",entry_price:0.105,exit_date:"2026-08-12",exit_price:0.120,gain_pct:14.29,holding_trading_days:0,exit_reason:"RSI(10) rose above 40.0",historical_restore:true}
+];
+
+function tradeIdentity(t){
+  return [t.symbol||"",t.entry_date||"",t.exit_date||"",Number(t.entry_price||0).toFixed(6),Number(t.exit_price||0).toFixed(6)].join("|");
+}
+
+function tradeGain(t){
+  if(t.gain_pct!=null && Number.isFinite(Number(t.gain_pct))) return Number(t.gain_pct);
+  const entry=Number(t.entry_price), exit=Number(t.exit_price);
+  return entry ? ((exit-entry)/entry)*100 : 0;
+}
+
+function price(n){return n==null?"—":"$"+Number(n).toFixed(3)}
+function pct(n){return (n>=0?"+":"")+Number(n).toFixed(2)+"%"}
+
+async function load(){
+  const r=await fetch("data/scanner.json?t="+Date.now(),{cache:"no-store"});
+  const D=await r.json();
+  const live=Array.isArray(D.completed_trades)?D.completed_trades:[];
+  const seen=new Set(live.map(tradeIdentity));
+  const restored=earlyCompletedTrades.filter(t=>!seen.has(tradeIdentity(t)));
+  const trades=[...restored,...live];
+
+  const gains=trades.map(tradeGain);
+  const total=gains.length;
+  const cumulative=gains.reduce((a,b)=>a+b,0);
+  const average=total?cumulative/total:0;
+
+  totalTrades.textContent=total;
+  cumulativeGain.textContent=pct(cumulative);
+  averageGain.textContent=pct(average);
+  footerAverage.textContent=pct(average);
+
+  tradeRows.innerHTML=trades.map(t=>{
+    const g=tradeGain(t);
+    return `<tr><td class="ticker">${t.symbol||"—"}</td><td>${price(t.entry_price)}</td><td>${price(t.exit_price)}</td><td class="gain ${g>=0?"positive":"negative"}">${pct(g)}</td></tr>`;
+  }).join("");
+
+  updated.textContent=D.generated_at?"Last scanner update: "+new Date(D.generated_at).toLocaleString():"";
+}
+
+load();
+</script>
+</body>
+</html>
