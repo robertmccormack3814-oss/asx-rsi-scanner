@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ASX RSI Simulated Portfolio</title>
+  <style>
+    body{font-family:Arial;background:#f4f6f8;color:#18324f;margin:0;padding:24px}.wrap{max-width:1250px;margin:auto}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:22px}h1{margin:0;font-size:34px}.sub{color:#667085;margin-top:8px;line-height:1.5}.buttons{display:flex;gap:10px;flex-wrap:wrap}.button{display:inline-block;padding:12px 16px;border-radius:10px;background:#173d67;color:white;text-decoration:none;font-weight:700}.rule{height:3px;background:#173d67;margin:18px 0 26px}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:24px}.stat{background:white;border:1px solid #d9e1ea;border-radius:10px;padding:20px;text-align:center;box-shadow:0 2px 8px #00000008}.label{font-size:12px;font-weight:700;color:#718096;text-transform:uppercase;letter-spacing:.4px}.value{font-size:29px;font-weight:800;color:#1f4f80;margin-top:9px}.positive{color:#087443}.negative{color:#b42318}.card{background:#fff;border:1px solid #d9e1ea;border-radius:10px;padding:18px;margin-bottom:20px}.tablewrap{overflow:auto}.card h2{margin-top:0}table{width:100%;border-collapse:collapse;min-width:1100px}thead{background:#173d67;color:#fff}th,td{padding:12px 12px;border-bottom:1px solid #e4e9ef;text-align:left;white-space:nowrap}tbody tr:nth-child(even){background:#f7fafc}.ticker{font-weight:800}.gain{font-weight:700}.muted{color:#667085}.note{font-size:13px;line-height:1.55;color:#667085}.pill{font-size:12px;font-weight:700;padding:4px 8px;border-radius:999px;background:#edf2f7}.open{color:#8a5200;background:#fff4db}.closed{color:#087443;background:#eaf8f0}.skipped{color:#b42318;background:#feeceb}.updated{text-align:center;color:#98a2b3;font-size:12px;margin-top:16px}@media(max-width:650px){body{padding:14px}h1{font-size:28px}.value{font-size:25px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div><h1>$5,000 Simulated RSI Portfolio</h1><div class="sub">Fixed $500 position slots · maximum 10 simultaneous trades · $5 buy commission + $5 sell commission · simulation starts 15 Aug 2026.</div></div>
+    <div class="buttons"><a class="button" href="index.html">Back to Scanner</a><a class="button" href="ledger.html">Performance Ledger</a></div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="stats">
+    <div class="stat"><div class="label">Starting Balance</div><div class="value">A$5,000.00</div></div>
+    <div class="stat"><div class="label">Current Equity</div><div class="value" id="equity">—</div></div>
+    <div class="stat"><div class="label">Net P&amp;L</div><div class="value" id="netPnl">—</div></div>
+    <div class="stat"><div class="label">Portfolio Return</div><div class="value" id="portfolioReturn">—</div></div>
+    <div class="stat"><div class="label">Available Cash</div><div class="value" id="cash">—</div></div>
+    <div class="stat"><div class="label">Open Positions</div><div class="value" id="openCount">—</div></div>
+    <div class="stat"><div class="label">Completed Trades</div><div class="value" id="closedCount">—</div></div>
+    <div class="stat"><div class="label">Total Commissions</div><div class="value" id="commissions">—</div></div>
+  </div>
+
+  <div class="card">
+    <h2>Open simulated positions</h2>
+    <p class="muted">These are scanner signals accepted by the simulated account and still active. Current equity values them using the scanner's latest price and reserves the eventual $5 sell commission.</p>
+    <div class="tablewrap"><table><thead><tr><th>Ticker</th><th>Entry Date</th><th>Entry Price</th><th>Latest Price</th><th>Amount Invested</th><th>Buy Fee</th><th>Est. Liquidation Value</th><th>Unrealised P&amp;L</th><th>Status</th></tr></thead><tbody id="openRows"></tbody></table></div>
+  </div>
+
+  <div class="card">
+    <h2>Completed simulated trades</h2>
+    <div class="tablewrap"><table><thead><tr><th>Ticker</th><th>Entry Date</th><th>Exit Date</th><th>Entry Price</th><th>Exit Price</th><th>Gross Stock Return</th><th>Buy Fee</th><th>Sell Fee</th><th>Net P&amp;L</th><th>Balance After Exit</th></tr></thead><tbody id="closedRows"></tbody></table></div>
+  </div>
+
+  <div class="card">
+    <h2>Signals skipped because capital was unavailable</h2>
+    <p class="muted">The simulator never borrows. If 10 positions are already open, or available cash is below A$500, a new signal is recorded here instead of being treated as a trade.</p>
+    <div class="tablewrap"><table style="min-width:650px"><thead><tr><th>Ticker</th><th>Entry Date</th><th>Entry Price</th><th>Reason</th></tr></thead><tbody id="skippedRows"></tbody></table></div>
+  </div>
+
+  <div class="card note"><b>Simulation rules.</b> The account begins with A$5,000 on 15 Aug 2026. Each accepted trade uses a fixed A$500 cash slot: A$5 is charged immediately as buy commission and A$495 buys the stock at the scanner's recorded entry price. At the recorded strategy exit, the shares are sold at the scanner's exit price and another A$5 commission is deducted. Exit proceeds are then available for later signals. A maximum of 10 positions can be open at once. Signals before the simulation start date are ignored. Where several events share the same scanner date, exits are treated as occurring before new entries so released capital can be reused on that scan. This is a bookkeeping simulation only; it does not model bid/ask spread, slippage, partial fills, taxes, dividends, market impact or whether the quoted price was actually executable.</div>
+  <div class="updated" id="updated">—</div>
+</div>
+<script>
+const START='2026-08-15', START_BALANCE=5000, SLOT=500, BUY_FEE=5, SELL_FEE=5, MAX_OPEN=10;
+const aud=n=>'A$'+Number(n).toLocaleString('en-AU',{minimumFractionDigits:2,maximumFractionDigits:2});
+const price=n=>n==null?'—':'A$'+Number(n).toLocaleString('en-AU',{minimumFractionDigits:3,maximumFractionDigits:6});
+const pct=n=>(Number(n)>=0?'+':'')+Number(n).toFixed(2)+'%';
+const dateText=d=>{if(!d)return'—';const p=String(d).split('-');return p.length===3?`${p[2]}/${p[1]}/${p[0]}`:d};
+function key(t){return `${t.symbol||''}|${t.entry_date||''}|${Number(t.entry_price||0).toFixed(8)}`}
+function buildSignals(D){
+  const m=new Map();
+  for(const t of (Array.isArray(D.completed_trades)?D.completed_trades:[])) if(t.entry_date>=START) m.set(key(t),{...t,kind:'completed'});
+  for(const t of (Array.isArray(D.active_signals)?D.active_signals:[])) if(t.entry_date>=START && !m.has(key(t))) m.set(key(t),{...t,kind:'active'});
+  return [...m.values()].sort((a,b)=>String(a.entry_date).localeCompare(String(b.entry_date))||String(a.symbol).localeCompare(String(b.symbol)));
+}
+function simulate(signals){
+  let cash=START_BALANCE, totalFees=0; const open=[], closed=[], skipped=[];
+  const dates=[...new Set(signals.flatMap(s=>[s.entry_date,s.exit_date].filter(Boolean)))].sort();
+  for(const d of dates){
+    const exiting=open.filter(p=>p.exit_date===d);
+    for(const p of exiting){
+      const grossProceeds=p.qty*Number(p.exit_price); const proceeds=grossProceeds-SELL_FEE; const pnl=proceeds-SLOT; cash+=proceeds; totalFees+=SELL_FEE;
+      closed.push({...p,grossProceeds,proceeds,netPnl:pnl,balanceAfter:cash});
+      open.splice(open.indexOf(p),1);
+    }
+    const entering=signals.filter(s=>s.entry_date===d);
+    for(const s of entering){
+      if(open.length>=MAX_OPEN || cash<SLOT){skipped.push({...s,skipReason:open.length>=MAX_OPEN?'10 positions already open':'Available cash below A$500'});continue;}
+      const ep=Number(s.entry_price); if(!ep){skipped.push({...s,skipReason:'Missing entry price'});continue;}
+      const invested=SLOT-BUY_FEE, qty=invested/ep; cash-=SLOT; totalFees+=BUY_FEE;
+      open.push({...s,invested,qty,buyFee:BUY_FEE,sellFee:SELL_FEE});
+    }
+  }
+  return {cash,totalFees,open,closed,skipped};
+}
+async function load(){
+  const r=await fetch('data/scanner.json?t='+Date.now(),{cache:'no-store'}); const D=await r.json(); const signals=buildSignals(D); const S=simulate(signals);
+  const currentBySymbol=new Map((Array.isArray(D.active_signals)?D.active_signals:[]).map(x=>[x.symbol,x]));
+  let liquidation=0;
+  const openDisplay=S.open.map(p=>{const live=currentBySymbol.get(p.symbol)||p;const latest=Number(live.latest_price??live.price??p.entry_price);const liq=Math.max(0,p.qty*latest-SELL_FEE);const upnl=liq-SLOT;liquidation+=liq;return {...p,latest,liq,upnl}});
+  const eq=S.cash+liquidation, pnl=eq-START_BALANCE, ret=pnl/START_BALANCE*100;
+  equity.textContent=aud(eq); netPnl.textContent=(pnl>=0?'+':'')+aud(pnl).replace('A$','A$'); portfolioReturn.textContent=pct(ret); cash.textContent=aud(S.cash);openCount.textContent=S.open.length;closedCount.textContent=S.closed.length;commissions.textContent=aud(S.totalFees+S.open.length*SELL_FEE);
+  netPnl.className='value '+(pnl>=0?'positive':'negative'); portfolioReturn.className='value '+(ret>=0?'positive':'negative');
+  openRows.innerHTML=openDisplay.length?openDisplay.map(p=>`<tr><td class="ticker">${p.symbol}</td><td>${dateText(p.entry_date)}</td><td>${price(p.entry_price)}</td><td>${price(p.latest)}</td><td>${aud(p.invested)}</td><td>${aud(BUY_FEE)}</td><td>${aud(p.liq)}</td><td class="gain ${p.upnl>=0?'positive':'negative'}">${p.upnl>=0?'+':''}${aud(p.upnl)}</td><td><span class="pill open">OPEN</span></td></tr>`).join(''):`<tr><td colspan="9" class="muted">No simulated positions opened since ${dateText(START)}.</td></tr>`;
+  closedRows.innerHTML=S.closed.length?S.closed.map(p=>{const gross=((Number(p.exit_price)-Number(p.entry_price))/Number(p.entry_price))*100;return `<tr><td class="ticker">${p.symbol}</td><td>${dateText(p.entry_date)}</td><td>${dateText(p.exit_date)}</td><td>${price(p.entry_price)}</td><td>${price(p.exit_price)}</td><td>${pct(gross)}</td><td>${aud(BUY_FEE)}</td><td>${aud(SELL_FEE)}</td><td class="gain ${p.netPnl>=0?'positive':'negative'}">${p.netPnl>=0?'+':''}${aud(p.netPnl)}</td><td>${aud(p.balanceAfter)}</td></tr>`}).join(''):`<tr><td colspan="10" class="muted">No completed simulated trades yet.</td></tr>`;
+  skippedRows.innerHTML=S.skipped.length?S.skipped.map(p=>`<tr><td class="ticker">${p.symbol}</td><td>${dateText(p.entry_date)}</td><td>${price(p.entry_price)}</td><td><span class="pill skipped">${p.skipReason}</span></td></tr>`).join(''):`<tr><td colspan="4" class="muted">No signals have been skipped.</td></tr>`;
+  updated.textContent=D.generated_at?'Based on scanner data updated '+new Date(D.generated_at).toLocaleString('en-AU'):'';
+}
+load();
+</script>
+</body>
+</html>
