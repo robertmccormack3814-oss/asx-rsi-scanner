@@ -28,17 +28,17 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Check active signals for provisional daily RSI above 40
+      - name: Check active signals and record immediate RSI exits
         env:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
         run: python scripts/intraday_exit_monitor.py
 
-      - name: Commit intraday monitor state
+      - name: Commit intraday exits and dashboard state
         run: |
           git config user.name "ASX RSI Intraday Bot"
           git config user.email "actions@github.com"
-          git add data/intraday_state.json
-          git diff --cached --quiet || git commit -m "Refresh intraday RSI monitor"
+          git add data/intraday_state.json data/state.json data/scanner.json
+          git diff --cached --quiet || git commit -m "Refresh intraday RSI exits"
           git pull --rebase
           git push
