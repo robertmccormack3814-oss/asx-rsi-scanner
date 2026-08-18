@@ -407,17 +407,6 @@
       "latest_price": 0.6700000166893005,
       "latest_rsi10": 27.250478000142976
     },
-    "ITS": {
-      "symbol": "ITS",
-      "company": "INFOTRUST LTD",
-      "ticker": "ITS.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.2199999988079071,
-      "entry_rsi10": 20.278023470755045,
-      "holding_trading_days": 4,
-      "latest_price": 0.23499999940395355,
-      "latest_rsi10": 38.480404252035754
-    },
     "KAM": {
       "symbol": "KAM",
       "company": "K2 ASSET MANAGEMENT HOLDINGS LTD",
@@ -914,18 +903,6 @@
       "latest_price": 0.017999999225139618,
       "latest_rsi10": 35.94738455395884
     },
-    "SEN": {
-      "symbol": "SEN",
-      "company": "SENETAS CORPORATION LIMITED",
-      "ticker": "SEN.AX",
-      "entry_date": "2026-08-13",
-      "entry_price": 2.940000057220459,
-      "entry_rsi10": 29.638366695088976,
-      "entry_sma200": 2.4948749923706055,
-      "holding_trading_days": 2,
-      "latest_price": 2.9700000286102295,
-      "latest_rsi10": 34.03039168300711
-    },
     "AGE": {
       "symbol": "AGE",
       "company": "ALLIGATOR ENERGY LIMITED",
@@ -1418,8 +1395,45 @@
       "gain_pct": 4.301077543014524,
       "exit_source": "intraday_monitor",
       "exit_observed_at": "2026-08-18T03:11:11.200316+00:00"
+    },
+    {
+      "symbol": "ITS",
+      "company": "INFOTRUST LTD",
+      "ticker": "ITS.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.2199999988079071,
+      "entry_rsi10": 20.278023470755045,
+      "holding_trading_days": 5,
+      "latest_price": 0.23499999940395355,
+      "latest_rsi10": 38.480404252035754,
+      "exit_date": "2026-08-18",
+      "exit_price": 0.23999999463558197,
+      "exit_rsi10": 41.244547299893405,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 9.090907243657693,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-18T05:05:09.223077+00:00"
+    },
+    {
+      "symbol": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "ticker": "SEN.AX",
+      "entry_date": "2026-08-13",
+      "entry_price": 2.940000057220459,
+      "entry_rsi10": 29.638366695088976,
+      "entry_sma200": 2.4948749923706055,
+      "holding_trading_days": 3,
+      "latest_price": 2.9700000286102295,
+      "latest_rsi10": 34.03039168300711,
+      "exit_date": "2026-08-18",
+      "exit_price": 3.0299999713897705,
+      "exit_rsi10": 42.09688367056786,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 3.061221510804984,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-18T05:05:15.345489+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-18T03:11:18.005272+00:00"
+  "updated_at": "2026-08-18T05:05:17.459461+00:00"
 }
