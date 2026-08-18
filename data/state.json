@@ -176,17 +176,6 @@
       "latest_price": 0.010999999940395355,
       "latest_rsi10": 26.695524591067937
     },
-    "BUY": {
-      "symbol": "BUY",
-      "company": "BOUNTY OIL & GAS NL",
-      "ticker": "BUY.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.017000000923871994,
-      "entry_rsi10": 24.80883044858132,
-      "holding_trading_days": 4,
-      "latest_price": 0.017000000923871994,
-      "latest_rsi10": 24.808830441519163
-    },
     "CAY": {
       "symbol": "CAY",
       "company": "CANYON RESOURCES LIMITED",
@@ -296,17 +285,6 @@
       "holding_trading_days": 3,
       "latest_price": 0.15000000596046448,
       "latest_rsi10": 22.148635702854904
-    },
-    "DUG": {
-      "symbol": "DUG",
-      "company": "DUG TECHNOLOGY LTD",
-      "ticker": "DUG.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 1.8600000143051147,
-      "entry_rsi10": 23.51743036454674,
-      "holding_trading_days": 3,
-      "latest_price": 1.899999976158142,
-      "latest_rsi10": 35.77046570954941
     },
     "DYM": {
       "symbol": "DYM",
@@ -1404,8 +1382,44 @@
       "exit_rsi10": 44.905578606957114,
       "exit_reason": "RSI(10) rose above 40.0",
       "gain_pct": 7.500006053596871
+    },
+    {
+      "symbol": "BUY",
+      "company": "BOUNTY OIL & GAS NL",
+      "ticker": "BUY.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.017000000923871994,
+      "entry_rsi10": 24.80883044858132,
+      "holding_trading_days": 5,
+      "latest_price": 0.017000000923871994,
+      "latest_rsi10": 24.808830441519163,
+      "exit_date": "2026-08-18",
+      "exit_price": 0.017999999225139618,
+      "exit_rsi10": 53.02886544535822,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 5.882342628954752,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-18T03:11:09.931465+00:00"
+    },
+    {
+      "symbol": "DUG",
+      "company": "DUG TECHNOLOGY LTD",
+      "ticker": "DUG.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 1.8600000143051147,
+      "entry_rsi10": 23.51743036454674,
+      "holding_trading_days": 4,
+      "latest_price": 1.899999976158142,
+      "latest_rsi10": 35.77046570954941,
+      "exit_date": "2026-08-18",
+      "exit_price": 1.940000057220459,
+      "exit_rsi10": 44.10715671170882,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 4.301077543014524,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-18T03:11:11.200316+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-17T09:28:02.880225+00:00"
+  "updated_at": "2026-08-18T03:11:18.005272+00:00"
 }
