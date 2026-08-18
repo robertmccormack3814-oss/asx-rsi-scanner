@@ -3,7 +3,10 @@ name: Scan ASX RSI strategy
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 7 * * 1-5"
+    # GitHub cron is UTC. Two entries handle Sydney daylight-saving changes.
+    # The guard below only allows the run whose Sydney local time is around 10:15.
+    - cron: "15 23 * * 0-4"
+    - cron: "15 0 * * 1-5"
 
 permissions:
   contents: write
@@ -23,24 +26,43 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Check Sydney trading-day scan time
+        id: localtime
+        shell: bash
+        run: |
+          SYDNEY_DAY=$(TZ=Australia/Sydney date +%u)
+          SYDNEY_HM=$(TZ=Australia/Sydney date +%H:%M)
+          echo "Sydney local time: $SYDNEY_DAY $SYDNEY_HM"
+          if [ "$SYDNEY_DAY" -ge 1 ] && [ "$SYDNEY_DAY" -le 5 ] && [ "$SYDNEY_HM" = "10:15" ]; then
+            echo "run_scan=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_scan=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v6
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
 
       - uses: actions/setup-python@v6
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
         with:
           python-version: "3.12"
 
       - run: pip install -r requirements.txt
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
 
       - name: Refresh ASX universe
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
         run: python scripts/build_universe.py
 
       - name: Scan RSI strategy and send alerts
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
         env:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
         run: python scripts/scan.py
 
       - name: Commit scanner state
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "ASX RSI Bot"
           git config user.email "actions@github.com"
@@ -50,13 +72,16 @@ jobs:
           git push
 
       - name: Configure Pages
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/configure-pages@v5
 
       - name: Upload site
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
 
       - name: Deploy Pages
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
         id: deployment
         uses: actions/deploy-pages@v4
