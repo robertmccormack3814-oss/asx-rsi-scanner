@@ -682,17 +682,6 @@
       "latest_price": 0.008999999612569809,
       "latest_rsi10": 0.0029230803910138548
     },
-    "SCN": {
-      "symbol": "SCN",
-      "company": "SCORPION MINERALS LIMITED",
-      "ticker": "SCN.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.019999999552965164,
-      "entry_rsi10": 10.111912561434494,
-      "holding_trading_days": 4,
-      "latest_price": 0.019999999552965164,
-      "latest_rsi10": 10.11191256106514
-    },
     "SIS": {
       "symbol": "SIS",
       "company": "SIMBLE SOLUTIONS LIMITED",
@@ -1439,8 +1428,26 @@
       "gain_pct": 15.000000372529025,
       "exit_source": "intraday_monitor",
       "exit_observed_at": "2026-08-19T03:14:28.730132+00:00"
+    },
+    {
+      "symbol": "SCN",
+      "company": "SCORPION MINERALS LIMITED",
+      "ticker": "SCN.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.019999999552965164,
+      "entry_rsi10": 10.111912561434494,
+      "holding_trading_days": 6,
+      "latest_price": 0.019999999552965164,
+      "latest_rsi10": 10.11191256106514,
+      "exit_date": "2026-08-19",
+      "exit_price": 0.02199999988079071,
+      "exit_rsi10": 54.15537061943093,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 10.000001862645192,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-19T05:05:47.354856+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-19T03:14:33.826461+00:00"
+  "updated_at": "2026-08-19T05:05:49.288150+00:00"
 }
