@@ -286,17 +286,6 @@
       "latest_price": 0.15000000596046448,
       "latest_rsi10": 22.148635702854904
     },
-    "DYM": {
-      "symbol": "DYM",
-      "company": "DYNAMIC METALS LIMITED",
-      "ticker": "DYM.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.4000000059604645,
-      "entry_rsi10": 28.833226110379073,
-      "holding_trading_days": 4,
-      "latest_price": 0.4000000059604645,
-      "latest_rsi10": 28.83322611014667
-    },
     "EV8": {
       "symbol": "EV8",
       "company": "EVERLAST MINERALS LTD.",
@@ -1432,8 +1421,26 @@
       "gain_pct": 3.061221510804984,
       "exit_source": "intraday_monitor",
       "exit_observed_at": "2026-08-18T05:05:15.345489+00:00"
+    },
+    {
+      "symbol": "DYM",
+      "company": "DYNAMIC METALS LIMITED",
+      "ticker": "DYM.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.4000000059604645,
+      "entry_rsi10": 28.833226110379073,
+      "holding_trading_days": 6,
+      "latest_price": 0.4000000059604645,
+      "latest_rsi10": 28.83322611014667,
+      "exit_date": "2026-08-19",
+      "exit_price": 0.46000000834465027,
+      "exit_rsi10": 67.63299952613139,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 15.000000372529025,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-19T03:14:28.730132+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-18T05:05:17.459461+00:00"
+  "updated_at": "2026-08-19T03:14:33.826461+00:00"
 }
