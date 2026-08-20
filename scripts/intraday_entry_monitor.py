@@ -47,7 +47,6 @@ def main():
     state = load_json(DATA / "state.json", {"active_signals": {}, "completed_trades": []})
     active = state.setdefault("active_signals", {})
 
-    # Market filter: new entries are only permitted while the ASX 200 is above SMA200.
     market_hist = yf.download(CONFIG["market_ticker"], period="18mo", interval="1d", auto_adjust=False, progress=False)
     if market_hist.empty:
         raise RuntimeError("Could not download ASX 200 history")
@@ -64,7 +63,6 @@ def main():
     batch = int(CONFIG.get("scan_batch_size", 250))
     for start in range(0, len(universe), batch):
         items = universe[start:start + batch]
-        # Existing active signals cannot become duplicate entries.
         items = [x for x in items if x["symbol"] not in active]
         if not items:
             continue
@@ -90,7 +88,6 @@ def main():
                 if pd.isna(sma200) or price <= sma200:
                     continue
 
-                # Replace today's daily bar with the latest intraday price, or append it if absent.
                 closes = dc.copy()
                 today = pd.Timestamp.now(tz="Australia/Sydney").date()
                 if closes.index[-1].date() == today:
@@ -131,11 +128,35 @@ def main():
     state["active_signals"] = active
     save_json(DATA / "state.json", state)
 
-    # Keep scanner.json immediately in sync so dashboard/ledger/simulator can see the entries.
     scanner = load_json(DATA / "scanner.json", {})
     scanner["generated_at"] = now_iso()
     scanner["active_signals"] = list(active.values())
     scanner["entries_today"] = list(scanner.get("entries_today", [])) + new_entries
+
+    # Merge newly detected intraday entries into the scanner rows immediately.
+    # This lets Current Entry Conditions display them and their exact detection time
+    # without waiting for the next full daily scan.
+    stocks = list(scanner.get("stocks", []))
+    stock_index = {row.get("symbol"): i for i, row in enumerate(stocks)}
+    for entry in new_entries:
+        row = {
+            "symbol": entry["symbol"],
+            "company": entry["company"],
+            "ticker": entry["ticker"],
+            "date": entry["entry_date"],
+            "price": entry["latest_price"],
+            "rsi10": entry["latest_rsi10"],
+            "sma200": entry["entry_sma200"],
+            "above_sma200": True,
+            "avg_volume_20d": 0,
+            "active": True,
+        }
+        if entry["symbol"] in stock_index:
+            stocks[stock_index[entry["symbol"]]] = row
+        else:
+            stocks.append(row)
+    scanner["stocks"] = stocks
+
     stats = scanner.setdefault("stats", {})
     stats["active"] = len(active)
     stats["entries_today"] = len(scanner["entries_today"])
