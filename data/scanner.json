@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:08:04.132685+00:00",
+  "generated_at": "2026-08-20T20:32:38.401617+00:00",
   "market": {
     "ticker": "^AXJO",
     "name": "S&P/ASX 200",
@@ -12,7 +12,7 @@
     "universe": 1924,
     "scanned": 1617,
     "entries_today": 2,
-    "exits_today": 7,
+    "exits_today": 0,
     "active": 78,
     "errors": 307,
     "completed_trades": 39,
@@ -46,135 +46,7 @@
       "latest_rsi10": 29.64355347378323
     }
   ],
-  "exits_today": [
-    {
-      "symbol": "ACR",
-      "company": "ACRUX LIMITED",
-      "ticker": "ACR.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.008999999612569809,
-      "entry_rsi10": 21.30140406736963,
-      "holding_trading_days": 6,
-      "latest_price": 0.009999999776482582,
-      "latest_rsi10": 39.482750732680614,
-      "exit_date": "2026-08-20",
-      "exit_price": 0.009999999776482582,
-      "exit_rsi10": 44.990994532803,
-      "exit_reason": "RSI(10) rose above 40.0",
-      "gain_pct": 11.111113410673122,
-      "exit_source": "intraday_monitor",
-      "exit_observed_at": "2026-08-20T03:13:14.626183+00:00"
-    },
-    {
-      "symbol": "CD3",
-      "company": "CD PRIVATE EQUITY FUND III",
-      "ticker": "CD3.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.7900000214576721,
-      "entry_rsi10": 24.484247280892973,
-      "holding_trading_days": 6,
-      "latest_price": 0.8050000071525574,
-      "latest_rsi10": 35.48502772038513,
-      "exit_date": "2026-08-20",
-      "exit_price": 0.8149999976158142,
-      "exit_rsi10": 42.86062457267859,
-      "exit_reason": "RSI(10) rose above 40.0",
-      "gain_pct": 3.1645538581142407,
-      "exit_source": "intraday_monitor",
-      "exit_observed_at": "2026-08-20T03:13:17.384476+00:00"
-    },
-    {
-      "symbol": "NXD",
-      "company": "NEXTED GROUP LIMITED",
-      "ticker": "NXD.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.07500000298023224,
-      "entry_rsi10": 27.885408051473874,
-      "holding_trading_days": 7,
-      "latest_price": 0.07500000298023224,
-      "latest_rsi10": 32.04449699530208,
-      "exit_date": "2026-08-20",
-      "exit_price": 0.08299999684095383,
-      "exit_rsi10": 63.03593113308516,
-      "exit_reason": "RSI(10) rose above 40.0",
-      "gain_pct": 10.666658057107208,
-      "exit_source": "intraday_monitor",
-      "exit_observed_at": "2026-08-20T03:13:19.871777+00:00"
-    },
-    {
-      "symbol": "RAS",
-      "company": "RAGUSA MINERALS LTD",
-      "ticker": "RAS.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.017999999225139618,
-      "entry_rsi10": 29.770993388576457,
-      "holding_trading_days": 6,
-      "latest_price": 0.017999999225139618,
-      "latest_rsi10": 29.770993388640917,
-      "exit_date": "2026-08-20",
-      "exit_price": 0.019999999552965164,
-      "exit_rsi10": 52.7830460817385,
-      "exit_reason": "RSI(10) rose above 40.0",
-      "gain_pct": 11.111113410673122,
-      "exit_source": "intraday_monitor",
-      "exit_observed_at": "2026-08-20T03:13:22.088514+00:00"
-    },
-    {
-      "symbol": "APW",
-      "company": "AIMS PROPERTY SECURITIES FUND",
-      "ticker": "APW.AX",
-      "entry_date": "2026-08-17",
-      "entry_price": 3.799999952316284,
-      "entry_rsi10": 21.664150749863012,
-      "entry_sma200": 3.399100031852722,
-      "holding_trading_days": 3,
-      "latest_price": 3.799999952316284,
-      "latest_rsi10": 21.664150749863012,
-      "exit_date": "2026-08-20",
-      "exit_price": 3.9200000762939453,
-      "exit_rsi10": 49.54656964151983,
-      "exit_reason": "RSI(10) rose above 40.0",
-      "gain_pct": 3.1578980390385336,
-      "exit_source": "intraday_monitor",
-      "exit_observed_at": "2026-08-20T03:13:26.446665+00:00"
-    },
-    {
-      "symbol": "AUG",
-      "company": "AUGUSTUS MINERALS LIMITED",
-      "ticker": "AUG.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.029999999329447746,
-      "entry_rsi10": 20.668646020713382,
-      "holding_trading_days": 6,
-      "latest_price": 0.029999999329447746,
-      "latest_rsi10": 26.277392098926512,
-      "exit_date": "2026-08-20",
-      "exit_price": 0.03200000151991844,
-      "exit_rsi10": 48.18228485475583,
-      "exit_reason": "RSI(10) rose above 40.0",
-      "gain_pct": 6.66667411724743,
-      "exit_source": "intraday_monitor",
-      "exit_observed_at": "2026-08-20T05:07:54.980419+00:00"
-    },
-    {
-      "symbol": "MPP",
-      "company": "METRO PERFORMANCE GLASS LIMITED",
-      "ticker": "MPP.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.9800000190734863,
-      "entry_rsi10": 19.097274777648707,
-      "holding_trading_days": 7,
-      "latest_price": 0.9800000190734863,
-      "latest_rsi10": 19.09727477753087,
-      "exit_date": "2026-08-20",
-      "exit_price": 1.0,
-      "exit_rsi10": 55.32053464504744,
-      "exit_reason": "RSI(10) rose above 40.0",
-      "gain_pct": 2.040814340536656,
-      "exit_source": "intraday_monitor",
-      "exit_observed_at": "2026-08-20T05:07:58.015414+00:00"
-    }
-  ],
+  "exits_today": [],
   "completed_trades": [
     {
       "symbol": "DTM",
@@ -818,7 +690,10 @@
       "entry_rsi10": 14.424083415841295,
       "holding_trading_days": 3,
       "latest_price": 0.006000000052154064,
-      "latest_rsi10": 14.42408341573929
+      "latest_rsi10": 37.01808063868294,
+      "rsi40_target_price": 0.006143712369390061,
+      "rsi40_move_pct": 2.395205266446666,
+      "target_updated_at": "2026-08-20T20:32:38.401646+00:00"
     },
     {
       "symbol": "ADY",
@@ -829,7 +704,10 @@
       "entry_rsi10": 0.0,
       "holding_trading_days": 4,
       "latest_price": 0.006000000052154064,
-      "latest_rsi10": 0.0
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 0.006000000052155383,
+      "rsi40_move_pct": 2.1973163838041258e-11,
+      "target_updated_at": "2026-08-20T20:32:38.401652+00:00"
     },
     {
       "symbol": "AGE",
@@ -840,8 +718,11 @@
       "entry_rsi10": 27.553387376686103,
       "entry_sma200": 0.039365000165998934,
       "holding_trading_days": 1,
-      "latest_price": 0.0430000014603138,
-      "latest_rsi10": 29.206910889115676
+      "latest_price": 0.041999999433755875,
+      "latest_rsi10": 29.355409058777354,
+      "rsi40_target_price": 0.043984390400396166,
+      "rsi40_move_pct": 4.724740460461563,
+      "target_updated_at": "2026-08-20T20:32:38.401932+00:00"
     },
     {
       "symbol": "AKG",
@@ -851,8 +732,11 @@
       "entry_price": 0.06499999761581421,
       "entry_rsi10": 17.0497132547426,
       "holding_trading_days": 4,
-      "latest_price": 0.06499999761581421,
-      "latest_rsi10": 17.049713256220585
+      "latest_price": 0.050999999046325684,
+      "latest_rsi10": 5.515116688722372,
+      "rsi40_target_price": 0.05967072781060591,
+      "rsi40_move_pct": 17.001429267487232,
+      "target_updated_at": "2026-08-20T20:32:38.401656+00:00"
     },
     {
       "symbol": "AKN",
@@ -863,8 +747,11 @@
       "entry_rsi10": 29.253289821921996,
       "entry_sma200": 0.014847500014584512,
       "holding_trading_days": 2,
-      "latest_price": 0.017999999225139618,
-      "latest_rsi10": 35.94738455395884
+      "latest_price": 0.017000000923871994,
+      "latest_rsi10": 31.81772609795854,
+      "rsi40_target_price": 0.017961499894595508,
+      "rsi40_move_pct": 5.655875991002702,
+      "target_updated_at": "2026-08-20T20:32:38.401929+00:00"
     },
     {
       "symbol": "ALX",
@@ -875,8 +762,11 @@
       "entry_rsi10": 23.792113854292154,
       "entry_sma200": 4.829200010299683,
       "holding_trading_days": 0,
-      "latest_price": 4.849999904632568,
-      "latest_rsi10": 23.792113854292154
+      "latest_price": 4.840000152587891,
+      "latest_rsi10": 27.366092390874513,
+      "rsi40_target_price": 4.892775106311909,
+      "rsi40_move_pct": 1.0903915714920003,
+      "target_updated_at": "2026-08-20T20:32:38.401939+00:00"
     },
     {
       "symbol": "ANO",
@@ -887,7 +777,10 @@
       "entry_rsi10": 8.964506240556915,
       "holding_trading_days": 4,
       "latest_price": 0.7149999737739563,
-      "latest_rsi10": 8.96450624010808
+      "latest_rsi10": 8.964451618029301,
+      "rsi40_target_price": 0.7395312082329135,
+      "rsi40_move_pct": 3.430942008217842,
+      "target_updated_at": "2026-08-20T20:32:38.401660+00:00"
     },
     {
       "symbol": "ANR",
@@ -898,7 +791,10 @@
       "entry_rsi10": 17.81983149562153,
       "holding_trading_days": 4,
       "latest_price": 0.008999999612569809,
-      "latest_rsi10": 17.819831498104293
+      "latest_rsi10": 17.81958423889597,
+      "rsi40_target_price": 0.009242905857428851,
+      "rsi40_move_pct": 2.6989583923957974,
+      "target_updated_at": "2026-08-20T20:32:38.401663+00:00"
     },
     {
       "symbol": "ARC",
@@ -909,7 +805,10 @@
       "entry_rsi10": 13.577332894878566,
       "holding_trading_days": 4,
       "latest_price": 0.05999999865889549,
-      "latest_rsi10": 7.337782720823867
+      "latest_rsi10": 7.337275969621473,
+      "rsi40_target_price": 0.0635751172130219,
+      "rsi40_move_pct": 5.95853105672757,
+      "target_updated_at": "2026-08-20T20:32:38.401667+00:00"
     },
     {
       "symbol": "ARF",
@@ -919,8 +818,11 @@
       "entry_price": 2.3299999237060547,
       "entry_rsi10": 17.43408956450493,
       "holding_trading_days": 3,
-      "latest_price": 2.3399999141693115,
-      "latest_rsi10": 21.075147901200637
+      "latest_price": 2.4200000762939453,
+      "latest_rsi10": 29.243083308966533,
+      "rsi40_target_price": 2.5386489535507573,
+      "rsi40_move_pct": 4.9028460130676565,
+      "target_updated_at": "2026-08-20T20:32:38.401670+00:00"
     },
     {
       "symbol": "ASP",
@@ -930,8 +832,11 @@
       "entry_price": 1.0800000429153442,
       "entry_rsi10": 21.749769954799177,
       "holding_trading_days": 3,
-      "latest_price": 1.0,
-      "latest_rsi10": 29.717234495488512
+      "latest_price": 1.0299999713897705,
+      "latest_rsi10": 33.18781246865332,
+      "rsi40_target_price": 1.0850427597715613,
+      "rsi40_move_pct": 5.343960185505829,
+      "target_updated_at": "2026-08-20T20:32:38.401674+00:00"
     },
     {
       "symbol": "ATC",
@@ -941,8 +846,11 @@
       "entry_price": 0.0010000000474974513,
       "entry_rsi10": 23.774808487595962,
       "holding_trading_days": 3,
-      "latest_price": 0.0010000000474974513,
-      "latest_rsi10": 27.0567436557847
+      "latest_price": 0.0020000000949949026,
+      "latest_rsi10": 36.26372705273491,
+      "rsi40_target_price": 0.0022598449081527253,
+      "rsi40_move_pct": 12.992240040792847,
+      "target_updated_at": "2026-08-20T20:32:38.401677+00:00"
     },
     {
       "symbol": "AXI",
@@ -953,7 +861,10 @@
       "entry_rsi10": 15.364976583373235,
       "holding_trading_days": 4,
       "latest_price": 0.009999999776482582,
-      "latest_rsi10": 15.364976583373235
+      "latest_rsi10": 15.364649114279644,
+      "rsi40_target_price": 0.01065196106429376,
+      "rsi40_move_pct": 6.519613023836479,
+      "target_updated_at": "2026-08-20T20:32:38.401680+00:00"
     },
     {
       "symbol": "BEL",
@@ -963,8 +874,11 @@
       "entry_price": 0.009999999776482582,
       "entry_rsi10": 22.379574629859206,
       "holding_trading_days": 4,
-      "latest_price": 0.009999999776482582,
-      "latest_rsi10": 22.37957463249346
+      "latest_price": 0.00800000037997961,
+      "latest_rsi10": 9.179173321155545,
+      "rsi40_target_price": 0.009567538817572642,
+      "rsi40_move_pct": 19.594229539236927,
+      "target_updated_at": "2026-08-20T20:32:38.401683+00:00"
     },
     {
       "symbol": "BOC",
@@ -974,8 +888,11 @@
       "entry_price": 0.18700000643730164,
       "entry_rsi10": 24.751124661523747,
       "holding_trading_days": 3,
-      "latest_price": 0.17000000178813934,
-      "latest_rsi10": 22.78884379170799
+      "latest_price": 0.17499999701976776,
+      "latest_rsi10": 32.44185940482569,
+      "rsi40_target_price": 0.18374934451652947,
+      "rsi40_move_pct": 4.999627226149833,
+      "target_updated_at": "2026-08-20T20:32:38.401686+00:00"
     },
     {
       "symbol": "BPP",
@@ -986,7 +903,10 @@
       "entry_rsi10": 0.0811567908873343,
       "holding_trading_days": 4,
       "latest_price": 0.05917000025510788,
-      "latest_rsi10": 0.0811567821091046
+      "latest_rsi10": 0.07911849322294984,
+      "rsi40_target_price": 0.059809776257314894,
+      "rsi40_move_pct": 1.0812506328353193,
+      "target_updated_at": "2026-08-20T20:32:38.401690+00:00"
     },
     {
       "symbol": "BTN",
@@ -996,8 +916,11 @@
       "entry_price": 0.010999999940395355,
       "entry_rsi10": 18.98619258555202,
       "holding_trading_days": 4,
-      "latest_price": 0.010999999940395355,
-      "latest_rsi10": 26.695524591067937
+      "latest_price": 0.008999999612569809,
+      "latest_rsi10": 18.656650057795588,
+      "rsi40_target_price": 0.011020114397403928,
+      "rsi40_move_pct": 22.445720797729095,
+      "target_updated_at": "2026-08-20T20:32:38.401693+00:00"
     },
     {
       "symbol": "CAY",
@@ -1007,8 +930,11 @@
       "entry_price": 0.04899999871850014,
       "entry_rsi10": 21.25390188479416,
       "holding_trading_days": 3,
-      "latest_price": 0.052000001072883606,
-      "latest_rsi10": 32.61455460140159
+      "latest_price": 0.05249999836087227,
+      "latest_rsi10": 34.023350389241855,
+      "rsi40_target_price": 0.05406251364171702,
+      "rsi40_move_pct": 2.976219675483415,
+      "target_updated_at": "2026-08-20T20:32:38.401696+00:00"
     },
     {
       "symbol": "CBA",
@@ -1019,8 +945,11 @@
       "entry_rsi10": 29.552871002349576,
       "entry_sma200": 166.26475021362305,
       "holding_trading_days": 1,
-      "latest_price": 165.0,
-      "latest_rsi10": 26.173607256068493
+      "latest_price": 156.44000244140625,
+      "latest_rsi10": 16.30810568380366,
+      "rsi40_target_price": 163.90517557340908,
+      "rsi40_move_pct": 4.771908089683693,
+      "target_updated_at": "2026-08-20T20:32:38.401936+00:00"
     },
     {
       "symbol": "CD1",
@@ -1031,7 +960,10 @@
       "entry_rsi10": 25.871247499591504,
       "holding_trading_days": 3,
       "latest_price": 0.2750000059604645,
-      "latest_rsi10": 35.660970279589804
+      "latest_rsi10": 35.66079065288719,
+      "rsi40_target_price": 0.27825160314876884,
+      "rsi40_move_pct": 1.1823989519374172,
+      "target_updated_at": "2026-08-20T20:32:38.401700+00:00"
     },
     {
       "symbol": "CF1",
@@ -1041,8 +973,11 @@
       "entry_price": 0.02199999988079071,
       "entry_rsi10": 19.88901794986039,
       "holding_trading_days": 4,
-      "latest_price": 0.02199999988079071,
-      "latest_rsi10": 19.889017949846703
+      "latest_price": 0.023000000044703484,
+      "latest_rsi10": 38.95193673561204,
+      "rsi40_target_price": 0.023105633792939388,
+      "rsi40_move_pct": 0.45927716535039875,
+      "target_updated_at": "2026-08-20T20:32:38.401703+00:00"
     },
     {
       "symbol": "CMD",
@@ -1053,7 +988,10 @@
       "entry_rsi10": 18.75207520015843,
       "holding_trading_days": 3,
       "latest_price": 0.01899999938905239,
-      "latest_rsi10": 13.508318527362263
+      "latest_rsi10": 13.508503744735478,
+      "rsi40_target_price": 0.02123968619707426,
+      "rsi40_move_pct": 11.787825684417413,
+      "target_updated_at": "2026-08-20T20:32:38.401706+00:00"
     },
     {
       "symbol": "CRB",
@@ -1064,7 +1002,10 @@
       "entry_rsi10": 9.930461347393589,
       "holding_trading_days": 4,
       "latest_price": 0.00800000037997961,
-      "latest_rsi10": 9.930461346150764
+      "latest_rsi10": 9.927496165661296,
+      "rsi40_target_price": 0.008095373868250218,
+      "rsi40_move_pct": 1.1921685467576233,
+      "target_updated_at": "2026-08-20T20:32:38.401709+00:00"
     },
     {
       "symbol": "CYP",
@@ -1075,7 +1016,10 @@
       "entry_rsi10": 24.849282775483815,
       "holding_trading_days": 4,
       "latest_price": 0.010999999940395355,
-      "latest_rsi10": 22.454231897918874
+      "latest_rsi10": 22.452468777818908,
+      "rsi40_target_price": 0.012612592609353171,
+      "rsi40_move_pct": 14.659933433598335,
+      "target_updated_at": "2026-08-20T20:32:38.401712+00:00"
     },
     {
       "symbol": "CYQ",
@@ -1085,8 +1029,11 @@
       "entry_price": 0.004000000189989805,
       "entry_rsi10": 27.78108854360879,
       "holding_trading_days": 4,
-      "latest_price": 0.004000000189989805,
-      "latest_rsi10": 27.781088540185053
+      "latest_price": 0.0044999998062849045,
+      "latest_rsi10": 60.32263275039517,
+      "rsi40_target_price": 0.003992607332497468,
+      "rsi40_move_pct": -11.27538879176814,
+      "target_updated_at": "2026-08-20T20:32:38.401716+00:00"
     },
     {
       "symbol": "CYV",
@@ -1096,8 +1043,11 @@
       "entry_price": 0.010999999940395355,
       "entry_rsi10": 24.022269864420636,
       "holding_trading_days": 3,
-      "latest_price": 0.012000000104308128,
-      "latest_rsi10": 32.637677416738995
+      "latest_price": 0.010999999940395355,
+      "latest_rsi10": 32.83368737874788,
+      "rsi40_target_price": 0.011851081235369525,
+      "rsi40_move_pct": 7.737102723507662,
+      "target_updated_at": "2026-08-20T20:32:38.401719+00:00"
     },
     {
       "symbol": "DLY",
@@ -1107,8 +1057,11 @@
       "entry_price": 0.11999999731779099,
       "entry_rsi10": 16.464776136033322,
       "holding_trading_days": 3,
-      "latest_price": 0.15000000596046448,
-      "latest_rsi10": 22.148635702854904
+      "latest_price": 0.1599999964237213,
+      "latest_rsi10": 35.734551536784124,
+      "rsi40_target_price": 0.16329970329605908,
+      "rsi40_move_pct": 2.0623168413074806,
+      "target_updated_at": "2026-08-20T20:32:38.401723+00:00"
     },
     {
       "symbol": "EV8",
@@ -1118,8 +1071,11 @@
       "entry_price": 0.4000000059604645,
       "entry_rsi10": 11.285018805268422,
       "holding_trading_days": 3,
-      "latest_price": 0.4099999964237213,
-      "latest_rsi10": 26.087412051596914
+      "latest_price": 0.4050000011920929,
+      "latest_rsi10": 21.949530086566654,
+      "rsi40_target_price": 0.41268168338275196,
+      "rsi40_move_pct": 1.8967116464317288,
+      "target_updated_at": "2026-08-20T20:32:38.401726+00:00"
     },
     {
       "symbol": "EXR",
@@ -1129,8 +1085,11 @@
       "entry_price": 0.04600000008940697,
       "entry_rsi10": 16.619346226510814,
       "holding_trading_days": 3,
-      "latest_price": 0.05000000074505806,
-      "latest_rsi10": 28.71151119061949
+      "latest_price": 0.04600000008940697,
+      "latest_rsi10": 28.57659170204205,
+      "rsi40_target_price": 0.051993643176088664,
+      "rsi40_move_pct": 13.029658858765814,
+      "target_updated_at": "2026-08-20T20:32:38.401729+00:00"
     },
     {
       "symbol": "FLX",
@@ -1141,7 +1100,10 @@
       "entry_rsi10": 29.87704475289263,
       "holding_trading_days": 3,
       "latest_price": 0.05000000074505806,
-      "latest_rsi10": 29.87704475289263
+      "latest_rsi10": 29.87558675080581,
+      "rsi40_target_price": 0.05011433551057458,
+      "rsi40_move_pct": 0.2286695276255963,
+      "target_updated_at": "2026-08-20T20:32:38.401732+00:00"
     },
     {
       "symbol": "FNX",
@@ -1152,7 +1114,10 @@
       "entry_rsi10": 14.583036231287252,
       "holding_trading_days": 4,
       "latest_price": 0.18000000715255737,
-      "latest_rsi10": 14.579818056716107
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 0.18000000715255499,
+      "rsi40_move_pct": -1.3260996711633592e-12,
+      "target_updated_at": "2026-08-20T20:32:38.401736+00:00"
     },
     {
       "symbol": "G11",
@@ -1162,8 +1127,11 @@
       "entry_price": 0.1899999976158142,
       "entry_rsi10": 27.893360270632883,
       "holding_trading_days": 4,
-      "latest_price": 0.18000000715255737,
-      "latest_rsi10": 25.568727413330237
+      "latest_price": 0.17499999701976776,
+      "latest_rsi10": 31.93794047344494,
+      "rsi40_target_price": 0.18182117343324028,
+      "rsi40_move_pct": 3.8978151597922643,
+      "target_updated_at": "2026-08-20T20:32:38.401739+00:00"
     },
     {
       "symbol": "GGE",
@@ -1174,7 +1142,10 @@
       "entry_rsi10": 24.429436231692634,
       "holding_trading_days": 4,
       "latest_price": 0.0010000000474974513,
-      "latest_rsi10": 24.42943623263217
+      "latest_rsi10": 24.431857180076108,
+      "rsi40_target_price": 0.0010561356576987485,
+      "rsi40_move_pct": 5.613560753499888,
+      "target_updated_at": "2026-08-20T20:32:38.401742+00:00"
     },
     {
       "symbol": "GRV",
@@ -1184,8 +1155,11 @@
       "entry_price": 0.02199999988079071,
       "entry_rsi10": 17.777937159575742,
       "holding_trading_days": 3,
-      "latest_price": 0.02500000037252903,
-      "latest_rsi10": 34.297982394446564
+      "latest_price": 0.02199999988079071,
+      "latest_rsi10": 27.11410163051704,
+      "rsi40_target_price": 0.024459090068866617,
+      "rsi40_move_pct": 11.177682733639738,
+      "target_updated_at": "2026-08-20T20:32:38.401745+00:00"
     },
     {
       "symbol": "HCT",
@@ -1195,8 +1169,11 @@
       "entry_price": 0.05000000074505806,
       "entry_rsi10": 17.648976154492985,
       "holding_trading_days": 3,
-      "latest_price": 0.04800000041723251,
-      "latest_rsi10": 20.787767004272396
+      "latest_price": 0.04600000008940697,
+      "latest_rsi10": 19.083097517547287,
+      "rsi40_target_price": 0.052887057504884746,
+      "rsi40_move_pct": 14.971863917591063,
+      "target_updated_at": "2026-08-20T20:32:38.401748+00:00"
     },
     {
       "symbol": "ICU",
@@ -1207,7 +1184,10 @@
       "entry_rsi10": 0.0,
       "holding_trading_days": 4,
       "latest_price": 0.0010000000474974513,
-      "latest_rsi10": 0.0
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 0.0010000000474910476,
+      "rsi40_move_pct": -6.403731407407463e-10,
+      "target_updated_at": "2026-08-20T20:32:38.401752+00:00"
     },
     {
       "symbol": "IGN",
@@ -1217,8 +1197,11 @@
       "entry_price": 0.6600000262260437,
       "entry_rsi10": 13.7596431074127,
       "holding_trading_days": 4,
-      "latest_price": 0.6700000166893005,
-      "latest_rsi10": 27.250478000142976
+      "latest_price": 0.7099999785423279,
+      "latest_rsi10": 60.85253461160704,
+      "rsi40_target_price": 0.6693682268825993,
+      "rsi40_move_pct": -5.72278209685977,
+      "target_updated_at": "2026-08-20T20:32:38.401755+00:00"
     },
     {
       "symbol": "KAM",
@@ -1229,7 +1212,10 @@
       "entry_rsi10": 28.750275701252193,
       "holding_trading_days": 3,
       "latest_price": 0.05000000074505806,
-      "latest_rsi10": 28.750275701252193
+      "latest_rsi10": 28.75016499896526,
+      "rsi40_target_price": 0.05096352561438797,
+      "rsi40_move_pct": 1.9270497099445356,
+      "target_updated_at": "2026-08-20T20:32:38.401758+00:00"
     },
     {
       "symbol": "KYN",
@@ -1239,8 +1225,11 @@
       "entry_price": 0.06499999761581421,
       "entry_rsi10": 19.999591477676546,
       "holding_trading_days": 3,
-      "latest_price": 0.0560000017285347,
-      "latest_rsi10": 14.88631178102095
+      "latest_price": 0.05299999937415123,
+      "latest_rsi10": 20.825097218146013,
+      "rsi40_target_price": 0.061862624212615853,
+      "rsi40_move_pct": 16.721933854940833,
+      "target_updated_at": "2026-08-20T20:32:38.401761+00:00"
     },
     {
       "symbol": "LFT",
@@ -1250,8 +1239,11 @@
       "entry_price": 2.7200000286102295,
       "entry_rsi10": 27.750890489765794,
       "holding_trading_days": 3,
-      "latest_price": 2.7200000286102295,
-      "latest_rsi10": 29.783737567540157
+      "latest_price": 2.8399999141693115,
+      "latest_rsi10": 42.192258962342315,
+      "rsi40_target_price": 2.78393730819956,
+      "rsi40_move_pct": -1.97403548112957,
+      "target_updated_at": "2026-08-20T20:32:38.401764+00:00"
     },
     {
       "symbol": "LOT",
@@ -1261,8 +1253,11 @@
       "entry_price": 0.2549999952316284,
       "entry_rsi10": 29.513222180569926,
       "holding_trading_days": 3,
-      "latest_price": 0.24500000476837158,
-      "latest_rsi10": 30.6890282422316
+      "latest_price": 0.25,
+      "latest_rsi10": 33.417318845876935,
+      "rsi40_target_price": 0.2625427237177122,
+      "rsi40_move_pct": 5.01708948708488,
+      "target_updated_at": "2026-08-20T20:32:38.401767+00:00"
     },
     {
       "symbol": "MPR",
@@ -1273,7 +1268,10 @@
       "entry_rsi10": 28.336056390583792,
       "holding_trading_days": 4,
       "latest_price": 0.004999999888241291,
-      "latest_rsi10": 28.336056390583792
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 0.0049999998882357555,
+      "rsi40_move_pct": -1.107100547114024e-10,
+      "target_updated_at": "2026-08-20T20:32:38.401770+00:00"
     },
     {
       "symbol": "MSI",
@@ -1284,7 +1282,10 @@
       "entry_rsi10": 3.6716407096545396,
       "holding_trading_days": 4,
       "latest_price": 0.003000000026077032,
-      "latest_rsi10": 3.671641606811747
+      "latest_rsi10": 3.674995654561542,
+      "rsi40_target_price": 0.0030011294735126795,
+      "rsi40_move_pct": 0.037648247527663395,
+      "target_updated_at": "2026-08-20T20:32:38.401773+00:00"
     },
     {
       "symbol": "OEQ",
@@ -1295,7 +1296,10 @@
       "entry_rsi10": 13.986652180625867,
       "holding_trading_days": 4,
       "latest_price": 0.1899999976158142,
-      "latest_rsi10": 13.986652180625867
+      "latest_rsi10": 13.983627654759132,
+      "rsi40_target_price": 0.19001905356407928,
+      "rsi40_move_pct": 0.010029446581151718,
+      "target_updated_at": "2026-08-20T20:32:38.401776+00:00"
     },
     {
       "symbol": "OVT",
@@ -1306,7 +1310,10 @@
       "entry_rsi10": 28.920966996145623,
       "holding_trading_days": 3,
       "latest_price": 0.0020000000949949026,
-      "latest_rsi10": 30.736906855161266
+      "latest_rsi10": 30.736213230795357,
+      "rsi40_target_price": 0.0025805621693445243,
+      "rsi40_move_pct": 29.028102338720206,
+      "target_updated_at": "2026-08-20T20:32:38.401779+00:00"
     },
     {
       "symbol": "OZZ",
@@ -1316,8 +1323,11 @@
       "entry_price": 0.039000000804662704,
       "entry_rsi10": 6.996363168809694e-07,
       "holding_trading_days": 3,
-      "latest_price": 0.03999999910593033,
-      "latest_rsi10": 28.941425966454943
+      "latest_price": 0.03799999877810478,
+      "latest_rsi10": 30.963805751800166,
+      "rsi40_target_price": 0.04028779211938244,
+      "rsi40_move_pct": 6.020508986426227,
+      "target_updated_at": "2026-08-20T20:32:38.401783+00:00"
     },
     {
       "symbol": "PCG",
@@ -1328,7 +1338,10 @@
       "entry_rsi10": 29.04657440325883,
       "holding_trading_days": 3,
       "latest_price": 0.7200000286102295,
-      "latest_rsi10": 36.20571205250571
+      "latest_rsi10": 36.20513783724631,
+      "rsi40_target_price": 0.7228930874672761,
+      "rsi40_move_pct": 0.4018137141787192,
+      "target_updated_at": "2026-08-20T20:32:38.401786+00:00"
     },
     {
       "symbol": "PFM",
@@ -1339,7 +1352,10 @@
       "entry_rsi10": 1.7831653999603674,
       "holding_trading_days": 4,
       "latest_price": 0.017000000923871994,
-      "latest_rsi10": 0.6037237674493099
+      "latest_rsi10": 0.6034921715579458,
+      "rsi40_target_price": 0.01805512934696906,
+      "rsi40_move_pct": 6.206637445621657,
+      "target_updated_at": "2026-08-20T20:32:38.401789+00:00"
     },
     {
       "symbol": "PIA",
@@ -1349,8 +1365,11 @@
       "entry_price": 1.1299999952316284,
       "entry_rsi10": 23.593163806719346,
       "holding_trading_days": 3,
-      "latest_price": 1.1349999904632568,
-      "latest_rsi10": 29.55254379629804
+      "latest_price": 1.0850000381469727,
+      "latest_rsi10": 21.160501353692098,
+      "rsi40_target_price": 1.130876551890271,
+      "rsi40_move_pct": 4.228249965930785,
+      "target_updated_at": "2026-08-20T20:32:38.401792+00:00"
     },
     {
       "symbol": "PIM",
@@ -1361,7 +1380,10 @@
       "entry_rsi10": 23.87688395586693,
       "holding_trading_days": 3,
       "latest_price": 0.035999998450279236,
-      "latest_rsi10": 23.87688395623759
+      "latest_rsi10": 23.876840357816988,
+      "rsi40_target_price": 0.03727524607073388,
+      "rsi40_move_pct": 3.5423546537534776,
+      "target_updated_at": "2026-08-20T20:32:38.401795+00:00"
     },
     {
       "symbol": "PMV",
@@ -1371,8 +1393,11 @@
       "entry_price": 12.300000190734863,
       "entry_rsi10": 21.163902857063206,
       "holding_trading_days": 3,
-      "latest_price": 11.930000305175781,
-      "latest_rsi10": 27.592099796813855
+      "latest_price": 11.699999809265137,
+      "latest_rsi10": 28.882205533716004,
+      "rsi40_target_price": 12.161698447566273,
+      "rsi40_move_pct": 3.9461422720325268,
+      "target_updated_at": "2026-08-20T20:32:38.401798+00:00"
     },
     {
       "symbol": "PPG",
@@ -1383,7 +1408,10 @@
       "entry_rsi10": 9.83122111241363,
       "holding_trading_days": 4,
       "latest_price": 0.017999999225139618,
-      "latest_rsi10": 0.0
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 0.01799999922513162,
+      "rsi40_move_pct": -4.4428197602831015e-11,
+      "target_updated_at": "2026-08-20T20:32:38.401801+00:00"
     },
     {
       "symbol": "PXR",
@@ -1394,7 +1422,10 @@
       "entry_rsi10": 27.268908101048098,
       "holding_trading_days": 4,
       "latest_price": 0.0010000000474974513,
-      "latest_rsi10": 27.268908101048112
+      "latest_rsi10": 23.125888878902344,
+      "rsi40_target_price": 0.0010000016379622906,
+      "rsi40_move_pct": 0.0001590464763713572,
+      "target_updated_at": "2026-08-20T20:32:38.401805+00:00"
     },
     {
       "symbol": "QBE",
@@ -1404,8 +1435,11 @@
       "entry_price": 23.610000610351562,
       "entry_rsi10": 28.62986027625935,
       "holding_trading_days": 3,
-      "latest_price": 22.670000076293945,
-      "latest_rsi10": 19.28752701346329
+      "latest_price": 21.780000686645508,
+      "latest_rsi10": 13.50900219079351,
+      "rsi40_target_price": 22.921167716188727,
+      "rsi40_move_pct": 5.239517876796624,
+      "target_updated_at": "2026-08-20T20:32:38.401807+00:00"
     },
     {
       "symbol": "QPM",
@@ -1416,7 +1450,10 @@
       "entry_rsi10": 12.184438195812078,
       "holding_trading_days": 4,
       "latest_price": 0.008999999612569809,
-      "latest_rsi10": 12.184438199106907
+      "latest_rsi10": 12.182094239850073,
+      "rsi40_target_price": 0.009124828383593261,
+      "rsi40_move_pct": 1.3869864044117355,
+      "target_updated_at": "2026-08-20T20:32:38.401811+00:00"
     },
     {
       "symbol": "QUE",
@@ -1427,7 +1464,10 @@
       "entry_rsi10": 1.8553602501469868e-05,
       "holding_trading_days": 4,
       "latest_price": 0.05000000074505806,
-      "latest_rsi10": 1.8553602501469868e-05
+      "latest_rsi10": 0.0,
+      "rsi40_target_price": 0.050014161768798526,
+      "rsi40_move_pct": 0.028322047058901755,
+      "target_updated_at": "2026-08-20T20:32:38.401814+00:00"
     },
     {
       "symbol": "RAD",
@@ -1437,8 +1477,11 @@
       "entry_price": 0.012000000104308128,
       "entry_rsi10": 29.021617588728702,
       "holding_trading_days": 3,
-      "latest_price": 0.010999999940395355,
-      "latest_rsi10": 24.813571565089745
+      "latest_price": 0.009999999776482582,
+      "latest_rsi10": 26.35054477054514,
+      "rsi40_target_price": 0.011501762910312165,
+      "rsi40_move_pct": 15.01763167396605,
+      "target_updated_at": "2026-08-20T20:32:38.401817+00:00"
     },
     {
       "symbol": "RAU",
@@ -1449,7 +1492,10 @@
       "entry_rsi10": 24.042890638772988,
       "holding_trading_days": 4,
       "latest_price": 0.2849999964237213,
-      "latest_rsi10": 24.042890638478212
+      "latest_rsi10": 24.04246917465825,
+      "rsi40_target_price": 0.29079236839882894,
+      "rsi40_move_pct": 2.0324112448394085,
+      "target_updated_at": "2026-08-20T20:32:38.401820+00:00"
     },
     {
       "symbol": "RPM",
@@ -1460,7 +1506,10 @@
       "entry_rsi10": 20.613576127574916,
       "holding_trading_days": 4,
       "latest_price": 0.014000000432133675,
-      "latest_rsi10": 11.948074585272536
+      "latest_rsi10": 11.947207110201688,
+      "rsi40_target_price": 0.01472972953130099,
+      "rsi40_move_pct": 5.212350547449951,
+      "target_updated_at": "2026-08-20T20:32:38.401824+00:00"
     },
     {
       "symbol": "SAN",
@@ -1471,7 +1520,10 @@
       "entry_rsi10": 0.0029230803910138548,
       "holding_trading_days": 4,
       "latest_price": 0.008999999612569809,
-      "latest_rsi10": 0.0029230803910138548
+      "latest_rsi10": 0.0,
+      "rsi40_target_price": 0.009041039823660979,
+      "rsi40_move_pct": 0.4560023650873395,
+      "target_updated_at": "2026-08-20T20:32:38.401827+00:00"
     },
     {
       "symbol": "SIS",
@@ -1481,8 +1533,11 @@
       "entry_price": 0.004999999888241291,
       "entry_rsi10": 21.947715679698987,
       "holding_trading_days": 2,
-      "latest_price": 0.004999999888241291,
-      "latest_rsi10": 21.94771567656295
+      "latest_price": 0.004000000189989805,
+      "latest_rsi10": 2.166744778390978,
+      "rsi40_target_price": 0.0046296620974001,
+      "rsi40_move_pct": 15.741546937574006,
+      "target_updated_at": "2026-08-20T20:32:38.401833+00:00"
     },
     {
       "symbol": "SND",
@@ -1492,8 +1547,11 @@
       "entry_price": 0.9449999928474426,
       "entry_rsi10": 18.767966031968243,
       "holding_trading_days": 4,
-      "latest_price": 0.9399999976158142,
-      "latest_rsi10": 20.973315495515564
+      "latest_price": 0.9049999713897705,
+      "latest_rsi10": 12.526406615317569,
+      "rsi40_target_price": 0.937231215229096,
+      "rsi40_move_pct": 3.5614635202506526,
+      "target_updated_at": "2026-08-20T20:32:38.401836+00:00"
     },
     {
       "symbol": "SOM",
@@ -1503,8 +1561,11 @@
       "entry_price": 0.38999998569488525,
       "entry_rsi10": 25.17980304548712,
       "holding_trading_days": 3,
-      "latest_price": 0.33000001311302185,
-      "latest_rsi10": 15.005515774744879
+      "latest_price": 0.36500000953674316,
+      "latest_rsi10": 35.94377923827393,
+      "rsi40_target_price": 0.3727800234849001,
+      "rsi40_move_pct": 2.1315106150356775,
+      "target_updated_at": "2026-08-20T20:32:38.401839+00:00"
     },
     {
       "symbol": "SP8",
@@ -1515,7 +1576,10 @@
       "entry_rsi10": 28.79280734568883,
       "holding_trading_days": 3,
       "latest_price": 0.00800000037997961,
-      "latest_rsi10": 28.79280734568883
+      "latest_rsi10": 28.792793904540005,
+      "rsi40_target_price": 0.008079157048932674,
+      "rsi40_move_pct": 0.9894583149165449,
+      "target_updated_at": "2026-08-20T20:32:38.401842+00:00"
     },
     {
       "symbol": "SSL",
@@ -1526,7 +1590,10 @@
       "entry_rsi10": 16.668799499762613,
       "holding_trading_days": 4,
       "latest_price": 8.600000381469727,
-      "latest_rsi10": 16.668799499762613
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 8.60000038146987,
+      "rsi40_move_pct": 1.6730802047572767e-12,
+      "target_updated_at": "2026-08-20T20:32:38.401845+00:00"
     },
     {
       "symbol": "SST",
@@ -1537,7 +1604,10 @@
       "entry_rsi10": 5.092459022800114,
       "holding_trading_days": 4,
       "latest_price": 9.550000190734863,
-      "latest_rsi10": 14.607488310619658
+      "latest_rsi10": 14.607307727260533,
+      "rsi40_target_price": 9.572434312060238,
+      "rsi40_move_pct": 0.23491226049545097,
+      "target_updated_at": "2026-08-20T20:32:38.401849+00:00"
     },
     {
       "symbol": "TDO",
@@ -1548,7 +1618,10 @@
       "entry_rsi10": 21.626270345472875,
       "holding_trading_days": 3,
       "latest_price": 0.07999999821186066,
-      "latest_rsi10": 21.626270345472875
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 0.07999999821184611,
+      "rsi40_move_pct": -1.8179902434589424e-11,
+      "target_updated_at": "2026-08-20T20:32:38.401852+00:00"
     },
     {
       "symbol": "TFL",
@@ -1559,7 +1632,10 @@
       "entry_rsi10": 29.3068320382513,
       "holding_trading_days": 4,
       "latest_price": 0.004999999888241291,
-      "latest_rsi10": 29.30666503500761
+      "latest_rsi10": 50.0,
+      "rsi40_target_price": 0.0049999998882357555,
+      "rsi40_move_pct": -1.107100547114024e-10,
+      "target_updated_at": "2026-08-20T20:32:38.401856+00:00"
     },
     {
       "symbol": "TIA",
@@ -1570,7 +1646,10 @@
       "entry_rsi10": 20.653703093055057,
       "holding_trading_days": 4,
       "latest_price": 0.17000000178813934,
-      "latest_rsi10": 20.65370319815611
+      "latest_rsi10": 20.651939203518367,
+      "rsi40_target_price": 0.17008467302659946,
+      "rsi40_move_pct": 0.04980661033500562,
+      "target_updated_at": "2026-08-20T20:32:38.401868+00:00"
     },
     {
       "symbol": "TKM",
@@ -1580,8 +1659,11 @@
       "entry_price": 0.06800000369548798,
       "entry_rsi10": 29.968007287631366,
       "holding_trading_days": 3,
-      "latest_price": 0.06599999964237213,
-      "latest_rsi10": 29.863123005184462
+      "latest_price": 0.05999999865889549,
+      "latest_rsi10": 26.86390535457747,
+      "rsi40_target_price": 0.06921442332178349,
+      "rsi40_move_pct": 15.357374781410732,
+      "target_updated_at": "2026-08-20T20:32:38.401874+00:00"
     },
     {
       "symbol": "TRA",
@@ -1592,7 +1674,10 @@
       "entry_rsi10": 8.767998615155648e-05,
       "holding_trading_days": 4,
       "latest_price": 6.820000171661377,
-      "latest_rsi10": 28.36058742877013
+      "latest_rsi10": 28.360542429532273,
+      "rsi40_target_price": 6.828975835470848,
+      "rsi40_move_pct": 0.1316079704332969,
+      "target_updated_at": "2026-08-20T20:32:38.401881+00:00"
     },
     {
       "symbol": "TTX",
@@ -1603,8 +1688,11 @@
       "entry_rsi10": 29.64355347378323,
       "entry_sma200": 4.879225004911422,
       "holding_trading_days": 0,
-      "latest_price": 6.019999980926514,
-      "latest_rsi10": 29.64355347378323
+      "latest_price": 6.099999904632568,
+      "latest_rsi10": 35.462730592146855,
+      "rsi40_target_price": 6.2597628842919475,
+      "rsi40_move_pct": 2.619065281264171,
+      "target_updated_at": "2026-08-20T20:32:38.401943+00:00"
     },
     {
       "symbol": "TVL",
@@ -1615,7 +1703,10 @@
       "entry_rsi10": 25.048291472429497,
       "holding_trading_days": 3,
       "latest_price": 0.05700000002980232,
-      "latest_rsi10": 14.804038038607032
+      "latest_rsi10": 14.803652251161694,
+      "rsi40_target_price": 0.057673681934079846,
+      "rsi40_move_pct": 1.1818980770619125,
+      "target_updated_at": "2026-08-20T20:32:38.401887+00:00"
     },
     {
       "symbol": "WBC",
@@ -1625,8 +1716,11 @@
       "entry_price": 35.369998931884766,
       "entry_rsi10": 29.38544394601894,
       "holding_trading_days": 2,
-      "latest_price": 35.369998931884766,
-      "latest_rsi10": 32.057418478536206
+      "latest_price": 33.81999969482422,
+      "latest_rsi10": 21.45167690307585,
+      "rsi40_target_price": 34.97114320405335,
+      "rsi40_move_pct": 3.4037360130588628,
+      "target_updated_at": "2026-08-20T20:32:38.401892+00:00"
     },
     {
       "symbol": "WEL",
@@ -1637,7 +1731,10 @@
       "entry_rsi10": 16.935587716299636,
       "holding_trading_days": 3,
       "latest_price": 0.0010000000474974513,
-      "latest_rsi10": 16.935587716299636
+      "latest_rsi10": 16.93556121903383,
+      "rsi40_target_price": 0.0010992750697390906,
+      "rsi40_move_pct": 9.9275017526329,
+      "target_updated_at": "2026-08-20T20:32:38.401898+00:00"
     },
     {
       "symbol": "WTN",
@@ -1647,8 +1744,11 @@
       "entry_price": 1.2999999523162842,
       "entry_rsi10": 3.7962522014822753e-07,
       "holding_trading_days": 2,
-      "latest_price": 1.149999976158142,
-      "latest_rsi10": 3.183462382594371e-07
+      "latest_price": 1.1799999475479126,
+      "latest_rsi10": 4.849184162971127,
+      "rsi40_target_price": 1.463790597968067,
+      "rsi40_move_pct": 24.05005618939923,
+      "target_updated_at": "2026-08-20T20:32:38.401903+00:00"
     },
     {
       "symbol": "X2M",
@@ -1659,7 +1759,10 @@
       "entry_rsi10": 15.735417616140296,
       "holding_trading_days": 2,
       "latest_price": 0.0020000000949949026,
-      "latest_rsi10": 15.242965630864305
+      "latest_rsi10": 15.24429340568443,
+      "rsi40_target_price": 0.0023503215610417615,
+      "rsi40_move_pct": 17.516072470374144,
+      "target_updated_at": "2026-08-20T20:32:38.401908+00:00"
     },
     {
       "symbol": "ZEU",
@@ -1670,7 +1773,10 @@
       "entry_rsi10": 29.091212979362027,
       "holding_trading_days": 3,
       "latest_price": 0.004999999888241291,
-      "latest_rsi10": 29.0912129787111
+      "latest_rsi10": 29.091100286471374,
+      "rsi40_target_price": 0.005211749416886784,
+      "rsi40_move_pct": 4.23499066756927,
+      "target_updated_at": "2026-08-20T20:32:38.401914+00:00"
     }
   ],
   "stocks": [
@@ -1678,121 +1784,141 @@
       "symbol": "ADY",
       "company": "ADMIRALTY RESOURCES NL.",
       "ticker": "ADY.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.006000000052154064,
-      "rsi10": 0.0,
+      "rsi10": 50.0,
       "sma200": 0.006000000052154064,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.006000000052155383,
+      "rsi40_move_pct": 2.1973163838041258e-11
     },
     {
       "symbol": "ICU",
       "company": "INVESTOR CENTRE LIMITED",
       "ticker": "ICU.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.0010000000474974513,
-      "rsi10": 0.0,
+      "rsi10": 50.0,
       "sma200": 0.0010000000474974513,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0010000000474910476,
+      "rsi40_move_pct": -6.403731407407463e-10
     },
     {
       "symbol": "PPG",
       "company": "PRO-PAC PACKAGING LIMITED",
       "ticker": "PPG.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.017999999225139618,
-      "rsi10": 0.0,
+      "rsi10": 50.0,
       "sma200": 0.017999999225139618,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.01799999922513162,
+      "rsi40_move_pct": -4.4428197602831015e-11
     },
     {
       "symbol": "QUE",
       "company": "QUESTE COMMUNICATIONS LIMITED",
       "ticker": "QUE.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.05000000074505806,
-      "rsi10": 1.8553602501469868e-05,
+      "rsi10": 0.0,
       "sma200": 0.05453000143170357,
       "above_sma200": false,
       "avg_volume_20d": 500.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.050014161768798526,
+      "rsi40_move_pct": 0.028322047058901755
     },
     {
       "symbol": "SAN",
       "company": "SAGALIO ENERGY LIMITED",
       "ticker": "SAN.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.008999999612569809,
-      "rsi10": 0.0029230803910138548,
+      "rsi10": 0.0,
       "sma200": 0.011682500075548887,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.009041039823660979,
+      "rsi40_move_pct": 0.4560023650873395
     },
     {
       "symbol": "BPP",
       "company": "BABYLON PUMP & POWER LIMITED",
       "ticker": "BPP.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.05917000025510788,
-      "rsi10": 0.0811567821091046,
+      "rsi10": 0.07911849322294984,
       "sma200": 0.09946109037846326,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.059809776257314894,
+      "rsi40_move_pct": 1.0812506328353193
     },
     {
       "symbol": "PFM",
       "company": "PLATFORMO LTD",
       "ticker": "PFM.AX",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "price": 0.017000000923871994,
-      "rsi10": 0.6038526814746348,
+      "rsi10": 0.6034921715579458,
       "sma200": 0.028600000012665987,
       "above_sma200": false,
       "avg_volume_20d": 3807.7,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.01805512934696906,
+      "rsi40_move_pct": 6.206637445621657
     },
     {
       "symbol": "MSI",
       "company": "MULTISTACK INTERNATIONAL LIMITED",
       "ticker": "MSI.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.003000000026077032,
-      "rsi10": 3.671641606811747,
+      "rsi10": 3.674995654561542,
       "sma200": 0.003810000030789524,
       "above_sma200": false,
       "avg_volume_20d": 500.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0030011294735126795,
+      "rsi40_move_pct": 0.037648247527663395
     },
     {
       "symbol": "ARC",
       "company": "ARC FUNDS LIMITED",
       "ticker": "ARC.AX",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "price": 0.05999999865889549,
-      "rsi10": 7.14605391156185,
+      "rsi10": 7.337275969621473,
       "sma200": 0.08838500058278441,
       "above_sma200": false,
       "avg_volume_20d": 43252.8,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0635751172130219,
+      "rsi40_move_pct": 5.95853105672757
     },
     {
       "symbol": "ANO",
       "company": "ADVANCE ZINCTEK LIMITED",
       "ticker": "ANO.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.7149999737739563,
-      "rsi10": 8.96450624010808,
+      "rsi10": 8.964451618029301,
       "sma200": 0.9253000092506408,
       "above_sma200": false,
       "avg_volume_20d": 3734.4,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.7395312082329135,
+      "rsi40_move_pct": 3.430942008217842
     },
     {
       "symbol": "BP8",
@@ -1822,13 +1948,15 @@
       "symbol": "CRB",
       "company": "CARBINE RESOURCES LIMITED",
       "ticker": "CRB.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.00800000037997961,
-      "rsi10": 9.930461346150764,
+      "rsi10": 9.927496165661296,
       "sma200": 0.007245000069960952,
       "above_sma200": true,
       "avg_volume_20d": 59717.8,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.008095373868250218,
+      "rsi40_move_pct": 1.1921685467576233
     },
     {
       "symbol": "SCN",
@@ -1846,121 +1974,141 @@
       "symbol": "RPM",
       "company": "RPM AUTOMOTIVE GROUP LIMITED",
       "ticker": "RPM.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.014000000432133675,
-      "rsi10": 11.948074585272536,
+      "rsi10": 11.947207110201688,
       "sma200": 0.0354200003715232,
       "above_sma200": false,
       "avg_volume_20d": 173810.5,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.01472972953130099,
+      "rsi40_move_pct": 5.212350547449951
     },
     {
       "symbol": "QPM",
       "company": "QPM ENERGY LIMITED",
       "ticker": "QPM.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.008999999612569809,
-      "rsi10": 12.184438199106907,
+      "rsi10": 12.182094239850073,
       "sma200": 0.027774999993853272,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.009124828383593261,
+      "rsi40_move_pct": 1.3869864044117355
     },
     {
       "symbol": "CMD",
       "company": "CASSIUS MINING LIMITED",
       "ticker": "CMD.AX",
-      "date": "2026-08-20",
-      "price": 0.020999999716877937,
-      "rsi10": 36.50703305675869,
+      "date": "2026-08-21",
+      "price": 0.01899999938905239,
+      "rsi10": 13.508503744735478,
       "sma200": 0.029985000072047116,
       "above_sma200": false,
       "avg_volume_20d": 206580.8,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.02123968619707426,
+      "rsi40_move_pct": 11.787825684417413
     },
     {
       "symbol": "OEQ",
       "company": "ORION EQUITIES LIMITED",
       "ticker": "OEQ.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.1899999976158142,
-      "rsi10": 13.986652180625867,
+      "rsi10": 13.983627654759132,
       "sma200": 0.19334999956190585,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.19001905356407928,
+      "rsi40_move_pct": 0.010029446581151718
     },
     {
       "symbol": "AAJ",
       "company": "ARUMA RESOURCES LIMITED",
       "ticker": "AAJ.AX",
-      "date": "2026-08-20",
-      "price": 0.004999999888241291,
-      "rsi10": 8.378457846152429,
+      "date": "2026-08-21",
+      "price": 0.006000000052154064,
+      "rsi10": 37.01808063868294,
       "sma200": 0.01384750007186085,
       "above_sma200": false,
       "avg_volume_20d": 2858042.95,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.006143712369390061,
+      "rsi40_move_pct": 2.395205266446666
     },
     {
       "symbol": "FNX",
       "company": "FINEXIA FINANCIAL GROUP LIMITED",
       "ticker": "FNX.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.18000000715255737,
-      "rsi10": 14.579818056716107,
+      "rsi10": 50.0,
       "sma200": 0.17882500544190408,
       "above_sma200": true,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.18000000715255499,
+      "rsi40_move_pct": -1.3260996711633592e-12
     },
     {
       "symbol": "SST",
       "company": "STEAMSHIPS TRADING COMPANY LIMITED",
       "ticker": "SST.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 9.550000190734863,
-      "rsi10": 14.38429344803572,
+      "rsi10": 14.607307727260533,
       "sma200": 10.33035002231598,
       "above_sma200": false,
       "avg_volume_20d": 35.4,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 9.572434312060238,
+      "rsi40_move_pct": 0.23491226049545097
     },
     {
       "symbol": "TVL",
       "company": "TOUCH VENTURES LIMITED",
       "ticker": "TVL.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.05700000002980232,
-      "rsi10": 14.804038038607032,
+      "rsi10": 14.803652251161694,
       "sma200": null,
       "above_sma200": false,
       "avg_volume_20d": 13423.45,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.057673681934079846,
+      "rsi40_move_pct": 1.1818980770619125
     },
     {
       "symbol": "KYN",
       "company": "KYRON CAPITAL GROUP",
       "ticker": "KYN.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.05299999937415123,
       "rsi10": 20.825097218146013,
       "sma200": 0.6415649946033954,
       "above_sma200": false,
       "avg_volume_20d": 270735.2,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.061862624212615853,
+      "rsi40_move_pct": 16.721933854940833
     },
     {
       "symbol": "SOM",
       "company": "SOMNOMED LIMITED",
       "ticker": "SOM.AX",
-      "date": "2026-08-20",
-      "price": 0.3499999940395355,
-      "rsi10": 32.13172074364739,
+      "date": "2026-08-21",
+      "price": 0.36500000953674316,
+      "rsi10": 35.94377923827393,
       "sma200": 0.6302749986946583,
       "above_sma200": false,
       "avg_volume_20d": 97981.2,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.3727800234849001,
+      "rsi40_move_pct": 2.1315106150356775
     },
     {
       "symbol": "HDN",
@@ -1990,13 +2138,15 @@
       "symbol": "AXI",
       "company": "AXTEC LIMITED",
       "ticker": "AXI.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.009999999776482582,
-      "rsi10": 15.364976583373235,
+      "rsi10": 15.364649114279644,
       "sma200": 0.015537500055506826,
       "above_sma200": false,
       "avg_volume_20d": 4916.85,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.01065196106429376,
+      "rsi40_move_pct": 6.519613023836479
     },
     {
       "symbol": "DGH",
@@ -2038,25 +2188,29 @@
       "symbol": "SSL",
       "company": "SIETEL LIMITED",
       "ticker": "SSL.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 8.600000381469727,
-      "rsi10": 16.668799499762613,
+      "rsi10": 50.0,
       "sma200": 8.604450235366821,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 8.60000038146987,
+      "rsi40_move_pct": 1.6730802047572767e-12
     },
     {
       "symbol": "AKG",
       "company": "ACADEMIES AUSTRALASIA GROUP LIMITED",
       "ticker": "AKG.AX",
-      "date": "2026-08-17",
-      "price": 0.06499999761581421,
-      "rsi10": 17.049713256220585,
+      "date": "2026-08-21",
+      "price": 0.050999999046325684,
+      "rsi10": 5.515116688722372,
       "sma200": 0.10714999893680215,
       "above_sma200": false,
       "avg_volume_20d": 1590.05,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.05967072781060591,
+      "rsi40_move_pct": 17.001429267487232
     },
     {
       "symbol": "INV",
@@ -2074,13 +2228,15 @@
       "symbol": "ANR",
       "company": "ANATARA LIFESCIENCES LTD",
       "ticker": "ANR.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.008999999612569809,
-      "rsi10": 17.819831498104293,
+      "rsi10": 17.81958423889597,
       "sma200": 0.010789999905973673,
       "above_sma200": false,
       "avg_volume_20d": 66904.1,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.009242905857428851,
+      "rsi40_move_pct": 2.6989583923957974
     },
     {
       "symbol": "PBL",
@@ -2110,13 +2266,15 @@
       "symbol": "QBE",
       "company": "QBE INSURANCE GROUP LIMITED",
       "ticker": "QBE.AX",
-      "date": "2026-08-20",
-      "price": 21.625,
-      "rsi10": 12.832558379249193,
+      "date": "2026-08-21",
+      "price": 21.780000686645508,
+      "rsi10": 13.50900219079351,
       "sma200": 21.796749935150146,
       "above_sma200": true,
       "avg_volume_20d": 3461980.25,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 22.921167716188727,
+      "rsi40_move_pct": 5.239517876796624
     },
     {
       "symbol": "AMO",
@@ -2134,61 +2292,71 @@
       "symbol": "CF1",
       "company": "COMPLII FINTECH SOLUTIONS LTD",
       "ticker": "CF1.AX",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "price": 0.023000000044703484,
-      "rsi10": 39.285919003951165,
+      "rsi10": 38.95193673561204,
       "sma200": 0.02335500014014542,
       "above_sma200": false,
       "avg_volume_20d": 189318.95,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.023105633792939388,
+      "rsi40_move_pct": 0.45927716535039875
     },
     {
       "symbol": "TIA",
       "company": "TIAN AN AUSTRALIA LIMITED",
       "ticker": "TIA.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.17000000178813934,
-      "rsi10": 20.65370319815611,
+      "rsi10": 20.651939203518367,
       "sma200": 0.24041249953210353,
       "above_sma200": false,
       "avg_volume_20d": 12.5,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.17008467302659946,
+      "rsi40_move_pct": 0.04980661033500562
     },
     {
       "symbol": "HCT",
       "company": "HOLISTA COLLTECH LIMITED",
       "ticker": "HCT.AX",
-      "date": "2026-08-18",
-      "price": 0.04800000041723251,
-      "rsi10": 20.752662702841747,
+      "date": "2026-08-21",
+      "price": 0.04600000008940697,
+      "rsi10": 19.083097517547287,
       "sma200": 0.07514000041410326,
       "above_sma200": false,
       "avg_volume_20d": 133364.45,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.052887057504884746,
+      "rsi40_move_pct": 14.971863917591063
     },
     {
       "symbol": "SND",
       "company": "SAUNDERS INTERNATIONAL LIMITED",
       "ticker": "SND.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.9049999713897705,
-      "rsi10": 12.63249288411673,
+      "rsi10": 12.526406615317569,
       "sma200": 0.901137492954731,
       "above_sma200": true,
       "avg_volume_20d": 1416.05,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.937231215229096,
+      "rsi40_move_pct": 3.5614635202506526
     },
     {
       "symbol": "ARF",
       "company": "ARENA REIT.",
       "ticker": "ARF.AX",
-      "date": "2026-08-20",
-      "price": 2.380000114440918,
-      "rsi10": 25.19925539683028,
+      "date": "2026-08-21",
+      "price": 2.4200000762939453,
+      "rsi10": 29.243083308966533,
       "sma200": 3.3636500000953675,
       "above_sma200": false,
       "avg_volume_20d": 2931833.45,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 2.5386489535507573,
+      "rsi40_move_pct": 4.9028460130676565
     },
     {
       "symbol": "DOW",
@@ -2230,13 +2398,15 @@
       "symbol": "DLY",
       "company": "DALY RESOURCES LIMITED",
       "ticker": "DLY.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.1599999964237213,
       "rsi10": 35.734551536784124,
       "sma200": null,
       "above_sma200": false,
       "avg_volume_20d": 97818.15,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.16329970329605908,
+      "rsi40_move_pct": 2.0623168413074806
     },
     {
       "symbol": "SKG",
@@ -2254,25 +2424,29 @@
       "symbol": "BEL",
       "company": "BENTLEY CAPITAL LIMITED",
       "ticker": "BEL.AX",
-      "date": "2026-08-20",
-      "price": 0.009999999776482582,
-      "rsi10": 22.372659412287234,
+      "date": "2026-08-21",
+      "price": 0.00800000037997961,
+      "rsi10": 9.179173321155545,
       "sma200": 0.016599999899044635,
       "above_sma200": false,
       "avg_volume_20d": 38430.65,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.009567538817572642,
+      "rsi40_move_pct": 19.594229539236927
     },
     {
       "symbol": "CYP",
       "company": "CYNATA THERAPEUTICS LIMITED",
       "ticker": "CYP.AX",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "price": 0.010999999940395355,
-      "rsi10": 22.07034557182756,
+      "rsi10": 22.452468777818908,
       "sma200": 0.24674749897327275,
       "above_sma200": false,
       "avg_volume_20d": 448039.1,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.012612592609353171,
+      "rsi40_move_pct": 14.659933433598335
     },
     {
       "symbol": "JBH",
@@ -2290,13 +2464,15 @@
       "symbol": "BOC",
       "company": "BOUGAINVILLE COPPER LIMITED",
       "ticker": "BOC.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.17499999701976776,
-      "rsi10": 31.980368577342333,
+      "rsi10": 32.44185940482569,
       "sma200": 0.6407499966025353,
       "above_sma200": false,
       "avg_volume_20d": 116088.1,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.18374934451652947,
+      "rsi40_move_pct": 4.999627226149833
     },
     {
       "symbol": "3PL",
@@ -2326,37 +2502,43 @@
       "symbol": "ALX",
       "company": "ATLAS ARTERIA",
       "ticker": "ALX.AX",
-      "date": "2026-08-20",
-      "price": 4.800000190734863,
-      "rsi10": 23.90897390756706,
+      "date": "2026-08-21",
+      "price": 4.840000152587891,
+      "rsi10": 27.366092390874513,
       "sma200": 4.829200010299683,
       "above_sma200": true,
       "avg_volume_20d": 1777843.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 4.892775106311909,
+      "rsi40_move_pct": 1.0903915714920003
     },
     {
       "symbol": "PIM",
       "company": "PINNACLE MINERALS LIMITED",
       "ticker": "PIM.AX",
-      "date": "2026-08-18",
+      "date": "2026-08-21",
       "price": 0.035999998450279236,
-      "rsi10": 23.828331362496215,
+      "rsi10": 23.876840357816988,
       "sma200": 0.05339000022038817,
       "above_sma200": false,
       "avg_volume_20d": 92735.5,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.03727524607073388,
+      "rsi40_move_pct": 3.5423546537534776
     },
     {
       "symbol": "RAU",
       "company": "RESOURO STRATEGIC METALS INC.",
       "ticker": "RAU.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.2849999964237213,
-      "rsi10": 24.042890638478212,
+      "rsi10": 24.04246917465825,
       "sma200": 0.2893999999761581,
       "above_sma200": false,
       "avg_volume_20d": 69168.4,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.29079236839882894,
+      "rsi40_move_pct": 2.0324112448394085
     },
     {
       "symbol": "CHW",
@@ -2386,13 +2568,15 @@
       "symbol": "GGE",
       "company": "GRAND GULF ENERGY LIMITED",
       "ticker": "GGE.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.0010000000474974513,
-      "rsi10": 24.42943623263217,
+      "rsi10": 24.431857180076108,
       "sma200": 0.0021875000547152013,
       "above_sma200": false,
       "avg_volume_20d": 257153.1,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0010561356576987485,
+      "rsi40_move_pct": 5.613560753499888
     },
     {
       "symbol": "RCL",
@@ -2434,13 +2618,15 @@
       "symbol": "RAD",
       "company": "RADIOPHARM THERANOSTICS LIMITED",
       "ticker": "RAD.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.009999999776482582,
-      "rsi10": 26.280030856742272,
+      "rsi10": 26.35054477054514,
       "sma200": 0.020737499822862448,
       "above_sma200": false,
       "avg_volume_20d": 9965335.4,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.011501762910312165,
+      "rsi40_move_pct": 15.01763167396605
     },
     {
       "symbol": "ARN",
@@ -2494,13 +2680,15 @@
       "symbol": "G11",
       "company": "G11 RESOURCES LIMITED",
       "ticker": "G11.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.17499999701976776,
-      "rsi10": 31.944438232992184,
+      "rsi10": 31.93794047344494,
       "sma200": 0.29445000052452086,
       "above_sma200": false,
       "avg_volume_20d": 19939.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.18182117343324028,
+      "rsi40_move_pct": 3.8978151597922643
     },
     {
       "symbol": "BPH",
@@ -2518,25 +2706,29 @@
       "symbol": "EV8",
       "company": "EVERLAST MINERALS LTD.",
       "ticker": "EV8.AX",
-      "date": "2026-08-20",
-      "price": 0.4099999964237213,
-      "rsi10": 34.18357889780407,
+      "date": "2026-08-21",
+      "price": 0.4050000011920929,
+      "rsi10": 21.949530086566654,
       "sma200": 0.41592500045895575,
       "above_sma200": false,
       "avg_volume_20d": 13851.55,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.41268168338275196,
+      "rsi40_move_pct": 1.8967116464317288
     },
     {
       "symbol": "CBA",
       "company": "COMMONWEALTH BANK OF AUSTRALIA.",
       "ticker": "CBA.AX",
-      "date": "2026-08-20",
-      "price": 156.27999877929688,
-      "rsi10": 16.214287630240833,
+      "date": "2026-08-21",
+      "price": 156.44000244140625,
+      "rsi10": 16.30810568380366,
       "sma200": 166.2377502441406,
       "above_sma200": false,
       "avg_volume_20d": 1890167.4,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 163.90517557340908,
+      "rsi40_move_pct": 4.771908089683693
     },
     {
       "symbol": "AUG",
@@ -2578,13 +2770,15 @@
       "symbol": "BTN",
       "company": "BUTN LIMITED",
       "ticker": "BTN.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.008999999612569809,
-      "rsi10": 18.621341550561027,
+      "rsi10": 18.656650057795588,
       "sma200": 0.044500000164844095,
       "above_sma200": false,
       "avg_volume_20d": 528037.25,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.011020114397403928,
+      "rsi40_move_pct": 22.445720797729095
     },
     {
       "symbol": "AXP",
@@ -2626,13 +2820,15 @@
       "symbol": "ATC",
       "company": "ALTECH BATTERIES LTD",
       "ticker": "ATC.AX",
-      "date": "2026-08-20",
-      "price": 0.0010000000474974513,
-      "rsi10": 29.76307696251054,
+      "date": "2026-08-21",
+      "price": 0.0020000000949949026,
+      "rsi10": 36.26372705273491,
       "sma200": 0.019107500070240348,
       "above_sma200": false,
       "avg_volume_20d": 11216156.6,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0022598449081527253,
+      "rsi40_move_pct": 12.992240040792847
     },
     {
       "symbol": "MRQ",
@@ -2650,13 +2846,15 @@
       "symbol": "IGN",
       "company": "IGNITE LIMITED",
       "ticker": "IGN.AX",
-      "date": "2026-08-17",
-      "price": 0.6700000166893005,
-      "rsi10": 27.250478000142976,
+      "date": "2026-08-21",
+      "price": 0.7099999785423279,
+      "rsi10": 60.85253461160704,
       "sma200": 0.7168250033259391,
       "above_sma200": false,
       "avg_volume_20d": 1099.55,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.6693682268825993,
+      "rsi40_move_pct": -5.72278209685977
     },
     {
       "symbol": "AN1",
@@ -2674,25 +2872,29 @@
       "symbol": "PXR",
       "company": "PACIFIC RESOURCES LIMITED",
       "ticker": "PXR.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.0010000000474974513,
-      "rsi10": 27.268908101048112,
+      "rsi10": 23.125888878902344,
       "sma200": 0.0013550000597024336,
       "above_sma200": false,
       "avg_volume_20d": 161827.7,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0010000016379622906,
+      "rsi40_move_pct": 0.0001590464763713572
     },
     {
       "symbol": "PMV",
       "company": "PREMIER INVESTMENTS LIMITED",
       "ticker": "PMV.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 11.699999809265137,
-      "rsi10": 28.94552953549271,
+      "rsi10": 28.882205533716004,
       "sma200": 13.847899985313415,
       "above_sma200": false,
       "avg_volume_20d": 663585.8,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 12.161698447566273,
+      "rsi40_move_pct": 3.9461422720325268
     },
     {
       "symbol": "MME",
@@ -2710,13 +2912,15 @@
       "symbol": "CYQ",
       "company": "CYCLIQ GROUP LTD",
       "ticker": "CYQ.AX",
-      "date": "2026-08-20",
-      "price": 0.004000000189989805,
-      "rsi10": 27.690320894074617,
+      "date": "2026-08-21",
+      "price": 0.0044999998062849045,
+      "rsi10": 60.32263275039517,
       "sma200": 0.004572500067297369,
       "above_sma200": false,
       "avg_volume_20d": 86949.3,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.003992607332497468,
+      "rsi40_move_pct": -11.27538879176814
     },
     {
       "symbol": "GGR",
@@ -2782,13 +2986,15 @@
       "symbol": "MPR",
       "company": "MPR AUSTRALIA LIMITED",
       "ticker": "MPR.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.004999999888241291,
-      "rsi10": 28.336056390583792,
+      "rsi10": 50.0,
       "sma200": 0.005224999925121665,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0049999998882357555,
+      "rsi40_move_pct": -1.107100547114024e-10
     },
     {
       "symbol": "SCG",
@@ -2806,13 +3012,15 @@
       "symbol": "TRA",
       "company": "TURNERS AUTOMOTIVE GROUP LIMITED",
       "ticker": "TRA.AX",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "price": 6.820000171661377,
       "rsi10": 28.360542429532273,
       "sma200": 7.0724999451637265,
       "above_sma200": false,
       "avg_volume_20d": 207.45,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 6.828975835470848,
+      "rsi40_move_pct": 0.1316079704332969
     },
     {
       "symbol": "OLL",
@@ -2830,25 +3038,29 @@
       "symbol": "EXR",
       "company": "ELIXIR ENERGY LIMITED",
       "ticker": "EXR.AX",
-      "date": "2026-08-20",
-      "price": 0.04500000178813934,
-      "rsi10": 26.461126628070787,
+      "date": "2026-08-21",
+      "price": 0.04600000008940697,
+      "rsi10": 28.57659170204205,
       "sma200": 0.09217500032857061,
       "above_sma200": false,
       "avg_volume_20d": 9066789.5,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.051993643176088664,
+      "rsi40_move_pct": 13.029658858765814
     },
     {
       "symbol": "KAM",
       "company": "K2 ASSET MANAGEMENT HOLDINGS LTD",
       "ticker": "KAM.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.05000000074505806,
-      "rsi10": 28.750275701252193,
+      "rsi10": 28.75016499896526,
       "sma200": 0.06938500059768557,
       "above_sma200": false,
       "avg_volume_20d": 85105.75,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.05096352561438797,
+      "rsi40_move_pct": 1.9270497099445356
     },
     {
       "symbol": "DYM",
@@ -2866,13 +3078,15 @@
       "symbol": "OZZ",
       "company": "OZZ RESOURCES LIMITED",
       "ticker": "OZZ.AX",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "price": 0.03799999877810478,
-      "rsi10": 30.9638471077119,
+      "rsi10": 30.963805751800166,
       "sma200": 0.05280439430847764,
       "above_sma200": false,
       "avg_volume_20d": 378705.55,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.04028779211938244,
+      "rsi40_move_pct": 6.020508986426227
     },
     {
       "symbol": "CSX",
@@ -2914,13 +3128,15 @@
       "symbol": "AGE",
       "company": "ALLIGATOR ENERGY LIMITED",
       "ticker": "AGE.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.041999999433755875,
-      "rsi10": 29.34718671229082,
+      "rsi10": 29.355409058777354,
       "sma200": 0.039450000170618296,
       "above_sma200": true,
       "avg_volume_20d": 18816072.05,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.043984390400396166,
+      "rsi40_move_pct": 4.724740460461563
     },
     {
       "symbol": "A2M",
@@ -2938,13 +3154,15 @@
       "symbol": "TFL",
       "company": "TASFOODS LIMITED",
       "ticker": "TFL.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.004999999888241291,
-      "rsi10": 29.30666503500761,
+      "rsi10": 50.0,
       "sma200": 0.005169999916106462,
       "above_sma200": false,
       "avg_volume_20d": 0.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0049999998882357555,
+      "rsi40_move_pct": -1.107100547114024e-10
     },
     {
       "symbol": "FAU",
@@ -2974,13 +3192,15 @@
       "symbol": "PIA",
       "company": "PENGANA INTERNATIONAL EQUITIES LIMITED",
       "ticker": "PIA.AX",
-      "date": "2026-08-20",
-      "price": 1.0950000286102295,
-      "rsi10": 22.61630224137795,
+      "date": "2026-08-21",
+      "price": 1.0850000381469727,
+      "rsi10": 21.160501353692098,
       "sma200": 1.2552374923229217,
       "above_sma200": false,
       "avg_volume_20d": 703242.35,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 1.130876551890271,
+      "rsi40_move_pct": 4.228249965930785
     },
     {
       "symbol": "BDX",
@@ -3010,25 +3230,29 @@
       "symbol": "TTX",
       "company": "TETRATHERIX LIMITED",
       "ticker": "TTX.AX",
-      "date": "2026-08-20",
-      "price": 6.110000133514404,
-      "rsi10": 35.87293103295376,
+      "date": "2026-08-21",
+      "price": 6.099999904632568,
+      "rsi10": 35.462730592146855,
       "sma200": 4.879225004911422,
       "above_sma200": true,
       "avg_volume_20d": 28429.55,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 6.2597628842919475,
+      "rsi40_move_pct": 2.619065281264171
     },
     {
       "symbol": "ASP",
       "company": "ASPERMONT LIMITED.",
       "ticker": "ASP.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 1.0299999713897705,
-      "rsi10": 33.18653449413837,
+      "rsi10": 33.18781246865332,
       "sma200": 1.8346749997138978,
       "above_sma200": false,
       "avg_volume_20d": 3234.1,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 1.0850427597715613,
+      "rsi40_move_pct": 5.343960185505829
     },
     {
       "symbol": "RAS",
@@ -3046,37 +3270,43 @@
       "symbol": "LFT",
       "company": "LI-FT POWER LTD.",
       "ticker": "LFT.AX",
-      "date": "2026-08-20",
-      "price": 2.6700000762939453,
-      "rsi10": 32.025139589672904,
+      "date": "2026-08-21",
+      "price": 2.8399999141693115,
+      "rsi10": 42.192258962342315,
       "sma200": null,
       "above_sma200": false,
       "avg_volume_20d": 36688.95,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 2.78393730819956,
+      "rsi40_move_pct": -1.97403548112957
     },
     {
       "symbol": "TKM",
       "company": "TREK METALS LIMITED",
       "ticker": "TKM.AX",
-      "date": "2026-08-20",
-      "price": 0.06199999898672104,
-      "rsi10": 28.138813303652512,
+      "date": "2026-08-21",
+      "price": 0.05999999865889549,
+      "rsi10": 26.86390535457747,
       "sma200": 0.1308150008134544,
       "above_sma200": false,
       "avg_volume_20d": 3041904.3,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.06921442332178349,
+      "rsi40_move_pct": 15.357374781410732
     },
     {
       "symbol": "FLX",
       "company": "FELIX GROUP HOLDINGS LTD",
       "ticker": "FLX.AX",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "price": 0.05000000074505806,
-      "rsi10": 27.218059819719514,
+      "rsi10": 29.87558675080581,
       "sma200": 0.10860000023618341,
       "above_sma200": false,
       "avg_volume_20d": 3223.95,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.05011433551057458,
+      "rsi40_move_pct": 0.2286695276255963
     },
     {
       "symbol": "SPZ",
@@ -3178,13 +3408,15 @@
       "symbol": "LOT",
       "company": "LOTUS RESOURCES LIMITED",
       "ticker": "LOT.AX",
-      "date": "2026-08-20",
-      "price": 0.24699999392032623,
-      "rsi10": 31.889779349789606,
+      "date": "2026-08-21",
+      "price": 0.25,
+      "rsi10": 33.417318845876935,
       "sma200": 1.4325375136733056,
       "above_sma200": false,
       "avg_volume_20d": 15339907.15,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.2625427237177122,
+      "rsi40_move_pct": 5.01708948708488
     },
     {
       "symbol": "RWD",
@@ -3202,13 +3434,15 @@
       "symbol": "OVT",
       "company": "OVANTI LIMITED",
       "ticker": "OVT.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.0020000000949949026,
-      "rsi10": 31.124998424188817,
+      "rsi10": 30.736213230795357,
       "sma200": 0.038487499617040156,
       "above_sma200": false,
       "avg_volume_20d": 17699514.3,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.0025805621693445243,
+      "rsi40_move_pct": 29.028102338720206
     },
     {
       "symbol": "MNB",
@@ -3514,13 +3748,15 @@
       "symbol": "CAY",
       "company": "CANYON RESOURCES LIMITED",
       "ticker": "CAY.AX",
-      "date": "2026-08-17",
-      "price": 0.052000001072883606,
-      "rsi10": 32.61455460140159,
+      "date": "2026-08-21",
+      "price": 0.05249999836087227,
+      "rsi10": 34.023350389241855,
       "sma200": 0.1466850003041327,
       "above_sma200": false,
       "avg_volume_20d": 1816066.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.05406251364171702,
+      "rsi40_move_pct": 2.976219675483415
     },
     {
       "symbol": "RIV",
@@ -3538,13 +3774,15 @@
       "symbol": "CYV",
       "company": "CERYVYN THERAPEUTICS LIMITED",
       "ticker": "CYV.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.010999999940395355,
       "rsi10": 32.83368737874788,
       "sma200": 0.4444750175718218,
       "above_sma200": false,
       "avg_volume_20d": 2547521.95,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.011851081235369525,
+      "rsi40_move_pct": 7.737102723507662
     },
     {
       "symbol": "CMO",
@@ -3886,13 +4124,15 @@
       "symbol": "GRV",
       "company": "GREENVALE ENERGY LTD",
       "ticker": "GRV.AX",
-      "date": "2026-08-20",
-      "price": 0.023000000044703484,
-      "rsi10": 29.373983965929796,
+      "date": "2026-08-21",
+      "price": 0.02199999988079071,
+      "rsi10": 27.11410163051704,
       "sma200": 0.037755000069737435,
       "above_sma200": false,
       "avg_volume_20d": 1693896.85,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.024459090068866617,
+      "rsi40_move_pct": 11.177682733639738
     },
     {
       "symbol": "TSK",
@@ -4366,13 +4606,15 @@
       "symbol": "CD1",
       "company": "CD PRIVATE EQUITY FUND I",
       "ticker": "CD1.AX",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "price": 0.2750000059604645,
-      "rsi10": 35.666315593347605,
+      "rsi10": 35.66079065288719,
       "sma200": 0.3918500012159348,
       "above_sma200": false,
       "avg_volume_20d": 38191.6,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.27825160314876884,
+      "rsi40_move_pct": 1.1823989519374172
     },
     {
       "symbol": "DUG",
@@ -4450,13 +4692,15 @@
       "symbol": "AKN",
       "company": "AUKING MINING LIMITED",
       "ticker": "AKN.AX",
-      "date": "2026-08-20",
-      "price": 0.01600000075995922,
-      "rsi10": 28.386124051043325,
+      "date": "2026-08-21",
+      "price": 0.017000000923871994,
+      "rsi10": 31.81772609795854,
       "sma200": 0.01495750000467524,
       "above_sma200": true,
       "avg_volume_20d": 9117080.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.017961499894595508,
+      "rsi40_move_pct": 5.655875991002702
     },
     {
       "symbol": "CYB",
@@ -4534,13 +4778,15 @@
       "symbol": "PCG",
       "company": "PENGANA CAPITAL GROUP LIMITED",
       "ticker": "PCG.AX",
-      "date": "2026-08-17",
+      "date": "2026-08-21",
       "price": 0.7200000286102295,
-      "rsi10": 36.20571205250571,
+      "rsi10": 36.20513783724631,
       "sma200": 0.7364375069737434,
       "above_sma200": false,
       "avg_volume_20d": 19879.0,
-      "active": true
+      "active": true,
+      "rsi40_target_price": 0.7228930874672761,
+      "rsi40_move_pct": 0.4018137141787192
     },
     {
       "symbol": "LCY",

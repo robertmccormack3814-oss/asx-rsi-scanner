@@ -4,437 +4,865 @@
     "AAJ|2026-08-12": {
       "symbol": "AAJ",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:54.955424+00:00",
-      "price": 0.004999999888241291,
-      "provisional_rsi10": 8.378457846152429,
-      "gain_pct": -16.666669253673795
+      "checked_at": "2026-08-20T20:32:26.916144+00:00",
+      "price": 0.006000000052154064,
+      "provisional_rsi10": 37.01808063868294,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.006143712369390061,
+      "rsi40_move_pct": 2.395205266446666,
+      "market_live": false
     },
     "ARF|2026-08-12": {
       "symbol": "ARF",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:54.968456+00:00",
-      "price": 2.380000114440918,
-      "provisional_rsi10": 25.19925539683028,
-      "gain_pct": 2.1459310030935064
+      "checked_at": "2026-08-20T20:32:27.594694+00:00",
+      "price": 2.4200000762939453,
+      "provisional_rsi10": 29.243083308966533,
+      "gain_pct": 3.86266761952241,
+      "rsi40_target_price": 2.5386489535507573,
+      "rsi40_move_pct": 4.9028460130676565,
+      "market_live": false
     },
     "ATC|2026-08-12": {
       "symbol": "ATC",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:54.976449+00:00",
-      "price": 0.0010000000474974513,
-      "provisional_rsi10": 29.76307696251054,
-      "gain_pct": 0.0
+      "checked_at": "2026-08-20T20:32:27.819849+00:00",
+      "price": 0.0020000000949949026,
+      "provisional_rsi10": 36.26372705273491,
+      "gain_pct": 100.0,
+      "rsi40_target_price": 0.0022598449081527253,
+      "rsi40_move_pct": 12.992240040792847,
+      "market_live": false
     },
     "BOC|2026-08-12": {
       "symbol": "BOC",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.935356+00:00",
+      "checked_at": "2026-08-20T20:32:28.157461+00:00",
       "price": 0.17499999701976776,
-      "provisional_rsi10": 31.980368577342333,
-      "gain_pct": -6.417117114676304
+      "provisional_rsi10": 32.44185940482569,
+      "gain_pct": -6.417117114676304,
+      "rsi40_target_price": 0.18374934451652947,
+      "rsi40_move_pct": 4.999627226149833,
+      "market_live": false
     },
     "BTN|2026-08-11": {
       "symbol": "BTN",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-20T05:07:57.941388+00:00",
+      "checked_at": "2026-08-20T20:32:28.383248+00:00",
       "price": 0.008999999612569809,
-      "provisional_rsi10": 18.621341550561027,
-      "gain_pct": -18.181821260570512
+      "provisional_rsi10": 18.656650057795588,
+      "gain_pct": -18.181821260570512,
+      "rsi40_target_price": 0.011020114397403928,
+      "rsi40_move_pct": 22.445720797729095,
+      "market_live": false
     },
     "CAY|2026-08-12": {
       "symbol": "CAY",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-17T05:22:45.494651+00:00",
-      "price": 0.052000001072883606,
-      "provisional_rsi10": 32.743284680865344,
-      "gain_pct": 6.122453944576954
+      "checked_at": "2026-08-20T20:32:28.496009+00:00",
+      "price": 0.05249999836087227,
+      "provisional_rsi10": 34.023350389241855,
+      "gain_pct": 7.142856599811896,
+      "rsi40_target_price": 0.05406251364171702,
+      "rsi40_move_pct": 2.976219675483415,
+      "market_live": false
     },
     "CD1|2026-08-12": {
       "symbol": "CD1",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.947504+00:00",
+      "checked_at": "2026-08-20T20:32:28.608806+00:00",
       "price": 0.2750000059604645,
-      "provisional_rsi10": 35.666315593347605,
-      "gain_pct": 3.7735927567532066
+      "provisional_rsi10": 35.66079065288719,
+      "gain_pct": 3.7735927567532066,
+      "rsi40_target_price": 0.27825160314876884,
+      "rsi40_move_pct": 1.1823989519374172,
+      "market_live": false
     },
     "CMD|2026-08-12": {
       "symbol": "CMD",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.953717+00:00",
-      "price": 0.020999999716877937,
-      "provisional_rsi10": 36.50703305675869,
-      "gain_pct": 0.0
+      "checked_at": "2026-08-20T20:32:28.836049+00:00",
+      "price": 0.01899999938905239,
+      "provisional_rsi10": 13.508503744735478,
+      "gain_pct": -9.523811213283604,
+      "rsi40_target_price": 0.02123968619707426,
+      "rsi40_move_pct": 11.787825684417413,
+      "market_live": false
     },
     "CYV|2026-08-12": {
       "symbol": "CYV",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.965343+00:00",
+      "checked_at": "2026-08-20T20:32:29.290168+00:00",
       "price": 0.010999999940395355,
       "provisional_rsi10": 32.83368737874788,
-      "gain_pct": 0.0
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.011851081235369525,
+      "rsi40_move_pct": 7.737102723507662,
+      "market_live": false
     },
     "DLY|2026-08-12": {
       "symbol": "DLY",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.969425+00:00",
+      "checked_at": "2026-08-20T20:32:29.403351+00:00",
       "price": 0.1599999964237213,
       "provisional_rsi10": 35.734551536784124,
-      "gain_pct": 33.33333333333333
+      "gain_pct": 33.33333333333333,
+      "rsi40_target_price": 0.16329970329605908,
+      "rsi40_move_pct": 2.0623168413074806,
+      "market_live": false
     },
     "EV8|2026-08-12": {
       "symbol": "EV8",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.973598+00:00",
-      "price": 0.4099999964237213,
-      "provisional_rsi10": 34.18357889780407,
-      "gain_pct": 2.4999975785613424
+      "checked_at": "2026-08-20T20:32:29.517592+00:00",
+      "price": 0.4050000011920929,
+      "provisional_rsi10": 21.949530086566654,
+      "gain_pct": 1.2499987892806712,
+      "rsi40_target_price": 0.41268168338275196,
+      "rsi40_move_pct": 1.8967116464317288,
+      "market_live": false
     },
     "EXR|2026-08-12": {
       "symbol": "EXR",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.977800+00:00",
-      "price": 0.04500000178813934,
-      "provisional_rsi10": 26.461126628070787,
-      "gain_pct": -2.1739093463565164
+      "checked_at": "2026-08-20T20:32:29.631224+00:00",
+      "price": 0.04600000008940697,
+      "provisional_rsi10": 28.57659170204205,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.051993643176088664,
+      "rsi40_move_pct": 13.029658858765814,
+      "market_live": false
     },
     "G11|2026-08-11": {
       "symbol": "G11",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-20T05:07:57.985366+00:00",
+      "checked_at": "2026-08-20T20:32:29.971547+00:00",
       "price": 0.17499999701976776,
-      "provisional_rsi10": 31.944438232992184,
-      "gain_pct": -7.894737254879816
+      "provisional_rsi10": 31.93794047344494,
+      "gain_pct": -7.894737254879816,
+      "rsi40_target_price": 0.18182117343324028,
+      "rsi40_move_pct": 3.8978151597922643,
+      "market_live": false
     },
     "GRV|2026-08-12": {
       "symbol": "GRV",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:57.991186+00:00",
-      "price": 0.023000000044703484,
-      "provisional_rsi10": 29.373983965929796,
-      "gain_pct": 4.545455315142628
+      "checked_at": "2026-08-20T20:32:30.198351+00:00",
+      "price": 0.02199999988079071,
+      "provisional_rsi10": 27.11410163051704,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.024459090068866617,
+      "rsi40_move_pct": 11.177682733639738,
+      "market_live": false
     },
     "KYN|2026-08-12": {
       "symbol": "KYN",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:58.003034+00:00",
+      "checked_at": "2026-08-20T20:32:30.767126+00:00",
       "price": 0.05299999937415123,
       "provisional_rsi10": 20.825097218146013,
-      "gain_pct": -18.4615364335697
+      "gain_pct": -18.4615364335697,
+      "rsi40_target_price": 0.061862624212615853,
+      "rsi40_move_pct": 16.721933854940833,
+      "market_live": false
     },
     "LFT|2026-08-12": {
       "symbol": "LFT",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:58.007452+00:00",
-      "price": 2.6700000762939453,
-      "provisional_rsi10": 32.025139589672904,
-      "gain_pct": -1.8382335217044614
+      "checked_at": "2026-08-20T20:32:30.881484+00:00",
+      "price": 2.8399999141693115,
+      "provisional_rsi10": 42.192258962342315,
+      "gain_pct": 4.411760452090707,
+      "rsi40_target_price": 2.78393730819956,
+      "rsi40_move_pct": -1.97403548112957,
+      "market_live": false
     },
     "LOT|2026-08-12": {
       "symbol": "LOT",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:58.011434+00:00",
-      "price": 0.24699999392032623,
-      "provisional_rsi10": 31.889779349789606,
-      "gain_pct": -3.137255474862033
+      "checked_at": "2026-08-20T20:32:30.994718+00:00",
+      "price": 0.25,
+      "provisional_rsi10": 33.417318845876935,
+      "gain_pct": -1.960782480441495,
+      "rsi40_target_price": 0.2625427237177122,
+      "rsi40_move_pct": 5.01708948708488,
+      "market_live": false
     },
     "MSI|2026-08-11": {
       "symbol": "MSI",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-17T05:22:45.626732+00:00",
+      "checked_at": "2026-08-20T20:32:31.222952+00:00",
       "price": 0.003000000026077032,
-      "provisional_rsi10": 0.0,
-      "gain_pct": 0.0
+      "provisional_rsi10": 3.674995654561542,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0030011294735126795,
+      "rsi40_move_pct": 0.037648247527663395,
+      "market_live": false
     },
     "OVT|2026-08-12": {
       "symbol": "OVT",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:00.647427+00:00",
+      "checked_at": "2026-08-20T20:32:31.450268+00:00",
       "price": 0.0020000000949949026,
-      "provisional_rsi10": 31.124998424188817,
-      "gain_pct": 0.0
+      "provisional_rsi10": 30.736213230795357,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0025805621693445243,
+      "rsi40_move_pct": 29.028102338720206,
+      "market_live": false
     },
     "OZZ|2026-08-12": {
       "symbol": "OZZ",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-19T05:05:45.111685+00:00",
+      "checked_at": "2026-08-20T20:32:31.564582+00:00",
       "price": 0.03799999877810478,
-      "provisional_rsi10": 30.9638471077119,
-      "gain_pct": -2.564107707501292
+      "provisional_rsi10": 30.963805751800166,
+      "gain_pct": -2.564107707501292,
+      "rsi40_target_price": 0.04028779211938244,
+      "rsi40_move_pct": 6.020508986426227,
+      "market_live": false
     },
     "PCG|2026-08-12": {
       "symbol": "PCG",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-17T05:22:45.652226+00:00",
+      "checked_at": "2026-08-20T20:32:31.679611+00:00",
       "price": 0.7200000286102295,
-      "provisional_rsi10": 36.1664709937926,
-      "gain_pct": 2.1276660503010794
+      "provisional_rsi10": 36.20513783724631,
+      "gain_pct": 2.1276660503010794,
+      "rsi40_target_price": 0.7228930874672761,
+      "rsi40_move_pct": 0.4018137141787192,
+      "market_live": false
     },
     "PIA|2026-08-12": {
       "symbol": "PIA",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:00.657021+00:00",
-      "price": 1.0950000286102295,
-      "provisional_rsi10": 22.61630224137795,
-      "gain_pct": -3.097342191955019
+      "checked_at": "2026-08-20T20:32:31.909408+00:00",
+      "price": 1.0850000381469727,
+      "provisional_rsi10": 21.160501353692098,
+      "gain_pct": -3.9822971039421664,
+      "rsi40_target_price": 1.130876551890271,
+      "rsi40_move_pct": 4.228249965930785,
+      "market_live": false
     },
     "PIM|2026-08-12": {
       "symbol": "PIM",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-18T05:05:11.278044+00:00",
+      "checked_at": "2026-08-20T20:32:32.022728+00:00",
       "price": 0.035999998450279236,
-      "provisional_rsi10": 23.828331362496215,
-      "gain_pct": 0.0
+      "provisional_rsi10": 23.876840357816988,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.03727524607073388,
+      "rsi40_move_pct": 3.5423546537534776,
+      "market_live": false
     },
     "PMV|2026-08-12": {
       "symbol": "PMV",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:00.662724+00:00",
+      "checked_at": "2026-08-20T20:32:32.136081+00:00",
       "price": 11.699999809265137,
-      "provisional_rsi10": 28.94552953549271,
-      "gain_pct": -4.878051806224237
+      "provisional_rsi10": 28.882205533716004,
+      "gain_pct": -4.878051806224237,
+      "rsi40_target_price": 12.161698447566273,
+      "rsi40_move_pct": 3.9461422720325268,
+      "market_live": false
     },
     "QBE|2026-08-12": {
       "symbol": "QBE",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:00.670125+00:00",
-      "price": 21.625,
-      "provisional_rsi10": 12.832558379249193,
-      "gain_pct": -8.407456836241076
+      "checked_at": "2026-08-20T20:32:32.475866+00:00",
+      "price": 21.780000686645508,
+      "provisional_rsi10": 13.50900219079351,
+      "gain_pct": -7.750952462507392,
+      "rsi40_target_price": 22.921167716188727,
+      "rsi40_move_pct": 5.239517876796624,
+      "market_live": false
     },
     "RAD|2026-08-12": {
       "symbol": "RAD",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:00.677588+00:00",
+      "checked_at": "2026-08-20T20:32:32.816306+00:00",
       "price": 0.009999999776482582,
-      "provisional_rsi10": 26.280030856742272,
-      "gain_pct": -16.666669253673795
+      "provisional_rsi10": 26.35054477054514,
+      "gain_pct": -16.666669253673795,
+      "rsi40_target_price": 0.011501762910312165,
+      "rsi40_move_pct": 15.01763167396605,
+      "market_live": false
     },
     "SIS|2026-08-12": {
       "symbol": "SIS",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:00.686875+00:00",
+      "checked_at": "2026-08-20T20:32:33.273563+00:00",
       "price": 0.004000000189989805,
-      "provisional_rsi10": 2.0011854274176244,
-      "gain_pct": -19.999994412064428
+      "provisional_rsi10": 2.166744778390978,
+      "gain_pct": -19.999994412064428,
+      "rsi40_target_price": 0.0046296620974001,
+      "rsi40_move_pct": 15.741546937574006,
+      "market_live": false
     },
     "SOM|2026-08-12": {
       "symbol": "SOM",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:03.574834+00:00",
-      "price": 0.3499999940395355,
-      "provisional_rsi10": 32.13172074364739,
-      "gain_pct": -10.256408492959162
+      "checked_at": "2026-08-20T20:32:33.500909+00:00",
+      "price": 0.36500000953674316,
+      "provisional_rsi10": 35.94377923827393,
+      "gain_pct": -6.410250532086098,
+      "rsi40_target_price": 0.3727800234849001,
+      "rsi40_move_pct": 2.1315106150356775,
+      "market_live": false
     },
     "SP8|2026-08-11": {
       "symbol": "SP8",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-20T05:08:03.578894+00:00",
+      "checked_at": "2026-08-20T20:32:33.614761+00:00",
       "price": 0.00800000037997961,
-      "provisional_rsi10": 30.2878272208645,
-      "gain_pct": 0.0
+      "provisional_rsi10": 28.792793904540005,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.008079157048932674,
+      "rsi40_move_pct": 0.9894583149165449,
+      "market_live": false
     },
     "TKM|2026-08-12": {
       "symbol": "TKM",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:03.594150+00:00",
-      "price": 0.06199999898672104,
-      "provisional_rsi10": 28.138813303652512,
-      "gain_pct": -8.82353585690328
+      "checked_at": "2026-08-20T20:32:36.509599+00:00",
+      "price": 0.05999999865889549,
+      "provisional_rsi10": 26.86390535457747,
+      "gain_pct": -11.764712649748445,
+      "rsi40_target_price": 0.06921442332178349,
+      "rsi40_move_pct": 15.357374781410732,
+      "market_live": false
     },
     "TRA|2026-08-11": {
       "symbol": "TRA",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-19T05:05:48.742906+00:00",
+      "checked_at": "2026-08-20T20:32:36.626353+00:00",
       "price": 6.820000171661377,
       "provisional_rsi10": 28.360542429532273,
-      "gain_pct": 0.2941173583166078
+      "gain_pct": 0.2941173583166078,
+      "rsi40_target_price": 6.828975835470848,
+      "rsi40_move_pct": 0.1316079704332969,
+      "market_live": false
     },
     "TVL|2026-08-12": {
       "symbol": "TVL",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-17T05:22:50.301160+00:00",
+      "checked_at": "2026-08-20T20:32:36.741970+00:00",
       "price": 0.05700000002980232,
-      "provisional_rsi10": 14.575208689876604,
-      "gain_pct": -1.7241350517969516
+      "provisional_rsi10": 14.803652251161694,
+      "gain_pct": -1.7241350517969516,
+      "rsi40_target_price": 0.057673681934079846,
+      "rsi40_move_pct": 1.1818980770619125,
+      "market_live": false
     },
     "WBC|2026-08-12": {
       "symbol": "WBC",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:03.601539+00:00",
-      "price": 33.72999954223633,
-      "provisional_rsi10": 21.133045918713023,
-      "gain_pct": -4.636696180869934
+      "checked_at": "2026-08-20T20:32:36.857322+00:00",
+      "price": 33.81999969482422,
+      "provisional_rsi10": 21.45167690307585,
+      "gain_pct": -4.382242815572377,
+      "rsi40_target_price": 34.97114320405335,
+      "rsi40_move_pct": 3.4037360130588628,
+      "market_live": false
     },
     "AKN|2026-08-13": {
       "symbol": "AKN",
       "entry_date": "2026-08-13",
-      "checked_at": "2026-08-20T05:08:03.615127+00:00",
-      "price": 0.01600000075995922,
-      "provisional_rsi10": 28.386124051043325,
-      "gain_pct": -5.882353585690328
+      "checked_at": "2026-08-20T20:32:37.437637+00:00",
+      "price": 0.017000000923871994,
+      "provisional_rsi10": 31.81772609795854,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.017961499894595508,
+      "rsi40_move_pct": 5.655875991002702,
+      "market_live": false
     },
     "AGE|2026-08-14": {
       "symbol": "AGE",
       "entry_date": "2026-08-14",
-      "checked_at": "2026-08-20T05:08:03.619181+00:00",
+      "checked_at": "2026-08-20T20:32:37.554007+00:00",
       "price": 0.041999999433755875,
-      "provisional_rsi10": 29.34718671229082,
-      "gain_pct": 0.0
+      "provisional_rsi10": 29.355409058777354,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.043984390400396166,
+      "rsi40_move_pct": 4.724740460461563,
+      "market_live": false
     },
     "CBA|2026-08-14": {
       "symbol": "CBA",
       "entry_date": "2026-08-14",
-      "checked_at": "2026-08-20T05:08:03.623014+00:00",
-      "price": 156.27999877929688,
-      "provisional_rsi10": 16.214287630240833,
-      "gain_pct": -6.441567851600963
+      "checked_at": "2026-08-20T20:32:37.669423+00:00",
+      "price": 156.44000244140625,
+      "provisional_rsi10": 16.30810568380366,
+      "gain_pct": -6.3457802147831766,
+      "rsi40_target_price": 163.90517557340908,
+      "rsi40_move_pct": 4.771908089683693,
+      "market_live": false
     },
     "ANR|2026-08-11": {
       "symbol": "ANR",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-17T05:22:45.442575+00:00",
+      "checked_at": "2026-08-20T20:32:27.369475+00:00",
       "price": 0.008999999612569809,
-      "provisional_rsi10": 17.809268312654353,
-      "gain_pct": 0.0
+      "provisional_rsi10": 17.81958423889597,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.009242905857428851,
+      "rsi40_move_pct": 2.6989583923957974,
+      "market_live": false
     },
     "ASP|2026-08-12": {
       "symbol": "ASP",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:07:54.972494+00:00",
+      "checked_at": "2026-08-20T20:32:27.706999+00:00",
       "price": 1.0299999713897705,
-      "provisional_rsi10": 33.18653449413837,
-      "gain_pct": -4.629636068402729
+      "provisional_rsi10": 33.18781246865332,
+      "gain_pct": -4.629636068402729,
+      "rsi40_target_price": 1.0850427597715613,
+      "rsi40_move_pct": 5.343960185505829,
+      "market_live": false
     },
     "HCT|2026-08-12": {
       "symbol": "HCT",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-18T05:05:09.212218+00:00",
-      "price": 0.04800000041723251,
-      "provisional_rsi10": 20.752662702841747,
-      "gain_pct": -4.000000596046439
+      "checked_at": "2026-08-20T20:32:30.312137+00:00",
+      "price": 0.04600000008940697,
+      "provisional_rsi10": 19.083097517547287,
+      "gain_pct": -8.000001192092878,
+      "rsi40_target_price": 0.052887057504884746,
+      "rsi40_move_pct": 14.971863917591063,
+      "market_live": false
     },
     "RPM|2026-08-11": {
       "symbol": "RPM",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-17T05:22:47.821989+00:00",
+      "checked_at": "2026-08-20T20:32:33.042924+00:00",
       "price": 0.014000000432133675,
-      "provisional_rsi10": 12.372259274449718,
-      "gain_pct": -6.666661699612825
+      "provisional_rsi10": 11.947207110201688,
+      "gain_pct": -6.666661699612825,
+      "rsi40_target_price": 0.01472972953130099,
+      "rsi40_move_pct": 5.212350547449951,
+      "market_live": false
     },
     "ALX|2026-08-17": {
       "symbol": "ALX",
       "entry_date": "2026-08-17",
-      "checked_at": "2026-08-20T05:08:03.626913+00:00",
-      "price": 4.800000190734863,
-      "provisional_rsi10": 23.90897390756706,
-      "gain_pct": -1.0309219563065746
+      "checked_at": "2026-08-20T20:32:37.784394+00:00",
+      "price": 4.840000152587891,
+      "provisional_rsi10": 27.366092390874513,
+      "gain_pct": -0.20618045858364417,
+      "rsi40_target_price": 4.892775106311909,
+      "rsi40_move_pct": 1.0903915714920003,
+      "market_live": false
     },
     "ZEU|2026-08-11": {
       "symbol": "ZEU",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-18T05:05:15.333904+00:00",
+      "checked_at": "2026-08-20T20:32:37.322155+00:00",
       "price": 0.004999999888241291,
-      "provisional_rsi10": 29.054913418683356,
-      "gain_pct": 0.0
+      "provisional_rsi10": 29.091100286471374,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.005211749416886784,
+      "rsi40_move_pct": 4.23499066756927,
+      "market_live": false
     },
     "TTX|2026-08-17": {
       "symbol": "TTX",
       "entry_date": "2026-08-17",
-      "checked_at": "2026-08-20T05:08:03.630898+00:00",
-      "price": 6.110000133514404,
-      "provisional_rsi10": 35.87293103295376,
-      "gain_pct": 1.4950191507149984
+      "checked_at": "2026-08-20T20:32:37.899447+00:00",
+      "price": 6.099999904632568,
+      "provisional_rsi10": 35.462730592146855,
+      "gain_pct": 1.3289023913541977,
+      "rsi40_target_price": 6.2597628842919475,
+      "rsi40_move_pct": 2.619065281264171,
+      "market_live": false
     },
     "CF1|2026-08-11": {
       "symbol": "CF1",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-19T05:05:45.019777+00:00",
+      "checked_at": "2026-08-20T20:32:28.722839+00:00",
       "price": 0.023000000044703484,
-      "provisional_rsi10": 39.285919003951165,
-      "gain_pct": 4.545455315142628
+      "provisional_rsi10": 38.95193673561204,
+      "gain_pct": 4.545455315142628,
+      "rsi40_target_price": 0.023105633792939388,
+      "rsi40_move_pct": 0.45927716535039875,
+      "market_live": false
     },
     "CYP|2026-08-11": {
       "symbol": "CYP",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-19T05:05:45.029092+00:00",
+      "checked_at": "2026-08-20T20:32:29.062150+00:00",
       "price": 0.010999999940395355,
-      "provisional_rsi10": 22.07034557182756,
-      "gain_pct": -8.333334626836898
+      "provisional_rsi10": 22.452468777818908,
+      "gain_pct": -8.333334626836898,
+      "rsi40_target_price": 0.012612592609353171,
+      "rsi40_move_pct": 14.659933433598335,
+      "market_live": false
     },
     "WTN|2026-08-12": {
       "symbol": "WTN",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-19T05:05:48.756996+00:00",
+      "checked_at": "2026-08-20T20:32:37.088853+00:00",
       "price": 1.1799999475479126,
       "provisional_rsi10": 4.849184162971127,
-      "gain_pct": -9.230769936149668
+      "gain_pct": -9.230769936149668,
+      "rsi40_target_price": 1.463790597968067,
+      "rsi40_move_pct": 24.05005618939923,
+      "market_live": false
     },
     "ARC|2026-08-11": {
       "symbol": "ARC",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-19T05:05:44.972141+00:00",
+      "checked_at": "2026-08-20T20:32:27.482202+00:00",
       "price": 0.05999999865889549,
-      "provisional_rsi10": 7.14605391156185,
-      "gain_pct": -7.692306369719372
+      "provisional_rsi10": 7.337275969621473,
+      "gain_pct": -7.692306369719372,
+      "rsi40_target_price": 0.0635751172130219,
+      "rsi40_move_pct": 5.95853105672757,
+      "market_live": false
     },
     "FLX|2026-08-12": {
       "symbol": "FLX",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-19T05:05:45.055771+00:00",
+      "checked_at": "2026-08-20T20:32:29.744618+00:00",
       "price": 0.05000000074505806,
-      "provisional_rsi10": 27.218059819719514,
-      "gain_pct": 0.0
+      "provisional_rsi10": 29.87558675080581,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.05011433551057458,
+      "rsi40_move_pct": 0.2286695276255963,
+      "market_live": false
     },
     "SND|2026-08-11": {
       "symbol": "SND",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-20T05:08:00.690845+00:00",
+      "checked_at": "2026-08-20T20:32:33.387143+00:00",
       "price": 0.9049999713897705,
-      "provisional_rsi10": 12.63249288411673,
-      "gain_pct": -4.232806535494818
+      "provisional_rsi10": 12.526406615317569,
+      "gain_pct": -4.232806535494818,
+      "rsi40_target_price": 0.937231215229096,
+      "rsi40_move_pct": 3.5614635202506526,
+      "market_live": false
     },
     "PFM|2026-08-11": {
       "symbol": "PFM",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-19T05:05:45.120229+00:00",
+      "checked_at": "2026-08-20T20:32:31.794122+00:00",
       "price": 0.017000000923871994,
-      "provisional_rsi10": 0.6038526814746348,
-      "gain_pct": -10.526308049950654
+      "provisional_rsi10": 0.6034921715579458,
+      "gain_pct": -10.526308049950654,
+      "rsi40_target_price": 0.01805512934696906,
+      "rsi40_move_pct": 6.206637445621657,
+      "market_live": false
     },
     "BEL|2026-08-11": {
       "symbol": "BEL",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-20T05:07:57.931164+00:00",
-      "price": 0.009999999776482582,
-      "provisional_rsi10": 22.372659412287234,
-      "gain_pct": 0.0
+      "checked_at": "2026-08-20T20:32:28.044906+00:00",
+      "price": 0.00800000037997961,
+      "provisional_rsi10": 9.179173321155545,
+      "gain_pct": -19.999994412064428,
+      "rsi40_target_price": 0.009567538817572642,
+      "rsi40_move_pct": 19.594229539236927,
+      "market_live": false
     },
     "CYQ|2026-08-11": {
       "symbol": "CYQ",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-20T05:07:57.961375+00:00",
-      "price": 0.004000000189989805,
-      "provisional_rsi10": 27.690320894074617,
-      "gain_pct": 0.0
+      "checked_at": "2026-08-20T20:32:29.176138+00:00",
+      "price": 0.0044999998062849045,
+      "provisional_rsi10": 60.32263275039517,
+      "gain_pct": 12.499989813659825,
+      "rsi40_target_price": 0.003992607332497468,
+      "rsi40_move_pct": -11.27538879176814,
+      "market_live": false
     },
     "X2M|2026-08-12": {
       "symbol": "X2M",
       "entry_date": "2026-08-12",
-      "checked_at": "2026-08-20T05:08:03.609177+00:00",
+      "checked_at": "2026-08-20T20:32:37.205602+00:00",
       "price": 0.0020000000949949026,
-      "provisional_rsi10": 15.173906388016562,
-      "gain_pct": 0.0
+      "provisional_rsi10": 15.24429340568443,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0023503215610417615,
+      "rsi40_move_pct": 17.516072470374144,
+      "market_live": false
     },
     "SST|2026-08-11": {
       "symbol": "SST",
       "entry_date": "2026-08-11",
-      "checked_at": "2026-08-20T05:08:03.584649+00:00",
+      "checked_at": "2026-08-20T20:32:36.045356+00:00",
       "price": 9.550000190734863,
-      "provisional_rsi10": 14.38429344803572,
-      "gain_pct": 0.10482420253483435
+      "provisional_rsi10": 14.607307727260533,
+      "gain_pct": 0.10482420253483435,
+      "rsi40_target_price": 9.572434312060238,
+      "rsi40_move_pct": 0.23491226049545097,
+      "market_live": false
+    },
+    "ADY|2026-08-11": {
+      "symbol": "ADY",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:27.029293+00:00",
+      "price": 0.006000000052154064,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.006000000052155383,
+      "rsi40_move_pct": 2.1973163838041258e-11,
+      "market_live": false
+    },
+    "AKG|2026-08-11": {
+      "symbol": "AKG",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:27.142632+00:00",
+      "price": 0.050999999046325684,
+      "provisional_rsi10": 5.515116688722372,
+      "gain_pct": -21.538460127700667,
+      "rsi40_target_price": 0.05967072781060591,
+      "rsi40_move_pct": 17.001429267487232,
+      "market_live": false
+    },
+    "ANO|2026-08-11": {
+      "symbol": "ANO",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:27.256781+00:00",
+      "price": 0.7149999737739563,
+      "provisional_rsi10": 8.964451618029301,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.7395312082329135,
+      "rsi40_move_pct": 3.430942008217842,
+      "market_live": false
+    },
+    "AXI|2026-08-11": {
+      "symbol": "AXI",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:27.932200+00:00",
+      "price": 0.009999999776482582,
+      "provisional_rsi10": 15.364649114279644,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.01065196106429376,
+      "rsi40_move_pct": 6.519613023836479,
+      "market_live": false
+    },
+    "BPP|2026-08-11": {
+      "symbol": "BPP",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:28.270637+00:00",
+      "price": 0.05917000025510788,
+      "provisional_rsi10": 0.07911849322294984,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.059809776257314894,
+      "rsi40_move_pct": 1.0812506328353193,
+      "market_live": false
+    },
+    "CRB|2026-08-11": {
+      "symbol": "CRB",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:28.949147+00:00",
+      "price": 0.00800000037997961,
+      "provisional_rsi10": 9.927496165661296,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.008095373868250218,
+      "rsi40_move_pct": 1.1921685467576233,
+      "market_live": false
+    },
+    "FNX|2026-08-11": {
+      "symbol": "FNX",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:29.858276+00:00",
+      "price": 0.18000000715255737,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.18000000715255499,
+      "rsi40_move_pct": -1.3260996711633592e-12,
+      "market_live": false
+    },
+    "GGE|2026-08-11": {
+      "symbol": "GGE",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:30.084952+00:00",
+      "price": 0.0010000000474974513,
+      "provisional_rsi10": 24.431857180076108,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0010561356576987485,
+      "rsi40_move_pct": 5.613560753499888,
+      "market_live": false
+    },
+    "ICU|2026-08-11": {
+      "symbol": "ICU",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:30.425522+00:00",
+      "price": 0.0010000000474974513,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0010000000474910476,
+      "rsi40_move_pct": -6.403731407407463e-10,
+      "market_live": false
+    },
+    "IGN|2026-08-11": {
+      "symbol": "IGN",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:30.539031+00:00",
+      "price": 0.7099999785423279,
+      "provisional_rsi10": 60.85253461160704,
+      "gain_pct": 7.575750049918888,
+      "rsi40_target_price": 0.6693682268825993,
+      "rsi40_move_pct": -5.72278209685977,
+      "market_live": false
+    },
+    "KAM|2026-08-12": {
+      "symbol": "KAM",
+      "entry_date": "2026-08-12",
+      "checked_at": "2026-08-20T20:32:30.652361+00:00",
+      "price": 0.05000000074505806,
+      "provisional_rsi10": 28.75016499896526,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.05096352561438797,
+      "rsi40_move_pct": 1.9270497099445356,
+      "market_live": false
+    },
+    "MPR|2026-08-11": {
+      "symbol": "MPR",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:31.108339+00:00",
+      "price": 0.004999999888241291,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0049999998882357555,
+      "rsi40_move_pct": -1.107100547114024e-10,
+      "market_live": false
+    },
+    "OEQ|2026-08-11": {
+      "symbol": "OEQ",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:31.337068+00:00",
+      "price": 0.1899999976158142,
+      "provisional_rsi10": 13.983627654759132,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.19001905356407928,
+      "rsi40_move_pct": 0.010029446581151718,
+      "market_live": false
+    },
+    "PPG|2026-08-11": {
+      "symbol": "PPG",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:32.249835+00:00",
+      "price": 0.017999999225139618,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.01799999922513162,
+      "rsi40_move_pct": -4.4428197602831015e-11,
+      "market_live": false
+    },
+    "PXR|2026-08-11": {
+      "symbol": "PXR",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:32.362763+00:00",
+      "price": 0.0010000000474974513,
+      "provisional_rsi10": 23.125888878902344,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0010000016379622906,
+      "rsi40_move_pct": 0.0001590464763713572,
+      "market_live": false
+    },
+    "QPM|2026-08-11": {
+      "symbol": "QPM",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:32.588885+00:00",
+      "price": 0.008999999612569809,
+      "provisional_rsi10": 12.182094239850073,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.009124828383593261,
+      "rsi40_move_pct": 1.3869864044117355,
+      "market_live": false
+    },
+    "QUE|2026-08-11": {
+      "symbol": "QUE",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:32.703056+00:00",
+      "price": 0.05000000074505806,
+      "provisional_rsi10": 0.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.050014161768798526,
+      "rsi40_move_pct": 0.028322047058901755,
+      "market_live": false
+    },
+    "RAU|2026-08-11": {
+      "symbol": "RAU",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:32.929626+00:00",
+      "price": 0.2849999964237213,
+      "provisional_rsi10": 24.04246917465825,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.29079236839882894,
+      "rsi40_move_pct": 2.0324112448394085,
+      "market_live": false
+    },
+    "SAN|2026-08-11": {
+      "symbol": "SAN",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:33.157736+00:00",
+      "price": 0.008999999612569809,
+      "provisional_rsi10": 0.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.009041039823660979,
+      "rsi40_move_pct": 0.4560023650873395,
+      "market_live": false
+    },
+    "SSL|2026-08-11": {
+      "symbol": "SSL",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:35.930193+00:00",
+      "price": 8.600000381469727,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 8.60000038146987,
+      "rsi40_move_pct": 1.6730802047572767e-12,
+      "market_live": false
+    },
+    "TDO|2026-08-11": {
+      "symbol": "TDO",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:36.160495+00:00",
+      "price": 0.07999999821186066,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.07999999821184611,
+      "rsi40_move_pct": -1.8179902434589424e-11,
+      "market_live": false
+    },
+    "TFL|2026-08-11": {
+      "symbol": "TFL",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:36.276247+00:00",
+      "price": 0.004999999888241291,
+      "provisional_rsi10": 50.0,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0049999998882357555,
+      "rsi40_move_pct": -1.107100547114024e-10,
+      "market_live": false
+    },
+    "TIA|2026-08-11": {
+      "symbol": "TIA",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:36.394089+00:00",
+      "price": 0.17000000178813934,
+      "provisional_rsi10": 20.651939203518367,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.17008467302659946,
+      "rsi40_move_pct": 0.04980661033500562,
+      "market_live": false
+    },
+    "WEL|2026-08-11": {
+      "symbol": "WEL",
+      "entry_date": "2026-08-11",
+      "checked_at": "2026-08-20T20:32:36.972539+00:00",
+      "price": 0.0010000000474974513,
+      "provisional_rsi10": 16.93556121903383,
+      "gain_pct": 0.0,
+      "rsi40_target_price": 0.0010992750697390906,
+      "rsi40_move_pct": 9.9275017526329,
+      "market_live": false
     }
   },
-  "updated_at": "2026-08-20T05:08:04.145225+00:00",
-  "checked": 39,
-  "new_crossing_alerts": 2
+  "updated_at": "2026-08-20T20:32:38.419164+00:00",
+  "checked": 78,
+  "targets_ready": 78,
+  "new_crossing_alerts": 0,
+  "market_live": false
 }
