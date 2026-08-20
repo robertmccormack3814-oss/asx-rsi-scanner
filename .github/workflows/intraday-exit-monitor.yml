@@ -3,10 +3,11 @@ name: Monitor active RSI exits intraday
 on:
   workflow_dispatch:
   schedule:
-    # Covers ASX market hours year-round. The Python script itself checks
+    # GitHub cron is UTC. Run every 5 minutes; the Python script itself checks
     # Australia/Sydney local time and exits outside 10:00am-4:10pm weekdays.
-    - cron: "*/30 23 * * 0-4"
-    - cron: "*/30 0-6 * * 1-5"
+    # These UTC windows cover Sydney standard time and daylight-saving time.
+    - cron: "*/5 23 * * 0-4"
+    - cron: "*/5 0-6 * * 1-5"
 
 permissions:
   contents: write
