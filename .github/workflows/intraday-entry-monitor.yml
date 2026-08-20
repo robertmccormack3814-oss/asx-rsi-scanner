@@ -1,0 +1,62 @@
+name: Intraday RSI entry monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron is UTC. Run every 5 minutes; Sydney-time guard limits execution
+    # to ASX trading hours and handles daylight-saving automatically.
+    - cron: "*/5 * * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: asx-rsi-intraday-entry
+  cancel-in-progress: true
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check ASX trading hours
+        id: markettime
+        shell: bash
+        run: |
+          DAY=$(TZ=Australia/Sydney date +%u)
+          HM=$(TZ=Australia/Sydney date +%H%M)
+          echo "Sydney: day=$DAY time=$HM"
+          if [ "$DAY" -ge 1 ] && [ "$DAY" -le 5 ] && [ "$HM" -ge 1015 ] && [ "$HM" -le 1600 ]; then
+            echo "run_monitor=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_monitor=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v6
+        if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
+
+      - uses: actions/setup-python@v6
+        if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+        if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
+
+      - name: Find new intraday RSI below 30 entries
+        if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+        run: python scripts/intraday_entry_monitor.py
+
+      - name: Commit new entry signals
+        if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "ASX RSI Bot"
+          git config user.email "actions@github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Record intraday RSI entry signals"
+            git pull --rebase
+            git push
+          fi
