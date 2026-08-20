@@ -99,17 +99,6 @@
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 27.0567436557847
     },
-    "AUG": {
-      "symbol": "AUG",
-      "company": "AUGUSTUS MINERALS LIMITED",
-      "ticker": "AUG.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.029999999329447746,
-      "entry_rsi10": 20.668646020713382,
-      "holding_trading_days": 3,
-      "latest_price": 0.029999999329447746,
-      "latest_rsi10": 26.277392098926512
-    },
     "AXI": {
       "symbol": "AXI",
       "company": "AXTEC LIMITED",
@@ -417,17 +406,6 @@
       "holding_trading_days": 3,
       "latest_price": 0.24500000476837158,
       "latest_rsi10": 30.6890282422316
-    },
-    "MPP": {
-      "symbol": "MPP",
-      "company": "METRO PERFORMANCE GLASS LIMITED",
-      "ticker": "MPP.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.9800000190734863,
-      "entry_rsi10": 19.097274777648707,
-      "holding_trading_days": 4,
-      "latest_price": 0.9800000190734863,
-      "latest_rsi10": 19.09727477753087
     },
     "MPR": {
       "symbol": "MPR",
@@ -1481,8 +1459,44 @@
       "gain_pct": 3.1578980390385336,
       "exit_source": "intraday_monitor",
       "exit_observed_at": "2026-08-20T03:13:26.446665+00:00"
+    },
+    {
+      "symbol": "AUG",
+      "company": "AUGUSTUS MINERALS LIMITED",
+      "ticker": "AUG.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.029999999329447746,
+      "entry_rsi10": 20.668646020713382,
+      "holding_trading_days": 6,
+      "latest_price": 0.029999999329447746,
+      "latest_rsi10": 26.277392098926512,
+      "exit_date": "2026-08-20",
+      "exit_price": 0.03200000151991844,
+      "exit_rsi10": 48.18228485475583,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 6.66667411724743,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-20T05:07:54.980419+00:00"
+    },
+    {
+      "symbol": "MPP",
+      "company": "METRO PERFORMANCE GLASS LIMITED",
+      "ticker": "MPP.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.9800000190734863,
+      "entry_rsi10": 19.097274777648707,
+      "holding_trading_days": 7,
+      "latest_price": 0.9800000190734863,
+      "latest_rsi10": 19.09727477753087,
+      "exit_date": "2026-08-20",
+      "exit_price": 1.0,
+      "exit_rsi10": 55.32053464504744,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 2.040814340536656,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-20T05:07:58.015414+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-20T03:13:29.988568+00:00"
+  "updated_at": "2026-08-20T05:08:04.131013+00:00"
 }
