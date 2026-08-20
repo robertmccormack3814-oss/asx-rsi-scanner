@@ -3,9 +3,12 @@ name: Monitor active RSI exits intraday
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron is UTC. Run every 5 minutes; the Python script itself checks
-    # Australia/Sydney local time and exits outside 10:00am-4:10pm weekdays.
-    # These UTC windows cover Sydney standard time and daylight-saving time.
+    # GitHub cron is UTC.
+    # Premarket target refresh: 20:15 UTC Sun-Thu = 06:15 Sydney during AEST.
+    # The Python monitor safely calculates target prices outside live market hours
+    # but will not record RSI exits until the ASX monitoring window is open.
+    - cron: "15 20 * * 0-4"
+    # Intraday 5-minute monitoring windows covering Sydney standard/daylight time.
     - cron: "*/5 23 * * 0-4"
     - cron: "*/5 0-6 * * 1-5"
 
@@ -29,17 +32,17 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Check active signals and record immediate RSI exits
+      - name: Refresh active RSI targets and record live exits when market is open
         env:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
         run: python scripts/intraday_exit_monitor.py
 
-      - name: Commit intraday exits and dashboard state
+      - name: Commit intraday target/exit state
         run: |
           git config user.name "ASX RSI Intraday Bot"
           git config user.email "actions@github.com"
           git add data/intraday_state.json data/state.json data/scanner.json
-          git diff --cached --quiet || git commit -m "Refresh intraday RSI exits"
+          git diff --cached --quiet || git commit -m "Refresh intraday RSI targets and exits"
           git pull --rebase
           git push
