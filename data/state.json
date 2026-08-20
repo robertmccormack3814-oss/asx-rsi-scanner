@@ -11,17 +11,6 @@
       "latest_price": 0.006000000052154064,
       "latest_rsi10": 14.42408341573929
     },
-    "ACR": {
-      "symbol": "ACR",
-      "company": "ACRUX LIMITED",
-      "ticker": "ACR.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.008999999612569809,
-      "entry_rsi10": 21.30140406736963,
-      "holding_trading_days": 3,
-      "latest_price": 0.009999999776482582,
-      "latest_rsi10": 39.482750732680614
-    },
     "ADY": {
       "symbol": "ADY",
       "company": "ADMIRALTY RESOURCES NL.",
@@ -197,17 +186,6 @@
       "holding_trading_days": 3,
       "latest_price": 0.2750000059604645,
       "latest_rsi10": 35.660970279589804
-    },
-    "CD3": {
-      "symbol": "CD3",
-      "company": "CD PRIVATE EQUITY FUND III",
-      "ticker": "CD3.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.7900000214576721,
-      "entry_rsi10": 24.484247280892973,
-      "holding_trading_days": 3,
-      "latest_price": 0.8050000071525574,
-      "latest_rsi10": 35.48502772038513
     },
     "CF1": {
       "symbol": "CF1",
@@ -473,17 +451,6 @@
       "latest_price": 0.003000000026077032,
       "latest_rsi10": 3.671641606811747
     },
-    "NXD": {
-      "symbol": "NXD",
-      "company": "NEXTED GROUP LIMITED",
-      "ticker": "NXD.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.07500000298023224,
-      "entry_rsi10": 27.885408051473874,
-      "holding_trading_days": 4,
-      "latest_price": 0.07500000298023224,
-      "latest_rsi10": 32.04449699530208
-    },
     "OEQ": {
       "symbol": "OEQ",
       "company": "ORION EQUITIES LIMITED",
@@ -637,17 +604,6 @@
       "holding_trading_days": 3,
       "latest_price": 0.010999999940395355,
       "latest_rsi10": 24.813571565089745
-    },
-    "RAS": {
-      "symbol": "RAS",
-      "company": "RAGUSA MINERALS LTD",
-      "ticker": "RAS.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.017999999225139618,
-      "entry_rsi10": 29.770993388576457,
-      "holding_trading_days": 3,
-      "latest_price": 0.017999999225139618,
-      "latest_rsi10": 29.770993388640917
     },
     "RAU": {
       "symbol": "RAU",
@@ -916,18 +872,6 @@
       "holding_trading_days": 0,
       "latest_price": 4.849999904632568,
       "latest_rsi10": 23.792113854292154
-    },
-    "APW": {
-      "symbol": "APW",
-      "company": "AIMS PROPERTY SECURITIES FUND",
-      "ticker": "APW.AX",
-      "entry_date": "2026-08-17",
-      "entry_price": 3.799999952316284,
-      "entry_rsi10": 21.664150749863012,
-      "entry_sma200": 3.399100031852722,
-      "holding_trading_days": 0,
-      "latest_price": 3.799999952316284,
-      "latest_rsi10": 21.664150749863012
     },
     "TTX": {
       "symbol": "TTX",
@@ -1446,8 +1390,99 @@
       "gain_pct": 10.000001862645192,
       "exit_source": "intraday_monitor",
       "exit_observed_at": "2026-08-19T05:05:47.354856+00:00"
+    },
+    {
+      "symbol": "ACR",
+      "company": "ACRUX LIMITED",
+      "ticker": "ACR.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.008999999612569809,
+      "entry_rsi10": 21.30140406736963,
+      "holding_trading_days": 6,
+      "latest_price": 0.009999999776482582,
+      "latest_rsi10": 39.482750732680614,
+      "exit_date": "2026-08-20",
+      "exit_price": 0.009999999776482582,
+      "exit_rsi10": 44.990994532803,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 11.111113410673122,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-20T03:13:14.626183+00:00"
+    },
+    {
+      "symbol": "CD3",
+      "company": "CD PRIVATE EQUITY FUND III",
+      "ticker": "CD3.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.7900000214576721,
+      "entry_rsi10": 24.484247280892973,
+      "holding_trading_days": 6,
+      "latest_price": 0.8050000071525574,
+      "latest_rsi10": 35.48502772038513,
+      "exit_date": "2026-08-20",
+      "exit_price": 0.8149999976158142,
+      "exit_rsi10": 42.86062457267859,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 3.1645538581142407,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-20T03:13:17.384476+00:00"
+    },
+    {
+      "symbol": "NXD",
+      "company": "NEXTED GROUP LIMITED",
+      "ticker": "NXD.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.07500000298023224,
+      "entry_rsi10": 27.885408051473874,
+      "holding_trading_days": 7,
+      "latest_price": 0.07500000298023224,
+      "latest_rsi10": 32.04449699530208,
+      "exit_date": "2026-08-20",
+      "exit_price": 0.08299999684095383,
+      "exit_rsi10": 63.03593113308516,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 10.666658057107208,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-20T03:13:19.871777+00:00"
+    },
+    {
+      "symbol": "RAS",
+      "company": "RAGUSA MINERALS LTD",
+      "ticker": "RAS.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.017999999225139618,
+      "entry_rsi10": 29.770993388576457,
+      "holding_trading_days": 6,
+      "latest_price": 0.017999999225139618,
+      "latest_rsi10": 29.770993388640917,
+      "exit_date": "2026-08-20",
+      "exit_price": 0.019999999552965164,
+      "exit_rsi10": 52.7830460817385,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 11.111113410673122,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-20T03:13:22.088514+00:00"
+    },
+    {
+      "symbol": "APW",
+      "company": "AIMS PROPERTY SECURITIES FUND",
+      "ticker": "APW.AX",
+      "entry_date": "2026-08-17",
+      "entry_price": 3.799999952316284,
+      "entry_rsi10": 21.664150749863012,
+      "entry_sma200": 3.399100031852722,
+      "holding_trading_days": 3,
+      "latest_price": 3.799999952316284,
+      "latest_rsi10": 21.664150749863012,
+      "exit_date": "2026-08-20",
+      "exit_price": 3.9200000762939453,
+      "exit_rsi10": 49.54656964151983,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 3.1578980390385336,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-20T03:13:26.446665+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-19T05:05:49.288150+00:00"
+  "updated_at": "2026-08-20T03:13:29.988568+00:00"
 }
