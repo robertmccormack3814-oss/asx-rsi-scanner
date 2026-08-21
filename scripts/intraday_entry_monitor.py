@@ -101,6 +101,7 @@ def main():
                 if current_rsi >= CONFIG["entry_rsi_below"]:
                     continue
 
+                observed_at = now_iso()
                 entry = {
                     "symbol": sym,
                     "company": item["company"],
@@ -113,7 +114,7 @@ def main():
                     "latest_price": price,
                     "latest_rsi10": current_rsi,
                     "entry_source": "intraday_monitor",
-                    "entry_observed_at": now_iso(),
+                    "entry_observed_at": observed_at,
                 }
                 active[sym] = entry
                 new_entries.append(entry)
@@ -125,6 +126,22 @@ def main():
         print("No new intraday RSI<30 entries.")
         return
 
+    # Permanent append-only event ledger. Other workflows may rebuild mutable scanner
+    # state, but a detected entry remains recorded here for the dashboard/IBKR reader.
+    event_log = load_json(DATA / "intraday_entry_events.json", [])
+    if not isinstance(event_log, list):
+        event_log = []
+    existing = {
+        (x.get("symbol"), x.get("entry_observed_at"))
+        for x in event_log if isinstance(x, dict)
+    }
+    for entry in new_entries:
+        key = (entry.get("symbol"), entry.get("entry_observed_at"))
+        if key not in existing:
+            event_log.append(dict(entry))
+            existing.add(key)
+    save_json(DATA / "intraday_entry_events.json", event_log)
+
     state["active_signals"] = active
     save_json(DATA / "state.json", state)
 
@@ -133,9 +150,6 @@ def main():
     scanner["active_signals"] = list(active.values())
     scanner["entries_today"] = list(scanner.get("entries_today", [])) + new_entries
 
-    # Merge newly detected intraday entries into the scanner rows immediately.
-    # This lets Current Entry Conditions display them and their exact detection time
-    # without waiting for the next full daily scan.
     stocks = list(scanner.get("stocks", []))
     stock_index = {row.get("symbol"): i for i, row in enumerate(stocks)}
     for entry in new_entries:
@@ -150,6 +164,8 @@ def main():
             "above_sma200": True,
             "avg_volume_20d": 0,
             "active": True,
+            "entry_observed_at": entry["entry_observed_at"],
+            "entry_source": entry["entry_source"],
         }
         if entry["symbol"] in stock_index:
             stocks[stock_index[entry["symbol"]]] = row
