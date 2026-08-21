@@ -121,17 +121,6 @@
       "latest_price": 0.009999999776482582,
       "latest_rsi10": 22.37957463249346
     },
-    "BOC": {
-      "symbol": "BOC",
-      "company": "BOUGAINVILLE COPPER LIMITED",
-      "ticker": "BOC.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.18700000643730164,
-      "entry_rsi10": 24.751124661523747,
-      "holding_trading_days": 3,
-      "latest_price": 0.17000000178813934,
-      "latest_rsi10": 22.78884379170799
-    },
     "BPP": {
       "symbol": "BPP",
       "company": "BABYLON PUMP & POWER LIMITED",
@@ -297,17 +286,6 @@
       "latest_price": 0.18000000715255737,
       "latest_rsi10": 14.579818056716107
     },
-    "G11": {
-      "symbol": "G11",
-      "company": "G11 RESOURCES LIMITED",
-      "ticker": "G11.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.1899999976158142,
-      "entry_rsi10": 27.893360270632883,
-      "holding_trading_days": 4,
-      "latest_price": 0.18000000715255737,
-      "latest_rsi10": 25.568727413330237
-    },
     "GGE": {
       "symbol": "GGE",
       "company": "GRAND GULF ENERGY LIMITED",
@@ -351,17 +329,6 @@
       "holding_trading_days": 4,
       "latest_price": 0.0010000000474974513,
       "latest_rsi10": 0.0
-    },
-    "IGN": {
-      "symbol": "IGN",
-      "company": "IGNITE LIMITED",
-      "ticker": "IGN.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.6600000262260437,
-      "entry_rsi10": 13.7596431074127,
-      "holding_trading_days": 4,
-      "latest_price": 0.6700000166893005,
-      "latest_rsi10": 27.250478000142976
     },
     "KAM": {
       "symbol": "KAM",
@@ -737,17 +704,6 @@
       "latest_price": 6.820000171661377,
       "latest_rsi10": 28.36058742877013
     },
-    "TVL": {
-      "symbol": "TVL",
-      "company": "TOUCH VENTURES LIMITED",
-      "ticker": "TVL.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.057999998331069946,
-      "entry_rsi10": 25.048291472429497,
-      "holding_trading_days": 3,
-      "latest_price": 0.05700000002980232,
-      "latest_rsi10": 14.804038038607032
-    },
     "WBC": {
       "symbol": "WBC",
       "company": "WESTPAC BANKING CORPORATION",
@@ -803,18 +759,6 @@
       "latest_price": 0.004999999888241291,
       "latest_rsi10": 29.0912129787111
     },
-    "AKN": {
-      "symbol": "AKN",
-      "company": "AUKING MINING LIMITED",
-      "ticker": "AKN.AX",
-      "entry_date": "2026-08-13",
-      "entry_price": 0.017000000923871994,
-      "entry_rsi10": 29.253289821921996,
-      "entry_sma200": 0.014847500014584512,
-      "holding_trading_days": 2,
-      "latest_price": 0.017999999225139618,
-      "latest_rsi10": 35.94738455395884
-    },
     "AGE": {
       "symbol": "AGE",
       "company": "ALLIGATOR ENERGY LIMITED",
@@ -850,18 +794,6 @@
       "holding_trading_days": 0,
       "latest_price": 4.849999904632568,
       "latest_rsi10": 23.792113854292154
-    },
-    "TTX": {
-      "symbol": "TTX",
-      "company": "TETRATHERIX LIMITED",
-      "ticker": "TTX.AX",
-      "entry_date": "2026-08-17",
-      "entry_price": 6.019999980926514,
-      "entry_rsi10": 29.64355347378323,
-      "entry_sma200": 4.879225004911422,
-      "holding_trading_days": 0,
-      "latest_price": 6.019999980926514,
-      "latest_rsi10": 29.64355347378323
     }
   },
   "completed_trades": [
@@ -1495,8 +1427,118 @@
       "gain_pct": 2.040814340536656,
       "exit_source": "intraday_monitor",
       "exit_observed_at": "2026-08-20T05:07:58.015414+00:00"
+    },
+    {
+      "symbol": "BOC",
+      "company": "BOUGAINVILLE COPPER LIMITED",
+      "ticker": "BOC.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.18700000643730164,
+      "entry_rsi10": 24.751124661523747,
+      "holding_trading_days": 7,
+      "latest_price": 0.17000000178813934,
+      "latest_rsi10": 22.78884379170799,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.1850000023841858,
+      "exit_rsi10": 40.94460254325626,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": -1.0695208472019047,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T01:56:50.288607+00:00"
+    },
+    {
+      "symbol": "G11",
+      "company": "G11 RESOURCES LIMITED",
+      "ticker": "G11.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.1899999976158142,
+      "entry_rsi10": 27.893360270632883,
+      "holding_trading_days": 8,
+      "latest_price": 0.18000000715255737,
+      "latest_rsi10": 25.568727413330237,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.1899999976158142,
+      "exit_rsi10": 47.461450227329976,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 0.0,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T01:56:54.589771+00:00"
+    },
+    {
+      "symbol": "IGN",
+      "company": "IGNITE LIMITED",
+      "ticker": "IGN.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.6600000262260437,
+      "entry_rsi10": 13.7596431074127,
+      "holding_trading_days": 8,
+      "latest_price": 0.6700000166893005,
+      "latest_rsi10": 27.250478000142976,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.6700000166893005,
+      "exit_rsi10": 40.21427300976475,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 1.5151500099837776,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T01:56:57.122240+00:00"
+    },
+    {
+      "symbol": "TVL",
+      "company": "TOUCH VENTURES LIMITED",
+      "ticker": "TVL.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.057999998331069946,
+      "entry_rsi10": 25.048291472429497,
+      "holding_trading_days": 7,
+      "latest_price": 0.05700000002980232,
+      "latest_rsi10": 14.804038038607032,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.061000000685453415,
+      "exit_rsi10": 75.61241218628827,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 5.17241800121984,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T01:57:06.162679+00:00"
+    },
+    {
+      "symbol": "AKN",
+      "company": "AUKING MINING LIMITED",
+      "ticker": "AKN.AX",
+      "entry_date": "2026-08-13",
+      "entry_price": 0.017000000923871994,
+      "entry_rsi10": 29.253289821921996,
+      "entry_sma200": 0.014847500014584512,
+      "holding_trading_days": 6,
+      "latest_price": 0.017999999225139618,
+      "latest_rsi10": 35.94738455395884,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.017999999225139618,
+      "exit_rsi10": 40.28680292447452,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 5.882342628954752,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T01:57:08.645098+00:00"
+    },
+    {
+      "symbol": "TTX",
+      "company": "TETRATHERIX LIMITED",
+      "ticker": "TTX.AX",
+      "entry_date": "2026-08-17",
+      "entry_price": 6.019999980926514,
+      "entry_rsi10": 29.64355347378323,
+      "entry_sma200": 4.879225004911422,
+      "holding_trading_days": 4,
+      "latest_price": 6.019999980926514,
+      "latest_rsi10": 29.64355347378323,
+      "exit_date": "2026-08-21",
+      "exit_price": 6.260000228881836,
+      "exit_rsi10": 40.006128606678864,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 3.986715094945645,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T01:57:11.023334+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-20T23:54:15.131365+00:00"
+  "updated_at": "2026-08-21T01:57:13.482742+00:00"
 }
