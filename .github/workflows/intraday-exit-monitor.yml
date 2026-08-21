@@ -5,8 +5,6 @@ on:
   schedule:
     # GitHub cron is UTC.
     # Premarket target refresh: 20:15 UTC Sun-Thu = 06:15 Sydney during AEST.
-    # The Python monitor safely calculates target prices outside live market hours
-    # but will not record RSI exits until the ASX monitoring window is open.
     - cron: "15 20 * * 0-4"
     # Intraday 5-minute monitoring windows covering Sydney standard/daylight time.
     - cron: "*/5 23 * * 0-4"
@@ -16,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: asx-rsi-intraday-monitor
+  group: asx-rsi-state-writer
   cancel-in-progress: false
 
 jobs:
@@ -25,6 +23,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Refresh repository state
+        run: git pull --rebase origin main
 
       - uses: actions/setup-python@v6
         with:
@@ -43,6 +46,8 @@ jobs:
           git config user.name "ASX RSI Intraday Bot"
           git config user.email "actions@github.com"
           git add data/intraday_state.json data/state.json data/scanner.json
-          git diff --cached --quiet || git commit -m "Refresh intraday RSI targets and exits"
-          git pull --rebase
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh intraday RSI targets and exits"
+            git pull --rebase origin main
+            git push
+          fi
