@@ -47,6 +47,23 @@ def send_email(subject, body):
         server.send_message(message)
 
 
+def append_entry_event(entry):
+    """Persist an immutable entry event before any notification is sent."""
+    path = DATA / "intraday_entry_events.json"
+    events = load_json(path, [])
+    if not isinstance(events, list):
+        events = []
+    key = (entry.get("symbol"), entry.get("entry_observed_at"))
+    existing = {
+        (x.get("symbol"), x.get("entry_observed_at"))
+        for x in events if isinstance(x, dict)
+    }
+    if key not in existing:
+        events.append(dict(entry))
+        save_json(path, events)
+    return len(events)
+
+
 def market_regime():
     hist = yf.download(CONFIG["market_ticker"], period="18mo", interval="1d", auto_adjust=False, progress=False)
     if hist.empty:
@@ -215,10 +232,6 @@ def main():
                     and last_close >= CONFIG.get("minimum_price", 0)
                     and avgvol >= CONFIG.get("minimum_average_volume_20d", 0)
                 )
-                # Critical safety rule: a daily scanner run may only CREATE a new
-                # signal when its most recent market-data bar is actually today's
-                # Sydney date. Old Friday/Monday bars must never generate a "new"
-                # alert days later.
                 if entry_conditions and data_date == today_sydney:
                     sig = {
                         "symbol":sym,"company":item["company"],"ticker":ticker,
@@ -227,8 +240,13 @@ def main():
                         "latest_price":last_close,"latest_rsi10":last_rsi,
                         "entry_source":"daily_scan","entry_observed_at":now_iso(),
                     }
+                    # The permanent record is written before the email. If this
+                    # write fails, the workflow fails and no misleading entry
+                    # notification is sent.
+                    event_count = append_entry_event(sig)
+                    print(f"PERMANENT ENTRY EVENT {sym} RECORDED; ledger total={event_count}")
                     active[sym] = sig; entries.append(sig); row["active"] = True
-                    send_email(f"ASX RSI ENTRY: {sym} RSI(10) {last_rsi:.1f}", f"{item['company']} (ASX: {sym}) entry signal.\n\nStock price: A${last_close:.3f}\nStock SMA(200): A${stock_sma200:.3f}\nRSI(10): {last_rsi:.2f}\nDetected: {sig['entry_observed_at']}\n")
+                    send_email(f"ASX RSI ENTRY: {sym} RSI(10) {last_rsi:.1f}", f"{item['company']} (ASX: {sym}) entry signal.\n\nStock price: A${last_close:.3f}\nStock SMA(200): A${stock_sma200:.3f}\nRSI(10): {last_rsi:.2f}\nDetected: {sig['entry_observed_at']}\nPermanent event: recorded\n")
                 elif entry_conditions and data_date != today_sydney:
                     print(f"SKIP STALE ENTRY {sym}: latest daily bar {data_date}, Sydney today {today_sydney}")
 
