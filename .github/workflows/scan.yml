@@ -14,8 +14,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: asx-rsi-scan
-  cancel-in-progress: true
+  group: asx-rsi-state-writer
+  cancel-in-progress: false
 
 jobs:
   scan:
@@ -41,6 +41,12 @@ jobs:
 
       - uses: actions/checkout@v6
         if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
+        with:
+          fetch-depth: 0
+
+      - name: Refresh repository state
+        if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
+        run: git pull --rebase origin main
 
       - uses: actions/setup-python@v6
         if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
@@ -67,9 +73,11 @@ jobs:
           git config user.name "ASX RSI Bot"
           git config user.email "actions@github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Refresh ASX RSI scanner"
-          git pull --rebase
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh ASX RSI scanner"
+            git pull --rebase origin main
+            git push
+          fi
 
       - name: Configure Pages
         if: steps.localtime.outputs.run_scan == 'true' || github.event_name == 'workflow_dispatch'
