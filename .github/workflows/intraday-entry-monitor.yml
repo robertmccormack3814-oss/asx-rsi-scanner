@@ -11,8 +11,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: asx-rsi-intraday-entry
-  cancel-in-progress: true
+  group: asx-rsi-state-writer
+  cancel-in-progress: false
 
 jobs:
   monitor:
@@ -33,6 +33,12 @@ jobs:
 
       - uses: actions/checkout@v6
         if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
+        with:
+          fetch-depth: 0
+
+      - name: Refresh repository state
+        if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
+        run: git pull --rebase origin main
 
       - uses: actions/setup-python@v6
         if: steps.markettime.outputs.run_monitor == 'true' || github.event_name == 'workflow_dispatch'
@@ -57,6 +63,6 @@ jobs:
           git add data
           if ! git diff --cached --quiet; then
             git commit -m "Record intraday RSI entry signals"
-            git pull --rebase
+            git pull --rebase origin main
             git push
           fi
