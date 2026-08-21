@@ -209,17 +209,6 @@
       "latest_price": 0.010999999940395355,
       "latest_rsi10": 22.454231897918874
     },
-    "CYQ": {
-      "symbol": "CYQ",
-      "company": "CYCLIQ GROUP LTD",
-      "ticker": "CYQ.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.004000000189989805,
-      "entry_rsi10": 27.78108854360879,
-      "holding_trading_days": 4,
-      "latest_price": 0.004000000189989805,
-      "latest_rsi10": 27.781088540185053
-    },
     "CYV": {
       "symbol": "CYV",
       "company": "CERYVYN THERAPEUTICS LIMITED",
@@ -429,17 +418,6 @@
       "latest_price": 0.03999999910593033,
       "latest_rsi10": 28.941425966454943
     },
-    "PCG": {
-      "symbol": "PCG",
-      "company": "PENGANA CAPITAL GROUP LIMITED",
-      "ticker": "PCG.AX",
-      "entry_date": "2026-08-12",
-      "entry_price": 0.7049999833106995,
-      "entry_rsi10": 29.04657440325883,
-      "holding_trading_days": 3,
-      "latest_price": 0.7200000286102295,
-      "latest_rsi10": 36.20571205250571
-    },
     "PFM": {
       "symbol": "PFM",
       "company": "PLATFORMO LTD",
@@ -560,17 +538,6 @@
       "holding_trading_days": 4,
       "latest_price": 0.2849999964237213,
       "latest_rsi10": 24.042890638478212
-    },
-    "RPM": {
-      "symbol": "RPM",
-      "company": "RPM AUTOMOTIVE GROUP LIMITED",
-      "ticker": "RPM.AX",
-      "entry_date": "2026-08-11",
-      "entry_price": 0.014999999664723873,
-      "entry_rsi10": 20.613576127574916,
-      "holding_trading_days": 4,
-      "latest_price": 0.014000000432133675,
-      "latest_rsi10": 11.948074585272536
     },
     "SAN": {
       "symbol": "SAN",
@@ -1537,8 +1504,62 @@
       "gain_pct": 3.986715094945645,
       "exit_source": "intraday_monitor",
       "exit_observed_at": "2026-08-21T01:57:11.023334+00:00"
+    },
+    {
+      "symbol": "CYQ",
+      "company": "CYCLIQ GROUP LTD",
+      "ticker": "CYQ.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.004000000189989805,
+      "entry_rsi10": 27.78108854360879,
+      "holding_trading_days": 8,
+      "latest_price": 0.004000000189989805,
+      "latest_rsi10": 27.781088540185053,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.004000000189989805,
+      "exit_rsi10": 40.19731725452004,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 0.0,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T05:17:42.417153+00:00"
+    },
+    {
+      "symbol": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "ticker": "PCG.AX",
+      "entry_date": "2026-08-12",
+      "entry_price": 0.7049999833106995,
+      "entry_rsi10": 29.04657440325883,
+      "holding_trading_days": 7,
+      "latest_price": 0.7200000286102295,
+      "latest_rsi10": 36.20571205250571,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.7250000238418579,
+      "exit_rsi10": 42.49253690488776,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 2.8368852488815253,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T05:17:46.218682+00:00"
+    },
+    {
+      "symbol": "RPM",
+      "company": "RPM AUTOMOTIVE GROUP LIMITED",
+      "ticker": "RPM.AX",
+      "entry_date": "2026-08-11",
+      "entry_price": 0.014999999664723873,
+      "entry_rsi10": 20.613576127574916,
+      "holding_trading_days": 8,
+      "latest_price": 0.014000000432133675,
+      "latest_rsi10": 11.948074585272536,
+      "exit_date": "2026-08-21",
+      "exit_price": 0.014999999664723873,
+      "exit_rsi10": 46.3335036346003,
+      "exit_reason": "RSI(10) rose above 40.0",
+      "gain_pct": 0.0,
+      "exit_source": "intraday_monitor",
+      "exit_observed_at": "2026-08-21T05:17:49.491785+00:00"
     }
   ],
   "last_scan_date": "2026-08-17",
-  "updated_at": "2026-08-21T03:32:02.496078+00:00"
+  "updated_at": "2026-08-21T05:17:54.805708+00:00"
 }
